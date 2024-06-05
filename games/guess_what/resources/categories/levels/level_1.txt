@@ -1,0 +1,400 @@
+List 1:
+Target word: petunia
+Words: poppy, peony, anemone, petunia, centaury, speedwell, windflower, ursinia
+
+List 2:
+Target word: cling
+Words: cling, lanset, jak, jackfruit, longanberry, sapota, pitahaya, plumcot
+
+List 3:
+Target word: bogey
+Words: airplane, bogie, bogey, autogyro, gyroplane, autogiro, bogy, aeroplane
+
+List 4:
+Target word: hyaena
+Words: dog, jackal, bitch, wolf, basenji, hyena, hyaena, fox
+
+List 5:
+Target word: tube
+Words: pager, tube, defibrillator, dongle, scanner, display, generator, organizer
+
+List 6:
+Target word: display
+Words: display, pacemaker, dongle, multiplexer, beeper, trackball, mouse, PDA
+
+List 7:
+Target word: zinnia
+Words: catananche, composite, speedwell, slipperwort, coneflower, sunflower, verbena, zinnia
+
+List 8:
+Target word: liger
+Words: cat, jaguar, liger, lion, panther, cheetah, leopard, chetah
+
+List 9:
+Target word: mouse
+Words: repeater, dongle, scanner, readout, PDA, display, mouse, multiplexer
+
+List 10:
+Target word: campion
+Words: browallia, calla, tithonia, campion, sandwort, coneflower, tuberose, stock
+
+List 11:
+Target word: aster
+Words: portulaca, begonia, aster, daisy, shortia, petunia, coneflower, cosmea
+
+List 12:
+Target word: plane
+Words: aeroplane, bogy, plane, autogiro, autogyro, bogie, bogey, gyroplane
+
+List 13:
+Target word: beeper
+Words: dongle, pacemaker, tube, doubler, organizer, readout, beeper, scanner
+
+List 14:
+Target word: liger
+Words: liger, jaguar, chetah, lion, cat, cheetah, panther, leopard
+
+List 15:
+Target word: quince
+Words: pitahaya, loquat, sapote, windfall, quince, rambutan, leechee, pulasan
+
+List 16:
+Target word: lion
+Words: leopard, liger, lion, jaguar, cat, cheetah, chetah, panther
+
+List 17:
+Target word: freestone
+Words: freestone, jak, sapodilla, monstera, pineapple, mombin, fig, pulassan
+
+List 18:
+Target word: lanset
+Words: litchi, rambutan, tangelo, lanset, pawpaw, lansa, sapodilla, pineapple
+
+List 19:
+Target word: lichee
+Words: lichee, quantong, lychee, grape, garambulla, leechee, litchee, ananas
+
+List 20:
+Target word: leopard
+Words: panther, cheetah, cat, lion, jaguar, chetah, liger, leopard
+
+List 21:
+Target word: nectarine
+Words: pulasan, sapodilla, nectarine, akee, kiwi, mamey, tamarind, sapota
+
+List 22:
+Target word: trackball
+Words: readout, mouse, defibrillator, organizer, organiser, dongle, display, trackball
+
+List 23:
+Target word: durian
+Words: medlar, sapote, ketembilla, ananas, quince, durian, loquat, jackfruit
+
+List 24:
+Target word: liger
+Words: chetah, lion, jaguar, cheetah, leopard, cat, panther, liger
+
+List 25:
+Target word: airplane
+Words: autogyro, bogy, aeroplane, gyroplane, airplane, bogey, autogiro, bogie
+
+List 26:
+Target word: leopard
+Words: lion, leopard, liger, chetah, jaguar, cat, cheetah, panther
+
+List 27:
+Target word: jak
+Words: melon, pear, mamey, quantong, windfall, plumcot, garambulla, jak
+
+List 28:
+Target word: plane
+Words: autogyro, gyroplane, plane, bogey, airplane, bogie, bogy, aeroplane
+
+List 29:
+Target word: bogy
+Words: autogyro, bogie, autogiro, aeroplane, gyroplane, bogey, bogy, airplane
+
+List 30:
+Target word: basenji
+Words: bitch, basenji, jackal, fox, hyaena, hyena, wolf, dog
+
+List 31:
+Target word: bombard
+Words: tuba, bombardon, contrabass, sousaphone, bombard, bass, wind, calliope
+
+List 32:
+Target word: pram
+Words: stroller, wagon, cycle, tricycle, trailer, wheel, pram, cart
+
+List 33:
+Target word: lanseh
+Words: nectarine, ananas, quandang, carambola, lanseh, litchi, quandong, guava
+
+List 34:
+Target word: trackball
+Words: trackball, pager, organiser, display, PDA, doubler, readout, organizer
+
+List 35:
+Target word: begonia
+Words: ageratum, bluebottle, xeranthemum, scabious, delphinium, wandflower, wallflower, begonia
+
+List 36:
+Target word: hyena
+Words: wolf, jackal, dog, basenji, fox, bitch, hyena, hyaena
+
+List 37:
+Target word: doubler
+Words: trackball, beeper, PDA, dongle, doubler, defibrillator, organiser, pacemaker
+
+List 38:
+Target word: aguacate
+Words: sapodilla, jaboticaba, aguacate, apple, guava, nectarine, citrus, genipap
+
+List 39:
+Target word: jackal
+Words: hyaena, basenji, jackal, dog, bitch, wolf, hyena, fox
+
+List 40:
+Target word: pear
+Words: jack, pear, sapote, longanberry, litchi, loquat, feijoa, banana
+
+List 41:
+Target word: sapota
+Words: cling, monstera, rambotan, pulasan, jujube, sapota, aguacate, plum
+
+List 42:
+Target word: lion
+Words: panther, liger, lion, jaguar, leopard, chetah, cat, cheetah
+
+List 43:
+Target word: cudweed
+Words: sunflower, catananche, toadflax, candytuft, pyrethrum, cornflower, orchid, cudweed
+
+List 44:
+Target word: pushcart
+Words: pushcart, cycle, pusher, cart, carriage, bicycle, pushchair, waggon
+
+List 45:
+Target word: gazania
+Words: heliophila, cosmos, gazania, toadflax, filago, catananche, chrysanthemum, bluebottle
+
+List 46:
+Target word: calla
+Words: bloomer, begonia, calla, cyclamen, schizopetalon, toadflax, scabious, windflower
+
+List 47:
+Target word: cheetah
+Words: lion, jaguar, cat, leopard, cheetah, liger, chetah, panther
+
+List 48:
+Target word: pilewort
+Words: wallflower, sandwort, pilewort, snapdragon, silene, scorpionweed, bloomer, bellwort
+
+List 49:
+Target word: bogey
+Words: bogey, airplane, gyroplane, autogyro, plane, bogy, bogie, autogiro
+
+List 50:
+Target word: wagon
+Words: boneshaker, perambulator, car, unicycle, wagon, bicycle, tricycle, pushchair
+
+List 51:
+Target word: liger
+Words: chetah, lion, panther, cheetah, leopard, liger, cat, jaguar
+
+List 52:
+Target word: aeroplane
+Words: airplane, autogiro, gyroplane, bogy, aeroplane, bogie, autogyro, plane
+
+List 53:
+Target word: leopard
+Words: liger, panther, jaguar, cat, chetah, leopard, cheetah, lion
+
+List 54:
+Target word: trackball
+Words: mouse, readout, pager, doubler, dongle, trackball, defibrillator, tube
+
+List 55:
+Target word: verbena
+Words: bloomer, cowherb, cosmos, dahlia, scabious, verbena, poppy, sunflower
+
+List 56:
+Target word: calla
+Words: campion, browallia, calla, marguerite, mistflower, scabiosa, silene, pink
+
+List 57:
+Target word: panther
+Words: cat, chetah, cheetah, panther, leopard, liger, lion, jaguar
+
+List 58:
+Target word: hyena
+Words: hyena, jackal, basenji, wolf, hyaena, dog, fox, bitch
+
+List 59:
+Target word: autogyro
+Words: bogey, aeroplane, airplane, autogyro, gyroplane, autogiro, bogy, plane
+
+List 60:
+Target word: durian
+Words: ananas, mammee, durian, quantong, date, sorb, cling, lanset
+
+List 61:
+Target word: jackal
+Words: basenji, wolf, fox, bitch, jackal, dog, hyaena, hyena
+
+List 62:
+Target word: monocycle
+Words: wheel, trike, pram, perambulator, pusher, monocycle, unicycle, scooter
+
+List 63:
+Target word: speedwell
+Words: vervain, spathiphyllum, speedwell, sunflower, umbrellawort, tuberose, poppy, sowbread
+
+List 64:
+Target word: spathiphyllum
+Words: tuberose, delphinium, catchfly, schizanthus, centaury, bluebottle, spathiphyllum, veronica
+
+List 65:
+Target word: defibrillator
+Words: generator, mouse, doubler, pacemaker, defibrillator, trackball, PDA, tube
+
+List 66:
+Target word: railcar
+Words: car, railcar, pusher, velocipede, wagon, monocycle, bike, cycle
+
+List 67:
+Target word: cat
+Words: panther, liger, leopard, jaguar, chetah, lion, cheetah, cat
+
+List 68:
+Target word: tricycle
+Words: velocipede, tricycle, wheel, cycle, pram, trike, bicycle, boneshaker
+
+List 69:
+Target word: display
+Words: generator, display, scanner, readout, organizer, organiser, beeper, repeater
+
+List 70:
+Target word: bogie
+Words: autogiro, plane, gyroplane, bogey, airplane, autogyro, bogy, bogie
+
+List 71:
+Target word: multiplexer
+Words: PDA, dongle, pager, multiplexer, display, doubler, readout, tube
+
+List 72:
+Target word: tuba
+Words: calliope, bombard, contrabass, tuba, bombardon, bass, wind, sousaphone
+
+List 73:
+Target word: fig
+Words: breadfruit, windfall, marang, feijoa, fig, guava, aguacate, loquat
+
+List 74:
+Target word: streptocarpus
+Words: pilewort, heliophila, streptocarpus, cyclamen, veronica, achimenes, begonia, cowherb
+
+List 75:
+Target word: aeroplane
+Words: autogiro, autogyro, airplane, gyroplane, aeroplane, bogie, bogy, bogey
+
+List 76:
+Target word: papaw
+Words: jujube, breadfruit, garambulla, rambotan, canistel, plum, papaw, genipap
+
+List 77:
+Target word: jackal
+Words: hyaena, bitch, jackal, fox, hyena, dog, basenji, wolf
+
+List 78:
+Target word: quandong
+Words: rambotan, cherry, jujube, quandong, apricot, peach, sorb, tamarindo
+
+List 79:
+Target word: portulaca
+Words: spathiphyllum, calendula, poppy, pink, helianthus, gillyflower, portulaca, candytuft
+
+List 80:
+Target word: leopard
+Words: panther, chetah, liger, cheetah, leopard, lion, jaguar, cat
+
+List 81:
+Target word: doubler
+Words: PDA, organiser, dongle, mouse, scanner, doubler, beeper, pager
+
+List 82:
+Target word: pushchair
+Words: carriage, monocycle, pushcart, pram, perambulator, handcart, boneshaker, pushchair
+
+List 83:
+Target word: hyena
+Words: hyena, hyaena, wolf, fox, jackal, basenji, dog, bitch
+
+List 84:
+Target word: jaboticaba
+Words: jak, garambulla, akee, monstera, tangelo, jaboticaba, nectarine, avocado
+
+List 85:
+Target word: trackball
+Words: trackball, display, dongle, scanner, pager, pacemaker, defibrillator, beeper
+
+List 86:
+Target word: lion
+Words: leopard, panther, jaguar, cheetah, chetah, lion, liger, cat
+
+List 87:
+Target word: peach
+Words: durian, peach, tamarind, mombin, litchee, mangosteen, ananas, cling
+
+List 88:
+Target word: lion
+Words: lion, panther, chetah, cat, cheetah, liger, jaguar, leopard
+
+List 89:
+Target word: cheetah
+Words: liger, cheetah, jaguar, cat, lion, leopard, chetah, panther
+
+List 90:
+Target word: cat
+Words: jaguar, leopard, cheetah, chetah, panther, cat, liger, lion
+
+List 91:
+Target word: cat
+Words: cat, leopard, jaguar, lion, cheetah, liger, chetah, panther
+
+List 92:
+Target word: autogyro
+Words: plane, bogie, gyroplane, autogiro, autogyro, aeroplane, bogey, airplane
+
+List 93:
+Target word: autogiro
+Words: autogiro, bogey, airplane, aeroplane, plane, bogie, gyroplane, bogy
+
+List 94:
+Target word: contrabass
+Words: contrabass, sousaphone, tuba, calliope, wind, bass, bombardon, bombard
+
+List 95:
+Target word: hyena
+Words: jackal, hyena, dog, fox, basenji, bitch, hyaena, wolf
+
+List 96:
+Target word: display
+Words: PDA, beeper, doubler, multiplexer, dongle, display, trackball, repeater
+
+List 97:
+Target word: pusher
+Words: unicycle, car, scooter, trailer, wheel, pushcart, monocycle, pusher
+
+List 98:
+Target word: verbena
+Words: xeranthemum, verbena, speedwell, ursinia, streptocarpus, umbrellawort, aster, poppy
+
+List 99:
+Target word: pulassan
+Words: pulassan, genip, garambulla, quandong, elderberry, rambotan, marang, lychee
+
+List 100:
+Target word: bombard
+Words: contrabass, bass, bombard, bombardon, sousaphone, wind, calliope, tuba
+
