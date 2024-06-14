@@ -275,12 +275,28 @@ def subcategory_level(categories, subcategories, num_words=8):
     return words[:num_words]
 
 def generate_unique_lists_per_level(num_lists=100):
-    categories = ['mammal', 'vehicle', 'device', 'reproductive_structure']
+    # categories = ['mammal', 'vehicle', 'device', 'reproductive_structure']
+    # subcategories = {
+    #     'vehicle': ['wheeled_vehicle.n.01', 'aircraft.n.01'],
+    #     'mammal': ['feline.n.01', 'canine.n.02'],
+    #     'device': ['electronic_device.n.01', 'musical_instrument.n.01'],
+    #     'reproductive_structure': ['flower.n.01', 'edible_fruit.n.01'],
+    #     'bird': ['bird.n.01', 'passerine.n.01', 'raptor.n.01'],
+    #     'vegetable': ['vegetable.n.01', 'leaf_vegetable.n.01', 'root_vegetable.n.01'],
+    #     'clothing': ['clothing.n.01', 'footwear.n.02', 'headgear.n.01'],
+    #     'building': ['building.n.01', 'residential_area.n.01', 'commercial_building.n.01'],
+    # }
+    
+    categories = ['mammal', 'vehicle', 'device', 'reproductive_structure', 'bird', 'food', 'clothing', 'structure']
     subcategories = {
         'vehicle': ['wheeled_vehicle.n.01', 'aircraft.n.01'],
         'mammal': ['feline.n.01', 'canine.n.02'],
         'device': ['electronic_device.n.01', 'musical_instrument.n.01'],
         'reproductive_structure': ['flower.n.01', 'edible_fruit.n.01'],
+        'bird': ['bird.n.01', 'passerine.n.01'],
+        'food': ['vegetable.n.01', 'solid_food.n.01'],
+        'clothing': ['clothing.n.01', 'footwear.n.02'],
+        'structure': ['building.n.01', 'housing.n.01'],
     }
 
     lists_level_1 = []

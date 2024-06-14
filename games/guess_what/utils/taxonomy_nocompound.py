@@ -6,13 +6,25 @@ import os
 # Download WordNet data if not already downloaded
 nltk.download('wordnet')
 
-# Define categories and subcategories
-categories = ['mammal', 'vehicle', 'device', 'reproductive_structure']
+# # Define categories and subcategories
+# categories = ['mammal', 'vehicle', 'device', 'reproductive_structure']
+# subcategories = {
+#     'vehicle': ['wheeled_vehicle.n.01', 'aircraft.n.01'],
+#     'mammal': ['feline.n.01', 'canine.n.02'],
+#     'device': ['electronic_device.n.01', 'musical_instrument.n.01'],
+#     'reproductive_structure': ['flower.n.01', 'edible_fruit.n.01']
+# }
+
+categories = ['mammal', 'vehicle', 'device', 'reproductive_structure', 'bird', 'food', 'clothing', 'structure']
 subcategories = {
     'vehicle': ['wheeled_vehicle.n.01', 'aircraft.n.01'],
     'mammal': ['feline.n.01', 'canine.n.02'],
     'device': ['electronic_device.n.01', 'musical_instrument.n.01'],
-    'reproductive_structure': ['flower.n.01', 'edible_fruit.n.01']
+    'reproductive_structure': ['flower.n.01', 'edible_fruit.n.01'],
+    'bird': ['bird.n.01', 'passerine.n.01'],
+    'food': ['vegetable.n.01', 'solid_food.n.01'],
+    'clothing': ['clothing.n.01', 'footwear.n.02'],
+    'structure': ['building.n.01', 'housing.n.01'],
 }
 
 # Function to get all hyponyms of a synset

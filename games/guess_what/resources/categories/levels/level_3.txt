@@ -1,400 +1,400 @@
 List 1:
-Target word: wind
-Words: bitch, bogy, wind, rambutan, dog, bogie, dongle, verbena
+Target word: pear
+Words: fox, monocycle, calliope, pear, cat, wagon, wind, aguacate
 
 List 2:
-Target word: multiplexer
-Words: cat, bogy, multiplexer, feijoa, wolf, bogie, scanner, pear
+Target word: cart
+Words: wolf, cart, bass, date, hyaena, bogey, scanner, ugli
 
 List 3:
-Target word: display
-Words: cat, trailer, calliope, aguacate, bitch, bogy, display, aquilegia
+Target word: PDA
+Words: cat, waggon, PDA, sorb, chetah, railcar, display, nectarine
 
 List 4:
-Target word: bogie
-Words: cat, bogie, bass, marigold, hyaena, unicycle, wind, plum
+Target word: quandong
+Words: hyaena, bogey, trackball, leechee, cat, bogy, pager, quandong
 
 List 5:
-Target word: wind
-Words: cat, bogie, wind, peach, bitch, unicycle, calliope, sapodilla
+Target word: cat
+Words: cat, bogie, repeater, cyclamen, hyena, handcart, organizer, vervain
 
 List 6:
-Target word: bogey
-Words: wolf, bogey, dongle, eggfruit, cat, bogy, calliope, tamarind
+Target word: cat
+Words: cat, bogy, wind, daisy, fox, waggon, calliope, catananche
 
 List 7:
-Target word: perambulator
-Words: hyaena, perambulator, wind, sapota, cat, bogy, bass, cudweed
+Target word: pushchair
+Words: cat, bogie, wind, sowbread, cheetah, pushchair, bass, wallflower
 
 List 8:
-Target word: skateboard
-Words: cat, skateboard, beeper, portulaca, chetah, waggon, wind, guava
+Target word: wind
+Words: cat, pram, wind, cling, dog, bogy, bass, bloomer
 
 List 9:
-Target word: cat
-Words: cat, bogy, calliope, guava, jackal, scooter, wind, cowherb
+Target word: bass
+Words: hyaena, pram, mouse, quandong, cat, bogy, bass, campion
 
 List 10:
-Target word: pulasan
-Words: cat, carriage, bass, litchee, cheetah, railcar, calliope, pulasan
+Target word: mamey
+Words: cat, bogey, calliope, canistel, cheetah, skateboard, wind, mamey
 
 List 11:
-Target word: apple
-Words: fox, bogie, calliope, xeranthemum, cat, boneshaker, wind, apple
+Target word: mouse
+Words: cat, bogy, organiser, leechee, chetah, waggon, mouse, gazania
 
 List 12:
-Target word: cheetah
-Words: cat, bogie, bass, verbena, cheetah, stroller, organiser, campion
+Target word: wind
+Words: wolf, pushcart, calliope, ursinia, cat, bike, wind, peony
 
 List 13:
-Target word: chetah
-Words: cat, bogey, calliope, lansa, chetah, bogy, bass, plum
+Target word: hyaena
+Words: hyaena, bicycle, defibrillator, aquilegia, fox, bogie, mouse, lanset
 
 List 14:
-Target word: corydalis
-Words: jackal, bogy, PDA, wandflower, cat, bogie, pager, corydalis
+Target word: beeper
+Words: cat, boneshaker, beeper, sowbread, fox, bicycle, calliope, sapota
 
 List 15:
-Target word: cat
-Words: cat, monocycle, wind, lychee, hyena, bogy, defibrillator, quandang
+Target word: bogie
+Words: cat, bogie, bass, paeony, bitch, bogey, readout, catananche
 
 List 16:
-Target word: unicycle
-Words: cat, unicycle, organizer, fig, chetah, wheel, PDA, wallflower
+Target word: fox
+Words: dog, cycle, bass, tithonia, fox, car, tube, papaw
 
 List 17:
-Target word: hyena
-Words: hyena, car, calliope, banana, cat, pushcart, bass, gentian
+Target word: defibrillator
+Words: wolf, bogey, defibrillator, quantong, jackal, bogie, bass, mango
 
 List 18:
-Target word: pager
-Words: hyaena, bogie, bass, pomegranate, cat, bogey, pager, marigold
+Target word: bass
+Words: bitch, bike, bass, leechee, cat, bogie, generator, corydalis
 
 List 19:
-Target word: sunflower
-Words: hyaena, car, wind, sunflower, cat, pusher, repeater, anemone
+Target word: bogy
+Words: cat, bogy, wind, bloomer, jackal, cart, bass, delphinium
 
 List 20:
-Target word: bass
-Words: cat, bogie, wind, tithonia, bitch, bogy, bass, stock
+Target word: trike
+Words: cat, trike, pacemaker, campion, hyaena, bogie, repeater, icaco
 
 List 21:
-Target word: pram
-Words: wolf, wheel, wind, filago, cat, pram, bass, aguacate
+Target word: stock
+Words: cat, stroller, multiplexer, corydalis, hyaena, trailer, beeper, stock
 
 List 22:
-Target word: calliope
-Words: fox, pushcart, calliope, anemone, cat, trike, display, rambotan
+Target word: durian
+Words: cat, bike, wind, cling, fox, bogey, calliope, durian
 
 List 23:
-Target word: cart
-Words: cat, cart, readout, monstera, fox, trailer, tube, ammobium
+Target word: cat
+Words: bitch, pushcart, doubler, lichi, cat, bogey, wind, clingstone
 
 List 24:
-Target word: calliope
-Words: hyaena, bogie, calliope, mammee, cat, bogy, organizer, elderberry
+Target word: wandflower
+Words: hyaena, bogey, pager, wandflower, jackal, bogie, repeater, aquilege
 
 List 25:
-Target word: handcart
-Words: cat, unicycle, calliope, bellwort, chetah, handcart, repeater, verbena
+Target word: tricycle
+Words: cat, tricycle, multiplexer, heliophila, cheetah, trike, bass, loquat
 
 List 26:
 Target word: cat
-Words: cat, scooter, wind, aquilege, fox, velocipede, scanner, calla
+Words: hyaena, bogy, bass, tamarindo, cat, bogie, tube, gazania
 
 List 27:
-Target word: chetah
-Words: cat, bogie, repeater, pink, chetah, bogy, wind, bellwort
+Target word: calliope
+Words: bitch, carriage, generator, elderberry, jackal, bogy, calliope, dahlia
 
 List 28:
-Target word: bike
-Words: fox, bike, defibrillator, melon, cat, wagon, wind, quandong
+Target word: cat
+Words: cat, car, organizer, cowherb, cheetah, bogie, trackball, medlar
 
 List 29:
-Target word: bass
-Words: cat, trailer, dongle, tidytips, cheetah, bogie, bass, banana
+Target word: fox
+Words: fox, pram, doubler, pyrethrum, hyena, bogie, repeater, quince
 
 List 30:
-Target word: readout
-Words: cat, bogy, readout, date, dog, bogey, display, longanberry
+Target word: multiplexer
+Words: hyena, bogy, multiplexer, bellwort, cat, boneshaker, organizer, delphinium
 
 List 31:
-Target word: bogy
-Words: cat, bogy, wind, toadflax, jackal, bogey, dongle, paeony
+Target word: bass
+Words: cat, bogie, bass, jackfruit, jackal, bogey, organiser, catchfly
 
 List 32:
-Target word: wind
-Words: hyaena, pram, calliope, marang, hyena, tricycle, wind, genipap
+Target word: chetah
+Words: cat, bicycle, tube, scabiosa, chetah, bogy, defibrillator, umbrellawort
 
 List 33:
-Target word: bass
-Words: wolf, bogie, bass, corydalis, hyaena, bogey, wind, phacelia
+Target word: scabious
+Words: jackal, bicycle, dongle, lanseh, fox, monocycle, wind, scabious
 
 List 34:
-Target word: jackfruit
-Words: cat, car, wind, jackfruit, cheetah, bogey, organizer, phacelia
+Target word: browallia
+Words: cat, carriage, wind, browallia, chetah, monocycle, calliope, aguacate
 
 List 35:
-Target word: calendula
-Words: hyena, bogey, calliope, calendula, bitch, skateboard, pacemaker, rambotan
+Target word: wind
+Words: cat, bogey, wind, melon, wolf, bogie, calliope, gerardia
 
 List 36:
-Target word: cat
-Words: wolf, bogy, calliope, tidytips, cat, carriage, wind, kitambilla
+Target word: waggon
+Words: cat, bogy, repeater, mango, wolf, waggon, defibrillator, ketembilla
 
 List 37:
-Target word: bogey
-Words: cat, bogie, multiplexer, streptocarpus, cheetah, bogey, pager, aguacate
+Target word: bogy
+Words: cat, pushchair, calliope, rambotan, wolf, bogy, mouse, aquilege
 
 List 38:
-Target word: car
-Words: jackal, car, wind, papaya, dog, waggon, display, delphinium
+Target word: jaboticaba
+Words: wolf, pushcart, wind, pineapple, hyaena, bogie, bass, jaboticaba
 
 List 39:
-Target word: bogey
-Words: hyaena, bogey, mouse, aster, cat, bogy, calliope, portulaca
+Target word: wolf
+Words: dog, trike, tube, shortia, wolf, bogie, bass, quince
 
 List 40:
-Target word: mouse
-Words: cat, bogy, bass, jak, hyaena, bogie, mouse, quandang
+Target word: bass
+Words: hyena, bogey, bass, peony, fox, trike, wind, loquat
 
 List 41:
-Target word: bitch
-Words: bitch, perambulator, readout, sandwort, cat, cycle, pacemaker, calendula
+Target word: longanberry
+Words: fox, bogey, defibrillator, longanberry, cat, stroller, bass, rambutan
 
 List 42:
-Target word: jackal
-Words: cat, bogy, mouse, mistflower, jackal, bogie, calliope, pear
+Target word: bass
+Words: jackal, bogie, bass, wallflower, cat, tricycle, wind, apricot
 
 List 43:
-Target word: bogie
-Words: cat, bogie, calliope, medlar, cheetah, bogy, bass, avocado
+Target word: speedwell
+Words: cat, bogie, doubler, gazania, cheetah, bogey, calliope, speedwell
 
 List 44:
-Target word: bogy
-Words: cat, bogie, pacemaker, shortia, chetah, bogy, calliope, apple
+Target word: fox
+Words: cat, cycle, mouse, commelina, fox, bogy, wind, cosmea
 
 List 45:
-Target word: cat
-Words: bitch, wheel, dongle, gillyflower, cat, bogy, bass, ursinia
+Target word: tube
+Words: cat, pusher, tube, jaboticaba, chetah, bogey, bass, zinnia
 
 List 46:
-Target word: wind
-Words: cat, scooter, calliope, jack, bitch, cart, wind, litchee
+Target word: mamey
+Words: jackal, pushchair, organiser, scabiosa, hyena, unicycle, doubler, mamey
 
 List 47:
-Target word: calliope
-Words: wolf, bogie, doubler, aguacate, jackal, bogy, calliope, avocado
+Target word: cudweed
+Words: cat, bicycle, bass, calla, chetah, bogie, pager, cudweed
 
 List 48:
-Target word: waggon
-Words: cat, waggon, wind, aster, cheetah, trike, generator, tuberose
+Target word: bogy
+Words: cat, bogey, bass, sorb, chetah, bogy, calliope, composite
 
 List 49:
-Target word: melon
-Words: hyaena, bogie, wind, date, wolf, cart, display, melon
+Target word: calliope
+Words: cat, bogy, calliope, litchi, jackal, carriage, readout, columbine
 
 List 50:
-Target word: tricycle
-Words: hyena, bogie, wind, ketembilla, jackal, tricycle, display, apricot
+Target word: trailer
+Words: fox, handcart, defibrillator, snapdragon, dog, trailer, calliope, feijoa
 
 List 51:
-Target word: bogie
-Words: cat, bogy, bass, quantong, cheetah, bogie, display, orchid
+Target word: hyena
+Words: cat, bogy, doubler, plum, hyena, bogie, bass, stock
 
 List 52:
-Target word: browallia
-Words: cat, bogy, tube, browallia, hyena, bogey, calliope, litchi
+Target word: guava
+Words: hyaena, stroller, calliope, cowherb, cat, bogy, trackball, guava
 
 List 53:
-Target word: cat
-Words: jackal, pram, readout, garambulla, cat, bogie, wind, scorpionweed
+Target word: carriage
+Words: bitch, carriage, bass, cosmos, hyaena, bogy, trackball, sunflower
 
 List 54:
-Target word: wind
-Words: dog, pram, wind, soapwort, hyaena, monocycle, calliope, plumcot
+Target word: quince
+Words: hyaena, bogey, wind, quince, fox, bicycle, doubler, lychnis
 
 List 55:
-Target word: generator
-Words: jackal, cart, pacemaker, apricot, wolf, bogy, generator, pitahaya
+Target word: pacemaker
+Words: hyaena, bogie, pacemaker, akee, hyena, pram, wind, cherry
 
 List 56:
-Target word: umbrellawort
-Words: cat, wagon, wind, umbrellawort, cheetah, perambulator, display, papaw
+Target word: cheetah
+Words: cat, skateboard, calliope, windfall, cheetah, tricycle, bass, cling
 
 List 57:
-Target word: bike
-Words: jackal, bogey, bass, cosmea, cat, bike, readout, jaboticaba
+Target word: lichee
+Words: hyena, stroller, wind, longanberry, cat, bicycle, calliope, lichee
 
 List 58:
-Target word: wind
-Words: dog, handcart, wind, elderberry, bitch, cycle, beeper, lychnis
+Target word: bogie
+Words: hyaena, bogey, pacemaker, litchi, cat, bogie, beeper, candytuft
 
 List 59:
-Target word: bitch
-Words: cat, bogey, readout, poppy, bitch, bogie, doubler, scabious
+Target word: trackball
+Words: dog, bogy, readout, feijoa, hyena, bogie, trackball, tamarindo
 
 List 60:
-Target word: bogey
-Words: cat, bogy, doubler, papaw, jackal, bogey, wind, ceriman
+Target word: feijoa
+Words: cat, velocipede, multiplexer, scabious, fox, pushcart, bass, feijoa
 
 List 61:
-Target word: calendula
-Words: cat, pusher, display, calendula, chetah, bogy, defibrillator, mango
+Target word: gazania
+Words: bitch, unicycle, pacemaker, peony, cat, car, wind, gazania
 
 List 62:
-Target word: bass
-Words: fox, cart, bass, berry, cat, perambulator, wind, aquilege
+Target word: cat
+Words: wolf, bogie, organiser, wandflower, cat, railcar, bass, mamey
 
 List 63:
-Target word: wind
-Words: hyaena, bogy, bass, lanset, cat, bogie, wind, composite
+Target word: cat
+Words: cat, bogie, pacemaker, campion, cheetah, bogy, wind, monstera
 
 List 64:
-Target word: unicycle
-Words: hyena, unicycle, bass, soapwort, cat, bogy, wind, quince
+Target word: bogie
+Words: jackal, bogie, pager, poppy, cat, bogey, calliope, valerian
 
 List 65:
-Target word: dog
-Words: dog, bogy, trackball, portulaca, hyena, bogey, doubler, berry
+Target word: bogy
+Words: cat, bogy, readout, commelina, dog, bogey, organiser, clingstone
 
 List 66:
-Target word: tube
-Words: cat, car, pacemaker, ugli, jackal, bogey, tube, tithonia
+Target word: cat
+Words: cat, stroller, wind, icaco, cheetah, bogie, bass, lichi
 
 List 67:
-Target word: bogey
-Words: cat, bogey, trackball, gazania, jackal, bogie, tube, berry
+Target word: hyena
+Words: jackal, bogy, beeper, mamey, hyena, wagon, calliope, gazania
 
 List 68:
-Target word: wind
-Words: wolf, railcar, wind, ugli, dog, unicycle, calliope, apricot
+Target word: car
+Words: wolf, bogy, mouse, tuberose, hyaena, car, scanner, sandwort
 
 List 69:
-Target word: clingstone
-Words: hyaena, railcar, wind, clingstone, cat, bogy, multiplexer, lanseh
+Target word: calliope
+Words: cat, bogy, calliope, gillyflower, jackal, pusher, bass, gazania
 
 List 70:
-Target word: dog
-Words: dog, bogy, repeater, leechee, wolf, pushcart, calliope, delphinium
+Target word: cat
+Words: cat, cycle, calliope, cosmos, fox, perambulator, wind, dahlia
 
 List 71:
-Target word: aguacate
-Words: cat, railcar, beeper, aguacate, bitch, pram, wind, cherry
+Target word: waggon
+Words: dog, cycle, wind, mamey, cat, waggon, calliope, veronica
 
 List 72:
-Target word: quandang
-Words: hyaena, bogey, pacemaker, quandang, cat, cart, tube, tithonia
+Target word: silene
+Words: jackal, bogie, calliope, veronica, cat, bogy, organiser, silene
 
 List 73:
-Target word: beeper
-Words: hyaena, bogie, beeper, spathiphyllum, cat, monocycle, defibrillator, achimenes
+Target word: calliope
+Words: cat, waggon, calliope, banana, cheetah, bogie, beeper, plum
 
 List 74:
-Target word: jackal
-Words: jackal, monocycle, calliope, date, cat, tricycle, wind, aster
+Target word: cheetah
+Words: cat, unicycle, PDA, scorpionweed, cheetah, wheel, pacemaker, coneflower
 
 List 75:
-Target word: cat
-Words: cat, bogie, organizer, ammobium, hyena, bogey, calliope, ageratum
+Target word: hyena
+Words: bitch, bogy, generator, windflower, hyena, bogey, pager, cornflower
 
 List 76:
-Target word: boneshaker
-Words: cat, carriage, repeater, filago, cheetah, boneshaker, wind, canistel
+Target word: organiser
+Words: cat, skateboard, wind, carambola, dog, bogy, organiser, tangelo
 
 List 77:
-Target word: cat
-Words: cat, bogy, mouse, tamarind, cheetah, unicycle, pager, anemone
+Target word: bass
+Words: hyaena, wheel, wind, pilewort, bitch, boneshaker, bass, cling
 
 List 78:
-Target word: tube
-Words: cat, bogey, repeater, cudweed, chetah, bogie, tube, scabious
+Target word: bass
+Words: cat, bogie, readout, jak, dog, bogy, bass, clingstone
 
 List 79:
-Target word: genip
-Words: bitch, bogie, PDA, genip, hyaena, bogy, display, marigold
+Target word: calliope
+Words: hyaena, bogie, bass, jaboticaba, fox, bogey, calliope, jujube
 
 List 80:
-Target word: pawpaw
-Words: fox, bogie, bass, genipap, cat, cycle, dongle, pawpaw
+Target word: snapdragon
+Words: fox, scooter, tube, snapdragon, wolf, car, bass, clingstone
 
 List 81:
-Target word: pushchair
-Words: jackal, cart, pacemaker, kitembilla, hyena, pushchair, bass, quantong
+Target word: cat
+Words: fox, stroller, organizer, plumcot, cat, bogie, calliope, jack
 
 List 82:
-Target word: cat
-Words: cat, monocycle, mouse, delphinium, chetah, bogey, wind, wandflower
+Target word: cart
+Words: cat, cart, organiser, sapodilla, bitch, bogie, bass, calendula
 
 List 83:
-Target word: bicycle
-Words: cat, bicycle, bass, coneflower, dog, bogie, defibrillator, pomegranate
+Target word: hyaena
+Words: fox, bogy, doubler, jujube, hyaena, tricycle, bass, kiwi
 
 List 84:
-Target word: repeater
-Words: hyaena, bogey, repeater, pawpaw, fox, bogie, calliope, windfall
+Target word: papaw
+Words: fox, bogy, wind, sunflower, hyaena, bogey, defibrillator, papaw
 
 List 85:
-Target word: beeper
-Words: cat, bogie, beeper, apple, wolf, skateboard, wind, marguerite
+Target word: trailer
+Words: bitch, wheel, bass, monstera, cat, trailer, wind, gazania
 
 List 86:
-Target word: bitch
-Words: bitch, bike, bass, soapwort, cat, bogie, organizer, mammee
+Target word: chetah
+Words: cat, bogie, wind, date, chetah, stroller, calliope, jak
 
 List 87:
-Target word: sowbread
-Words: wolf, car, doubler, jackfruit, bitch, bogey, wind, sowbread
+Target word: calliope
+Words: fox, bogey, wind, kiwi, cat, bogie, calliope, canistel
 
 List 88:
-Target word: mouse
-Words: hyaena, bogy, multiplexer, chrysanthemum, cat, trike, mouse, anemone
+Target word: commelina
+Words: dog, bogy, bass, sunflower, cat, boneshaker, wind, commelina
 
 List 89:
-Target word: velocipede
-Words: jackal, velocipede, bass, pineapple, dog, scooter, calliope, gazania
+Target word: monocycle
+Words: cat, bogy, organiser, tangelo, cheetah, monocycle, wind, lychee
 
 List 90:
-Target word: bogy
-Words: fox, bogie, calliope, genip, cat, bogy, wind, canistel
+Target word: fox
+Words: fox, pram, calliope, sowbread, cat, perambulator, bass, cosmea
 
 List 91:
-Target word: bogey
-Words: cat, bogey, calliope, longanberry, chetah, tricycle, doubler, pawpaw
+Target word: jackal
+Words: jackal, trailer, doubler, rambutan, hyaena, bogy, PDA, phacelia
 
 List 92:
-Target word: cat
-Words: hyena, bogy, calliope, durian, cat, bogey, multiplexer, schizopetalon
+Target word: generator
+Words: jackal, bogie, generator, monstera, fox, bogey, tube, calendula
 
 List 93:
-Target word: cheetah
-Words: cat, bogy, bass, orchid, cheetah, bogey, PDA, tamarind
+Target word: unicycle
+Words: jackal, unicycle, calliope, sowbread, cat, bogie, dongle, tangelo
 
 List 94:
-Target word: pawpaw
-Words: cat, scooter, bass, achimenes, jackal, velocipede, trackball, pawpaw
+Target word: cat
+Words: hyena, bogie, bass, umbrellawort, cat, stroller, trackball, feijoa
 
 List 95:
-Target word: hyaena
-Words: hyaena, bogey, bass, tangelo, cat, bogy, mouse, cling
+Target word: dog
+Words: cat, bogie, calliope, cling, dog, bogey, wind, vervain
 
 List 96:
-Target word: dongle
-Words: hyena, bogy, calliope, quince, dog, bogie, dongle, pilewort
+Target word: bogey
+Words: fox, bogey, doubler, rambotan, cat, bogie, pager, anemone
 
 List 97:
-Target word: bogie
-Words: cat, bogey, wind, corydalis, cheetah, bogie, organiser, cineraria
+Target word: silene
+Words: bitch, bogie, organizer, slipperwort, cat, cart, tube, silene
 
 List 98:
-Target word: melon
-Words: fox, bogy, calliope, bartonia, cat, bogey, wind, melon
+Target word: cat
+Words: bitch, bogey, bass, ananas, cat, bogie, beeper, pawpaw
 
 List 99:
-Target word: cat
-Words: cat, bogy, wind, chrysanthemum, chetah, bogie, doubler, monstera
+Target word: bogy
+Words: bitch, bogey, bass, litchi, fox, bogy, repeater, peony
 
 List 100:
 Target word: wind
-Words: wolf, bogey, wind, pineapple, dog, wheel, organizer, windfall
+Words: hyaena, bogey, wind, apple, cat, railcar, calliope, lanset
 
