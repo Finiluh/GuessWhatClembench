@@ -53,10 +53,11 @@ ROW_ORDER = ['lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
              'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
              clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
 
+
 # order of the columns in the main table
 COLUMN_ORDER = ['all', 'taboo', 'wordle', 'wordle_withclue',
                 'wordle_withcritic', 'imagegame', 'referencegame',
-                'privateshared']
+                'privateshared', 'guesswhat']
 
 # shorter names for the models
 short_names = {
@@ -110,8 +111,10 @@ def savefig(name: str) -> None:
 
 def parse_directory_name(name: str) -> dict:
     """Extract information from the directory name structure."""
+ 
+    splits = os.path.normpath(name).split(os.sep)
 
-    splits = str(name).split('/')
+    # splits = str(name).split('/')
     model, game, experiment, episode, _ = splits[-5:]
     return {'game': game,
             'model': model,
