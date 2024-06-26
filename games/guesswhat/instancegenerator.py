@@ -1,18 +1,8 @@
 """
 Generate instances for the Guess What game.
 
-Creates files in ./instances
 """
-""" import random
-import json
-from tqdm import tqdm
-import os
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parents[2]))
-import clemgame
-from clemgame.clemgame import GameInstanceGenerator
- """
+
 import os
 import sys
 from pathlib import Path
@@ -80,10 +70,9 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
             experiment["game_instances"] = game_instances
             output_instances["experiments"].append(experiment)
 
-        # Save instances to the appropriate files
-        os.makedirs("in", exist_ok=True)
-        # self.save_json(output_instances, "in/instances.json")
-        self.save_json(output_instance_details, "in/instances_details.json")
+        # Save details of the instances in utils
+        output_path = os.path.join(os.path.dirname(__file__), "utils", "output_instance_details.json")
+        self.save_json(output_instance_details, output_path)
 
     def generate_instance(self, level, used_words):
         instance = {"items": [], "target": ""}
@@ -160,5 +149,7 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
         with open(filepath, 'w') as f:
             json.dump(data, f, indent=4)
 
+
 if __name__ == '__main__':
     GuessWhatGameInstanceGenerator().generate()
+

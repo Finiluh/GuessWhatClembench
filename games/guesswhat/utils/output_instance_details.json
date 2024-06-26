@@ -1,0 +1,413 @@
+{
+    "Level 1": [
+        {
+            "items": [
+                {
+                    "word": "Waterfall",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                },
+                {
+                    "word": "Ocean",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                },
+                {
+                    "word": "Rabbi",
+                    "category": "25. A member of the clergy",
+                    "feature": "spiritual leader.n.01"
+                },
+                {
+                    "word": "Reverend",
+                    "category": "25. A member of the clergy",
+                    "feature": "spiritual leader.n.01"
+                },
+                {
+                    "word": "Flu",
+                    "category": "10. A disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "Measles",
+                    "category": "10. A disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "Garlic",
+                    "category": "68. An herb.",
+                    "feature": "alliaceous plant.n.01"
+                },
+                {
+                    "word": "Chives",
+                    "category": "68. An herb.",
+                    "feature": "alliaceous plant.n.01"
+                }
+            ],
+            "target": "Rabbi"
+        },
+        {
+            "items": [
+                {
+                    "word": "Island",
+                    "category": "29. A natural earth formation.",
+                    "feature": "land.n.04"
+                },
+                {
+                    "word": "Plain",
+                    "category": "29. A natural earth formation.",
+                    "feature": "land.n.04"
+                },
+                {
+                    "word": "Hill",
+                    "category": "29. A natural earth formation.",
+                    "feature": "natural elevation.n.01"
+                },
+                {
+                    "word": "Mountain",
+                    "category": "29. A natural earth formation.",
+                    "feature": "natural elevation.n.01"
+                },
+                {
+                    "word": "Speaking",
+                    "category": "32. A part of speech",
+                    "feature": "utterance.n.01"
+                },
+                {
+                    "word": "Exclamation",
+                    "category": "32. A part of speech",
+                    "feature": "utterance.n.01"
+                },
+                {
+                    "word": "Chair",
+                    "category": "41. A thing made of wood.",
+                    "feature": "seat.n.03"
+                },
+                {
+                    "word": "Stool",
+                    "category": "41. A thing made of wood.",
+                    "feature": "seat.n.03"
+                }
+            ],
+            "target": "Plain"
+        },
+        {
+            "items": [
+                {
+                    "word": "Second",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Millisecond",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Cabinet",
+                    "category": "66. An article of furniture.",
+                    "feature": "furniture.n.01"
+                },
+                {
+                    "word": "Bookcase",
+                    "category": "66. An article of furniture.",
+                    "feature": "furniture.n.01"
+                },
+                {
+                    "word": "Cilantro",
+                    "category": "68. An herb.",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Basil",
+                    "category": "68. An herb.",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Hotel",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "building.n.01"
+                },
+                {
+                    "word": "House",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "building.n.01"
+                }
+            ],
+            "target": "Basil"
+        }
+    ],
+    "Level 2": [
+        {
+            "items": [
+                {
+                    "word": "Aspirin",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Fentanyl",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Tylenol",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Morphine",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Head",
+                    "category": "33.  A part of the human body",
+                    "feature": "external body part.n.01"
+                },
+                {
+                    "word": "Neck",
+                    "category": "33.  A part of the human body",
+                    "feature": "external body part.n.01"
+                },
+                {
+                    "word": "Breast",
+                    "category": "33.  A part of the human body",
+                    "feature": "external body part.n.01"
+                },
+                {
+                    "word": "Face",
+                    "category": "33.  A part of the human body",
+                    "feature": "external body part.n.01"
+                }
+            ],
+            "target": "Aspirin"
+        },
+        {
+            "items": [
+                {
+                    "word": "Minute",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Second",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Hour",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Millisecond",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Whiskey",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                },
+                {
+                    "word": "Gin",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                },
+                {
+                    "word": "Rum",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                },
+                {
+                    "word": "Brandy",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                }
+            ],
+            "target": "Brandy"
+        },
+        {
+            "items": [
+                {
+                    "word": "Yellow",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Purple",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Green",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Brown",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Sweater",
+                    "category": "46. A thing women wear.",
+                    "feature": "garment.n.01"
+                },
+                {
+                    "word": "Scarf",
+                    "category": "46. A thing women wear.",
+                    "feature": "garment.n.01"
+                },
+                {
+                    "word": "Leggings",
+                    "category": "46. A thing women wear.",
+                    "feature": "garment.n.01"
+                },
+                {
+                    "word": "Shirt",
+                    "category": "46. A thing women wear.",
+                    "feature": "garment.n.01"
+                }
+            ],
+            "target": "Sweater"
+        }
+    ],
+    "Level 3": [
+        {
+            "items": [
+                {
+                    "word": "Monastery",
+                    "category": "2. A building for religious services",
+                    "feature": "religious residence.n.01"
+                },
+                {
+                    "word": "Church",
+                    "category": "2. A building for religious services",
+                    "feature": "religion.n.02"
+                },
+                {
+                    "word": "Rupee",
+                    "category": "21. A kind of money.",
+                    "feature": "sri lankan monetary unit.n.01"
+                },
+                {
+                    "word": "Bill",
+                    "category": "21. A kind of money.",
+                    "feature": "legal document.n.01"
+                },
+                {
+                    "word": "Table",
+                    "category": "66. An article of furniture.",
+                    "feature": "array.n.01"
+                },
+                {
+                    "word": "Recliner",
+                    "category": "66. An article of furniture.",
+                    "feature": "armchair.n.01"
+                },
+                {
+                    "word": "Gardenia",
+                    "category": "14. A flower",
+                    "feature": "shrub.n.01"
+                },
+                {
+                    "word": "Marigold",
+                    "category": "14. A flower",
+                    "feature": "flower.n.01"
+                }
+            ],
+            "target": "Gardenia"
+        },
+        {
+            "items": [
+                {
+                    "word": "Nickel",
+                    "category": "21. A kind of money.",
+                    "feature": "metallic element.n.01"
+                },
+                {
+                    "word": "Ruble",
+                    "category": "21. A kind of money.",
+                    "feature": "tajikistani monetary unit.n.01"
+                },
+                {
+                    "word": "Teal",
+                    "category": "7. A color",
+                    "feature": "green.n.01"
+                },
+                {
+                    "word": "Beige",
+                    "category": "7. A color",
+                    "feature": "light brown.n.01"
+                },
+                {
+                    "word": "Cabinet",
+                    "category": "41. A thing made of wood.",
+                    "feature": "furniture.n.01"
+                },
+                {
+                    "word": "Chest",
+                    "category": "41. A thing made of wood.",
+                    "feature": "body part.n.01"
+                },
+                {
+                    "word": "People",
+                    "category": "45. A thing that makes noise.",
+                    "feature": "group.n.01"
+                },
+                {
+                    "word": "Cat",
+                    "category": "45. A thing that makes noise.",
+                    "feature": "feline.n.01"
+                }
+            ],
+            "target": "Cat"
+        },
+        {
+            "items": [
+                {
+                    "word": "Father",
+                    "category": "35. A relative.",
+                    "feature": "parent.n.01"
+                },
+                {
+                    "word": "Niece",
+                    "category": "35. A relative.",
+                    "feature": "kinswoman.n.01"
+                },
+                {
+                    "word": "Gray",
+                    "category": "7. A color",
+                    "feature": "achromatic color.n.01"
+                },
+                {
+                    "word": "Carnation",
+                    "category": "14. A flower",
+                    "feature": "pink.n.02"
+                },
+                {
+                    "word": "Hydrangea",
+                    "category": "14. A flower",
+                    "feature": "shrub.n.01"
+                },
+                {
+                    "word": "Cathedral",
+                    "category": "2. A building for religious services",
+                    "feature": "church.n.02"
+                },
+                {
+                    "word": "Jet",
+                    "category": "A thing that flies.",
+                    "feature": "airplane.n.01"
+                },
+                {
+                    "word": "Drone",
+                    "category": "A thing that flies.",
+                    "feature": "bee.n.01"
+                }
+            ],
+            "target": "Father"
+        }
+    ]
+}

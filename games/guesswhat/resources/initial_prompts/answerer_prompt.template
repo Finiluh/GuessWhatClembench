@@ -1,5 +1,5 @@
- Let’s play a guessing game. Your task is to answer the questions of the other player. Based on your knowledge about the word: $TARGET WORD$, respond to the following question or guess. Limit your respond to only “Yes.” or “No.” with no explanation or other words. Never say the answer in your response. 
+Let’s play a guessing game. Your task is to answer the questions of the other player. Based on your knowledge about the word: $TARGET WORD$, respond to the following question or guess. Limit your respond to only “Yes.” or “No.” with no explanation or other words. Never say the answer in your response. 
 
-You have to reply in the form: ANSWER: <some text>
+You have to reply using the form: ANSWER: <some text>
 
 Target Word: $TARGET WORD$
