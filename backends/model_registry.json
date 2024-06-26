@@ -5,6 +5,31 @@
     "backend": "openai_compatible"
   },
   {
+    "model_name": "WizardLM-2-8x22B",
+    "model_id": "microsoft/WizardLM-2-8x22B",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Mixtral-8x22B",
+    "model_id": "mistralai/Mixtral-8x22B",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Llama-3-70B-Instruct",
+    "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Llama-3-70b-chat-hf",
+    "model_id": "meta-llama/Llama-3-70b-chat-hf",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Mistral-7B-Instruct-v0.3",
+    "model_id": " mistralai/Mistral-7B-Instruct-v0.3",
+    "backend": "openai_compatible"
+  },
+  {
     "model_name": "codellama-34b",
     "model_id": "codellama-34b-instruct",
     "backend": "openai_compatible"
@@ -36,7 +61,7 @@
   },
   {
     "model_name": "fsc-codellama-34b-instruct",
-    "model_id": "codellama-34b-instruct",
+    "model_id": "codellama/CodeLlama-34b-Instruct-hf",
     "backend": "openai_compatible"
   },
   {
