@@ -49,43 +49,60 @@ GAMEPLAY_METRICS = [
     ]
 
 # order of the rows in the main table, to be used as a key in pandas
-ROW_ORDER = ['lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
-             'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
+ROW_ORDER = ['lm70b--lm70b',
+             "wzlm2--wzlm2","qw2--qw2","gpt3.5--gpt3.5",
+            
              clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
-
-
+#'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
+             #'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
+# "3.51106---3.51106-","40613---40613-","gpt4--gpt4",
 # order of the columns in the main table
-COLUMN_ORDER = ['all', 'taboo', 'wordle', 'wordle_withclue',
-                'wordle_withcritic', 'imagegame', 'referencegame',
-                'privateshared', 'guesswhat']
+COLUMN_ORDER = ['all', "taboo",
+                'guesswhat']
 
 # shorter names for the models
 short_names = {
-    "t0.0": "",
-    "claude-v1.3-": "cl",
-    "gpt-3.5-turbo-": "3.5",
-    "gpt-4-": "4",
-    "text-davinci-003-": "3",
-    "luminous-supreme-": "lm",
-    "koala-13b-": "ko",
-    "falcon-40b-": "flc",
-    "oasst-12b-": "ost",
-    "vicuna-13b-": "vcn"
+    # "t0.0": "",
+    # "claude-v1.3-": "cl",
+    # "gpt-3.5-turbo-": "3.5",
+    # "gpt-4-": "4",
+    # "text-davinci-003-": "3",
+    # "luminous-supreme-": "lm",
+    # "koala-13b-": "ko",
+    # "falcon-40b-": "flc",
+    # "oasst-12b-": "ost",
+    # "vicuna-13b-": "vcn",
+    # "40613-": "gpt4",
+    "WizardLM-2-8x22B-t0.0": "wzlm2",
+    # "Mixtral-8x22B-t0.0": "mx8",
+    "Llama-3-70b-chat-hf-t0.0":"lm70b",
+    "Qwen2-72B-Instruct-t0.0": "qw2",
+    "gpt-3.5-turbo-0125-t0.0":"gpt3.5",
 }
 
 # short names for the scatterplot
 plot_annotations = {
-    '4--4': '4',
-    '3--3': '3',
-    'lm--lm': 'lm',
-    'cl--cl': 'cl',
-    '3.5--3.5': '3.5',
-    '4--3.5': '4/3.5',
-    '3.5--4': '3.5/4',
-    'ko--ko': 'ko',
-    'flc--flc': 'flc',
-    'ost--ost': 'ost',
-    'vcn--vcn': 'vcn'
+    #  '4--4': '4',
+    # '3--3': '3',
+    # 'lm--lm': 'lm',
+    # 'cl--cl': 'cl',
+    # '3.5--3.5': '3.5',
+    # '4--3.5': '4/3.5',
+    # '3.5--4': '3.5/4',
+    # 'ko--ko': 'ko',
+    # 'flc--flc': 'flc',
+    # 'ost--ost': 'ost',
+    # 'vcn--vcn': 'vcn',
+    'lm70b--lm70b': "lm70b",
+   
+    # "mx8--mx8": "mx8",
+    "wzlm2--wzlm2": "wzlm2",
+    "qw2--qw2":"qw2",
+    "gpt3.5--gpt3.5":"gpt3.5",
+    # "fsc-openchat-3.5-0106---fsc-openchat-3.5-0106-" : "gpt3.5",
+    # "3.51106---3.51106-" : "gpt.3.51",
+    # "40613---40613-": "gpt4",
+            
     }
 
 metric_lims = {
@@ -360,6 +377,12 @@ def get_metrics_in_zero_one(df: pd.DataFrame) -> list:
         if metric_df['value'].min() >= 0.0 and metric_df['value'].max() <= 1.0:
             metrics_in_zero_one.append(metric)
     return metrics_in_zero_one
+
+# def compute_average_metrics(df_scores: pd.DataFrame) -> pd.DataFrame:
+#     """Compute average for each metric across all episodes and models."""
+#     avg_df = df_scores.groupby(['metric']).mean().reset_index()
+#     avg_df['metric'] = avg_df['metric'].astype(str)
+#     return avg_df
 
 
 def filter_metrics_in_zero_one(df: pd.DataFrame,

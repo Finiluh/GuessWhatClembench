@@ -393,3 +393,15 @@ def plot_tscores_game_metric(metric_df, game, metric, lims):
     name = f'_overview_{metric}'
     path = utils.create_file_name(game, 'turn', 'plots', name, 'pdf')
     utils.savefig(path)
+    
+# def plot_average_metrics(df_avg: pd.DataFrame) -> None:
+#     """Create barplot with average results for each metric."""
+#     fig, ax = plt.subplots(figsize=(10, 6))
+#     sns.barplot(data=df_avg, x='metric', y='value', ax=ax, palette='viridis')
+#     ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+#     ax.set_title('Average Metrics')
+#     ax.set_ylabel('Average Value')
+#     plt.tight_layout()
+#     name = 'average_metrics'
+#     path = utils.create_file_name('', 'episode', 'plots', name, 'pdf')
+#     utils.savefig(path)

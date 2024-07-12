@@ -15,8 +15,13 @@
     "backend": "openai_compatible"
   },
   {
-    "model_name": "Llama-3-70B-Instruct",
-    "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "model_name": "Mixtral-8x22B",
+    "model_id": "mistralai/Mixtral-8x22B",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Qwen2-72B-Instruct",
+    "model_id": "Qwen/Qwen2-72B-Instruct",
     "backend": "openai_compatible"
   },
   {

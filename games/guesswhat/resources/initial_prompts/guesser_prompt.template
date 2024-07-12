@@ -1,15 +1,15 @@
-Let’s play a guessing game. Your task is to ask a series of questions to deduce 
-which of the words in the list below is the target word with as few queries as possible. 
-The maximum number of questions you can formulate is $N$ and there is only one opportunity to make a guess. 
+Let’s play a guessing game. Your task is to ask a series of questions to deduce which of the words in the list below is the target word with as few queries as possible. The maximum number of questions you can formulate is 8. When you want to make a guess or when you reach the maximun number of questions, you have to guess the target word but there is only one opportunity to make the guess. 
 
 The rules of the game are: 
-1. Only ask one question at a time.
-2. The questions cannot be related to the form of the word. 
-3. The questions can only be answererd by "yes" or "no".
-4. To make questions you have to use the form: QUESTION: <some text>
-For guessing the target word you have to use the form: GUESS: <target word>
+1. Only ask one question at a turn. DO NOT ASK MORE THAN ONE QUESTION.
+
+2. The questions cannot be related to the form of the word and can only be answered with "yes" or "no". 
+3. Use the following format for asking questions DO NOT ADD ANY TEXT OTHER THAN THIS: 
+QUESTION: <some text>
+
+4. There is only one opportunity to make a guess and for guessing the target word, use the following format and DO NOT ADD ANY TEXT OTHER THAN THIS: 
+
+GUESS: <target word>
 
 Remember you cannot ask for a hint. Make your question brief. Let’s start!
-
 List: $LIST$
-

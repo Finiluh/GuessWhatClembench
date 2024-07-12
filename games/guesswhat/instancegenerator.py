@@ -21,8 +21,8 @@ import clemgame
 from clemgame.clemgame import GameInstanceGenerator
 
 
-N_INSTANCES = 3 # how many different instances
-N_GUESSES = 10  # how many tries the guesser will have
+N_INSTANCES = 10 # how many different instances
+N_GUESSES = 8  # how many tries the guesser will have
 
 
 logger = clemgame.get_logger(__name__)

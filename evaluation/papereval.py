@@ -101,7 +101,12 @@ bench_table = tables.make_stats_table(df_episode_scores)
 # Games vs. models with episode scores dispersion metrics across
 # all episodes, split by experiments:
 tables.save_detailed_table(df_episode_scores)
+# # Compute average metrics
+# df_avg_metrics = utils.compute_average_metrics(df_episode_scores)
 
+# # Plot average metrics
+# if not args.no_plots:
+#     plotting.plot_average_metrics(df_avg_metrics)
 # Plots
 if not args.no_plots:
     df_01, df_other = utils.filter_metrics_in_zero_one(df_episode_scores,

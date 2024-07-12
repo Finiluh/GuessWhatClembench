@@ -172,12 +172,16 @@ class GuessWhatScorer(GameScorer):
 
     def compute_scores(self, episode_interactions: Dict) -> None:
         turn_scores = []
-        prev_question = None
-        prev_question_counter = 0
-        invalid_response = False # Note: This only takes into consideration that both players were compliant or not
+        invalid_response = False  # Indicates whether any invalid responses were detected
         guesser_won = False
+        # turns_taken = 0
+        max_turns = self.experiment["max_turns"]
 
         for turn_idx, turn in enumerate(episode_interactions["turns"]):
+            if turn_idx == 0:
+                # Skip this turn's scoring as it's just the initial question
+                continue
+
             turn_score = {"question": None, "request_count": 1}
 
             for event in turn:
@@ -188,6 +192,7 @@ class GuessWhatScorer(GameScorer):
                     turn_score["question"] = action["content"]
                 if action["type"] == "correct guess":
                     guesser_won = True
+                    turns_taken = turn_idx  # Record the turn on which the guess was correct (excluding initial turn)
 
             if invalid_response:
                 turn_score["violated_request_count"] = 1
@@ -196,14 +201,10 @@ class GuessWhatScorer(GameScorer):
                 turn_score["violated_request_count"] = 0
                 turn_score["parsed_request_count"] = 1
 
-            if turn_score["question"] is not None and turn_score["question"] == prev_question:
-                prev_question_counter += 1
-
             self.log_turn_score(turn_idx, 'Accuracy', 1 if guesser_won else 0)
             self.log_turn_score(turn_idx, METRIC_REQUEST_COUNT_VIOLATED, turn_score["violated_request_count"])
             self.log_turn_score(turn_idx, METRIC_REQUEST_COUNT_PARSED, turn_score["parsed_request_count"])
             self.log_turn_score(turn_idx, METRIC_REQUEST_COUNT, turn_score["request_count"])
-            prev_question = turn_score["question"]
             turn_scores.append(turn_score)
 
         violated_request_count = sum([turn["violated_request_count"] for turn in turn_scores])
@@ -227,14 +228,22 @@ class GuessWhatScorer(GameScorer):
             if guesser_won:
                 self.log_episode_score(METRIC_SUCCESS, 1)
                 self.log_episode_score(METRIC_LOSE, 0)
-                self.log_episode_score(BENCH_SCORE, 100 / len(turn_scores))
+                # Normalize the score to ensure meaningful scoring for higher turn counts
+                # self.log_episode_score(BENCH_SCORE, max(0, 100 / (turns_taken)))
+                self.log_episode_score(BENCH_SCORE, max(0, 100 * (1 - (turns_taken / max_turns))))
             else:
                 self.log_episode_score(METRIC_SUCCESS, 0)
                 self.log_episode_score(METRIC_LOSE, 1)
-                self.log_episode_score(BENCH_SCORE, 0)
-
-        # How often the Guesser repeated the same question
-        self.log_episode_score('Repetition-Guesser', prev_question_counter)
+                # Set BENCH_SCORE to 0 if max turns were reached without a correct guess
+                if turns_taken >= max_turns - 1:  # Excluding the initial turn
+                    self.log_episode_score(BENCH_SCORE, 0)
+                else:
+                    self.log_episode_score(BENCH_SCORE, 0)
+                    
+# def calculate_quality_score(turn_current, turn_max):
+#     if turn_current > turn_max:
+#         return 0
+#     return 100 * (1 - turn_current / turn_max)
 
 class GuessWhatGameBenchmark(GameBenchmark):
     def __init__(self):
@@ -257,8 +266,7 @@ def main():
     game_1 = experiment_1["game_instances"][0]
     master = GuessWhat(experiment_1, ["mock", "mock"])
     master.setup(**game_1)
-    master.play()
-
+    master.play()     
 
 if __name__ == '__main__':
     main()
