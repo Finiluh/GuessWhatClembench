@@ -1,5 +1,275 @@
 {
-    "Level 1": [
+    "Level_1": [
+        {
+            "items": [
+                {
+                    "word": "Pear",
+                    "category": "48. A tree.",
+                    "feature": "edible fruit.n.01"
+                },
+                {
+                    "word": "Apple",
+                    "category": "48. A tree.",
+                    "feature": "edible fruit.n.01"
+                },
+                {
+                    "word": "Peach",
+                    "category": "48. A tree.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Plum",
+                    "category": "48. A tree.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Trimmers",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "worker.n.01"
+                },
+                {
+                    "word": "Pruner",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "worker.n.01"
+                },
+                {
+                    "word": "Trowel",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "hand tool.n.01"
+                },
+                {
+                    "word": "Pitchfork",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "hand tool.n.01"
+                }
+            ],
+            "target": "Trimmers"
+        },
+        {
+            "items": [
+                {
+                    "word": "Colonel",
+                    "category": "27.  A military title.",
+                    "feature": "commissioned military officer.n.01"
+                },
+                {
+                    "word": "Lieutenant",
+                    "category": "27.  A military title.",
+                    "feature": "commissioned military officer.n.01"
+                },
+                {
+                    "word": "Corporal",
+                    "category": "27.  A military title.",
+                    "feature": "noncommissioned officer.n.01"
+                },
+                {
+                    "word": "Sergeant",
+                    "category": "27.  A military title.",
+                    "feature": "noncommissioned officer.n.01"
+                },
+                {
+                    "word": "Yurt",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "dwelling.n.01"
+                },
+                {
+                    "word": "Condominium",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "dwelling.n.01"
+                },
+                {
+                    "word": "House",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "building.n.01"
+                },
+                {
+                    "word": "Hotel",
+                    "category": "54. A type of human dwelling.",
+                    "feature": "building.n.01"
+                }
+            ],
+            "target": "Corporal"
+        },
+        {
+            "items": [
+                {
+                    "word": "Measles",
+                    "category": "10. A disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "Flu",
+                    "category": "10. A disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "Morphine",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Fentanyl",
+                    "category": "10. A disease",
+                    "feature": "analgesic.n.01"
+                },
+                {
+                    "word": "Hurricane",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "cyclone.n.02"
+                },
+                {
+                    "word": "Tornado",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "cyclone.n.02"
+                },
+                {
+                    "word": "Flood",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "geological phenomenon.n.01"
+                },
+                {
+                    "word": "Earthquake",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "geological phenomenon.n.01"
+                }
+            ],
+            "target": "Earthquake"
+        },
+        {
+            "items": [
+                {
+                    "word": "Brochure",
+                    "category": "56. A type of reading material.",
+                    "feature": "book.n.01"
+                },
+                {
+                    "word": "Textbook",
+                    "category": "56. A type of reading material.",
+                    "feature": "book.n.01"
+                },
+                {
+                    "word": "Magazine",
+                    "category": "56. A type of reading material.",
+                    "feature": "press.n.02"
+                },
+                {
+                    "word": "Newspaper",
+                    "category": "56. A type of reading material.",
+                    "feature": "press.n.02"
+                },
+                {
+                    "word": "Rain",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "precipitation.n.03"
+                },
+                {
+                    "word": "Sleet",
+                    "category": "63. A weather phenomenon.",
+                    "feature": "precipitation.n.03"
+                },
+                {
+                    "word": "Topaz",
+                    "category": "34.  A precious stone.",
+                    "feature": "quartz.n.02"
+                },
+                {
+                    "word": "Amethyst",
+                    "category": "34.  A precious stone.",
+                    "feature": "quartz.n.02"
+                }
+            ],
+            "target": "Amethyst"
+        },
+        {
+            "items": [
+                {
+                    "word": "Vulture",
+                    "category": "A bird",
+                    "feature": "bird of prey.n.01"
+                },
+                {
+                    "word": "Eagle",
+                    "category": "A bird",
+                    "feature": "bird of prey.n.01"
+                },
+                {
+                    "word": "Duck",
+                    "category": "A bird",
+                    "feature": "anseriform bird.n.01"
+                },
+                {
+                    "word": "Goose",
+                    "category": "A bird",
+                    "feature": "anseriform bird.n.01"
+                },
+                {
+                    "word": "Whiskey",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                },
+                {
+                    "word": "Gin",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
+                },
+                {
+                    "word": "Wine",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "alcohol.n.01"
+                },
+                {
+                    "word": "Liquor",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "alcohol.n.01"
+                }
+            ],
+            "target": "Goose"
+        },
+        {
+            "items": [
+                {
+                    "word": "Bus",
+                    "category": "58. A type of vehicle",
+                    "feature": "public transport.n.01"
+                },
+                {
+                    "word": "Train",
+                    "category": "58. A type of vehicle",
+                    "feature": "public transport.n.01"
+                },
+                {
+                    "word": "Car",
+                    "category": "58. A type of vehicle",
+                    "feature": "motor vehicle.n.01"
+                },
+                {
+                    "word": "Truck",
+                    "category": "58. A type of vehicle",
+                    "feature": "motor vehicle.n.01"
+                },
+                {
+                    "word": "Burglary",
+                    "category": "9. A crime",
+                    "feature": "felony.n.01"
+                },
+                {
+                    "word": "Theft",
+                    "category": "9. A crime",
+                    "feature": "felony.n.01"
+                },
+                {
+                    "word": "Murder",
+                    "category": "9. A crime",
+                    "feature": "homicide.n.01"
+                },
+                {
+                    "word": "Manslaughter",
+                    "category": "9. A crime",
+                    "feature": "homicide.n.01"
+                }
+            ],
+            "target": "Theft"
+        },
         {
             "items": [
                 {
@@ -13,109 +283,186 @@
                     "feature": "conifer.n.01"
                 },
                 {
+                    "word": "Lemon",
+                    "category": "48. A tree.",
+                    "feature": "citrus.n.01"
+                },
+                {
+                    "word": "Orange",
+                    "category": "48. A tree.",
+                    "feature": "citrus.n.01"
+                },
+                {
                     "word": "Moccasins",
                     "category": "52. A type of footwear.",
                     "feature": "shoe.n.01"
                 },
                 {
-                    "word": "Sandals",
+                    "word": "Sneakers",
                     "category": "52. A type of footwear.",
                     "feature": "shoe.n.01"
                 },
                 {
-                    "word": "Car",
-                    "category": "45. A thing that makes noise.",
-                    "feature": "motor vehicle.n.01"
+                    "word": "Clogs",
+                    "category": "52. A type of footwear.",
+                    "feature": "footwear.n.02"
                 },
                 {
-                    "word": "Truck",
-                    "category": "45. A thing that makes noise.",
-                    "feature": "motor vehicle.n.01"
-                },
-                {
-                    "word": "Euro",
-                    "category": "21. A kind of money.",
-                    "feature": "monetary unit.n.01"
-                },
-                {
-                    "word": "Franc",
-                    "category": "21. A kind of money.",
-                    "feature": "monetary unit.n.01"
+                    "word": "Flats",
+                    "category": "52. A type of footwear.",
+                    "feature": "footwear.n.02"
                 }
             ],
-            "target": "Franc"
+            "target": "Lemon"
         },
         {
             "items": [
+                {
+                    "word": "Garlic",
+                    "category": "68. An herb.",
+                    "feature": "alliaceous plant.n.01"
+                },
+                {
+                    "word": "Chives",
+                    "category": "68. An herb.",
+                    "feature": "alliaceous plant.n.01"
+                },
+                {
+                    "word": "Cilantro",
+                    "category": "68. An herb.",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Cumin",
+                    "category": "68. An herb.",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Tea",
+                    "category": "23. A liquid",
+                    "feature": "beverage.n.01"
+                },
+                {
+                    "word": "Alcohol",
+                    "category": "23. A liquid",
+                    "feature": "beverage.n.01"
+                },
                 {
                     "word": "Kerosene",
-                    "category": "53. A type of fuel.",
+                    "category": "23. A liquid",
                     "feature": "fuel.n.01"
                 },
                 {
-                    "word": "Propane",
-                    "category": "53. A type of fuel.",
+                    "word": "Gasoline",
+                    "category": "23. A liquid",
                     "feature": "fuel.n.01"
-                },
-                {
-                    "word": "Corporal",
-                    "category": "27.  A military title.",
-                    "feature": "noncommissioned officer.n.01"
-                },
-                {
-                    "word": "Sergeant",
-                    "category": "27.  A military title.",
-                    "feature": "noncommissioned officer.n.01"
-                },
-                {
-                    "word": "Black",
-                    "category": "7. A color",
-                    "feature": "achromatic color.n.01"
-                },
-                {
-                    "word": "Gray",
-                    "category": "7. A color",
-                    "feature": "achromatic color.n.01"
-                },
-                {
-                    "word": "Sleet",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
-                },
-                {
-                    "word": "Rain",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
                 }
             ],
-            "target": "Sergeant"
+            "target": "Gasoline"
         },
         {
             "items": [
                 {
-                    "word": "Destroyer",
-                    "category": "57. A type of ship or boat.",
-                    "feature": "warship.n.01"
+                    "word": "Bassoon",
+                    "category": "28. A musical instrument.",
+                    "feature": "double-reed instrument.n.01"
                 },
                 {
-                    "word": "Battleship",
-                    "category": "57. A type of ship or boat.",
-                    "feature": "warship.n.01"
+                    "word": "Oboe",
+                    "category": "28. A musical instrument.",
+                    "feature": "double-reed instrument.n.01"
                 },
                 {
-                    "word": "Artichoke",
-                    "category": "61. A vegetable",
-                    "feature": "vegetable.n.02"
+                    "word": "Saxophone",
+                    "category": "28. A musical instrument.",
+                    "feature": "single-reed instrument.n.01"
                 },
                 {
-                    "word": "Spinach",
-                    "category": "61. A vegetable",
-                    "feature": "vegetable.n.02"
+                    "word": "Clarinet",
+                    "category": "28. A musical instrument.",
+                    "feature": "single-reed instrument.n.01"
                 },
                 {
-                    "word": "Year",
+                    "word": "Actor",
+                    "category": "70. An occupation or profession.",
+                    "feature": "performer.n.01"
+                },
+                {
+                    "word": "Musician",
+                    "category": "70. An occupation or profession.",
+                    "feature": "performer.n.01"
+                },
+                {
+                    "word": "Scientist",
+                    "category": "70. An occupation or profession.",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "Engineer",
+                    "category": "70. An occupation or profession.",
+                    "feature": "person.n.01"
+                }
+            ],
+            "target": "Engineer"
+        },
+        {
+            "items": [
+                {
+                    "word": "Earrings",
+                    "category": "46. A thing women wear.",
+                    "feature": "jewelry.n.01"
+                },
+                {
+                    "word": "Necklace",
+                    "category": "46. A thing women wear.",
+                    "feature": "jewelry.n.01"
+                },
+                {
+                    "word": "Slacks",
+                    "category": "46. A thing women wear.",
+                    "feature": "trouser.n.01"
+                },
+                {
+                    "word": "Jeans",
+                    "category": "46. A thing women wear.",
+                    "feature": "trouser.n.01"
+                },
+                {
+                    "word": "Hamster",
+                    "category": "18. A four footed animal.",
+                    "feature": "rodent.n.01"
+                },
+                {
+                    "word": "Mouse",
+                    "category": "18. A four footed animal.",
+                    "feature": "rodent.n.01"
+                },
+                {
+                    "word": "Llama",
+                    "category": "18. A four footed animal.",
+                    "feature": "even-toed ungulate.n.01"
+                },
+                {
+                    "word": "Camel",
+                    "category": "18. A four footed animal.",
+                    "feature": "even-toed ungulate.n.01"
+                }
+            ],
+            "target": "Slacks"
+        }
+    ],
+    "Level_2": [
+        {
+            "items": [
+                {
+                    "word": "Nanosecond",
                     "category": "60. A unit of time.",
-                    "feature": "time period.n.01"
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "Millisecond",
+                    "category": "60. A unit of time.",
+                    "feature": "time unit.n.01"
                 },
                 {
                     "word": "Week",
@@ -123,20 +470,145 @@
                     "feature": "time period.n.01"
                 },
                 {
-                    "word": "Stockings",
-                    "category": "46. A thing women wear.",
-                    "feature": "hosiery.n.01"
+                    "word": "Month",
+                    "category": "60. A unit of time.",
+                    "feature": "time period.n.01"
                 },
                 {
-                    "word": "Socks",
-                    "category": "46. A thing women wear.",
-                    "feature": "hosiery.n.01"
+                    "word": "Geranium",
+                    "category": "14. A flower",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Dandelion",
+                    "category": "14. A flower",
+                    "feature": "herb.n.01"
+                },
+                {
+                    "word": "Violet",
+                    "category": "14. A flower",
+                    "feature": "viola.n.01"
+                },
+                {
+                    "word": "Pansy",
+                    "category": "14. A flower",
+                    "feature": "viola.n.01"
                 }
             ],
-            "target": "Artichoke"
+            "target": "Month"
         },
         {
             "items": [
+                {
+                    "word": "Goldfish",
+                    "category": "13. A fish.",
+                    "feature": "cyprinid.n.01"
+                },
+                {
+                    "word": "Minnow",
+                    "category": "13. A fish.",
+                    "feature": "cyprinid.n.01"
+                },
+                {
+                    "word": "Flounder",
+                    "category": "13. A fish.",
+                    "feature": "flatfish.n.01"
+                },
+                {
+                    "word": "Halibut",
+                    "category": "13. A fish.",
+                    "feature": "flatfish.n.01"
+                },
+                {
+                    "word": "Screwdriver",
+                    "category": "3. A carpenter\u2019s tool",
+                    "feature": "hand tool.n.01"
+                },
+                {
+                    "word": "Awl",
+                    "category": "3. A carpenter\u2019s tool",
+                    "feature": "hand tool.n.01"
+                },
+                {
+                    "word": "Axe",
+                    "category": "3. A carpenter\u2019s tool",
+                    "feature": "edge tool.n.01"
+                },
+                {
+                    "word": "Chisel",
+                    "category": "3. A carpenter\u2019s tool",
+                    "feature": "edge tool.n.01"
+                }
+            ],
+            "target": "Goldfish"
+        },
+        {
+            "items": [
+                {
+                    "word": "Emerald",
+                    "category": "34.  A precious stone.",
+                    "feature": "beryl.n.01"
+                },
+                {
+                    "word": "Aquamarine",
+                    "category": "34.  A precious stone.",
+                    "feature": "beryl.n.01"
+                },
+                {
+                    "word": "Topaz",
+                    "category": "34.  A precious stone.",
+                    "feature": "quartz.n.02"
+                },
+                {
+                    "word": "Amethyst",
+                    "category": "34.  A precious stone.",
+                    "feature": "quartz.n.02"
+                },
+                {
+                    "word": "Badminton",
+                    "category": "38. A sport.",
+                    "feature": "court game.n.01"
+                },
+                {
+                    "word": "Volleyball",
+                    "category": "38. A sport.",
+                    "feature": "court game.n.01"
+                },
+                {
+                    "word": "Hockey",
+                    "category": "38. A sport.",
+                    "feature": "field game.n.01"
+                },
+                {
+                    "word": "Lacrosse",
+                    "category": "38. A sport.",
+                    "feature": "field game.n.01"
+                }
+            ],
+            "target": "Emerald"
+        },
+        {
+            "items": [
+                {
+                    "word": "Cave",
+                    "category": "29. A natural earth formation.",
+                    "feature": "geological formation.n.01"
+                },
+                {
+                    "word": "Beach",
+                    "category": "29. A natural earth formation.",
+                    "feature": "geological formation.n.01"
+                },
+                {
+                    "word": "Mountain",
+                    "category": "29. A natural earth formation.",
+                    "feature": "natural elevation.n.01"
+                },
+                {
+                    "word": "Hill",
+                    "category": "29. A natural earth formation.",
+                    "feature": "natural elevation.n.01"
+                },
                 {
                     "word": "Sander",
                     "category": "3. A carpenter\u2019s tool",
@@ -148,252 +620,67 @@
                     "feature": "power tool.n.01"
                 },
                 {
-                    "word": "Whiskey",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
+                    "word": "Bee",
+                    "category": "69. An insect.",
+                    "feature": "hymenopterous insect.n.01"
                 },
                 {
-                    "word": "Gin",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
-                },
-                {
-                    "word": "Jig",
-                    "category": "50. A type of dance.",
-                    "feature": "dance music.n.02"
-                },
-                {
-                    "word": "Rumba",
-                    "category": "50. A type of dance.",
-                    "feature": "dance music.n.02"
-                },
-                {
-                    "word": "Bean",
-                    "category": "44. A thing that is green.",
-                    "feature": "legume.n.03"
-                },
-                {
-                    "word": "Pea",
-                    "category": "44. A thing that is green.",
-                    "feature": "legume.n.03"
+                    "word": "Ant",
+                    "category": "69. An insect.",
+                    "feature": "hymenopterous insect.n.01"
                 }
             ],
-            "target": "Bean"
+            "target": "Ant"
         },
         {
             "items": [
                 {
-                    "word": "Physics",
-                    "category": "36. A science.",
-                    "feature": "natural science.n.01"
-                },
-                {
-                    "word": "Chemistry",
-                    "category": "36. A science.",
-                    "feature": "natural science.n.01"
-                },
-                {
-                    "word": "Fullback",
-                    "category": "16. A football position",
-                    "feature": "running back.n.01"
-                },
-                {
-                    "word": "Halfback",
-                    "category": "16. A football position",
-                    "feature": "running back.n.01"
-                },
-                {
-                    "word": "Bicycle",
-                    "category": "47. A toy.",
-                    "feature": "wheeled vehicle.n.01"
-                },
-                {
-                    "word": "Tricycle",
-                    "category": "47. A toy.",
-                    "feature": "wheeled vehicle.n.01"
-                },
-                {
-                    "word": "Roadster",
-                    "category": "4 door",
+                    "word": "Minivan",
+                    "category": "58. A type of vehicle",
                     "feature": "car.n.01"
                 },
                 {
-                    "word": "Limousine",
-                    "category": "4 door",
+                    "word": "Convertible",
+                    "category": "58. A type of vehicle",
                     "feature": "car.n.01"
+                },
+                {
+                    "word": "Tractor",
+                    "category": "58. A type of vehicle",
+                    "feature": "self-propelled vehicle.n.01"
+                },
+                {
+                    "word": "RV",
+                    "category": "58. A type of vehicle",
+                    "feature": "self-propelled vehicle.n.01"
+                },
+                {
+                    "word": "Shovel",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "hand tool.n.01"
+                },
+                {
+                    "word": "Pitchfork",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "hand tool.n.01"
+                },
+                {
+                    "word": "Hoe",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "tool.n.01"
+                },
+                {
+                    "word": "Plow",
+                    "category": "20. A gardener\u2019s tool.",
+                    "feature": "tool.n.01"
                 }
             ],
-            "target": "Tricycle"
+            "target": "RV"
         },
         {
             "items": [
                 {
-                    "word": "Inch",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
-                },
-                {
-                    "word": "Yard",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
-                },
-                {
-                    "word": "Decimeter",
-                    "category": "59. A unit of distance.",
-                    "feature": "metric linear unit.n.01"
-                },
-                {
-                    "word": "Millimeter",
-                    "category": "59. A unit of distance.",
-                    "feature": "metric linear unit.n.01"
-                },
-                {
-                    "word": "Cottage",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "house.n.01"
-                },
-                {
-                    "word": "Duplex",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "house.n.01"
-                },
-                {
-                    "word": "Hotel",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "building.n.01"
-                },
-                {
-                    "word": "House",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "building.n.01"
-                }
-            ],
-            "target": "Decimeter"
-        },
-        {
-            "items": [
-                {
-                    "word": "Owl",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Vulture",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Skin",
-                    "category": "33.  A part of the human body",
-                    "feature": "body covering.n.01"
-                },
-                {
-                    "word": "Hair",
-                    "category": "33.  A part of the human body",
-                    "feature": "body covering.n.01"
-                },
-                {
-                    "word": "Flood",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "geological phenomenon.n.01"
-                },
-                {
-                    "word": "Earthquake",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "geological phenomenon.n.01"
-                },
-                {
-                    "word": "Mumps",
-                    "category": "10. A disease",
-                    "feature": "infectious disease.n.01"
-                },
-                {
-                    "word": "Herpes",
-                    "category": "10. A disease",
-                    "feature": "infectious disease.n.01"
-                }
-            ],
-            "target": "Vulture"
-        },
-        {
-            "items": [
-                {
-                    "word": "Bronze",
-                    "category": "26. A metal.",
-                    "feature": "copper-base alloy.n.01"
-                },
-                {
-                    "word": "Brass",
-                    "category": "26. A metal.",
-                    "feature": "copper-base alloy.n.01"
-                },
-                {
-                    "word": "Python",
-                    "category": "37. A snake.",
-                    "feature": "boa.n.02"
-                },
-                {
-                    "word": "Anaconda",
-                    "category": "37. A snake.",
-                    "feature": "boa.n.02"
-                },
-                {
-                    "word": "Racing",
-                    "category": "38. A sport.",
-                    "feature": "sport.n.01"
-                },
-                {
-                    "word": "Archery",
-                    "category": "38. A sport.",
-                    "feature": "sport.n.01"
-                },
-                {
-                    "word": "Lemon",
-                    "category": "19. A fruit.",
-                    "feature": "citrus.n.01"
-                },
-                {
-                    "word": "Orange",
-                    "category": "19. A fruit.",
-                    "feature": "citrus.n.01"
-                }
-            ],
-            "target": "Brass"
-        },
-        {
-            "items": [
-                {
-                    "word": "Bug",
-                    "category": "69. An insect.",
-                    "feature": "insect.n.01"
-                },
-                {
-                    "word": "Beetle",
-                    "category": "69. An insect.",
-                    "feature": "insect.n.01"
-                },
-                {
-                    "word": "Centipede",
-                    "category": "69. An insect.",
-                    "feature": "arthropod.n.01"
-                },
-                {
-                    "word": "Millipede",
-                    "category": "69. An insect.",
-                    "feature": "arthropod.n.01"
-                },
-                {
-                    "word": "Shoplifting",
-                    "category": "9. A crime",
-                    "feature": "larceny.n.01"
-                },
-                {
-                    "word": "Embezzlement",
-                    "category": "9. A crime",
-                    "feature": "larceny.n.01"
-                },
-                {
-                    "word": "Elm",
+                    "word": "Willow",
                     "category": "48. A tree.",
                     "feature": "tree.n.01"
                 },
@@ -401,21 +688,16 @@
                     "word": "Beech",
                     "category": "48. A tree.",
                     "feature": "tree.n.01"
-                }
-            ],
-            "target": "Shoplifting"
-        },
-        {
-            "items": [
-                {
-                    "word": "Butterfly",
-                    "category": "69. An insect.",
-                    "feature": "lepidopterous insect.n.01"
                 },
                 {
-                    "word": "Moth",
-                    "category": "69. An insect.",
-                    "feature": "lepidopterous insect.n.01"
+                    "word": "Peach",
+                    "category": "48. A tree.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Plum",
+                    "category": "48. A tree.",
+                    "feature": "fruit tree.n.01"
                 },
                 {
                     "word": "Bra",
@@ -428,141 +710,184 @@
                     "feature": "undergarment.n.01"
                 },
                 {
-                    "word": "Earrings",
+                    "word": "Panties",
                     "category": "46. A thing women wear.",
-                    "feature": "jewelry.n.01"
+                    "feature": "underpants.n.01"
                 },
                 {
-                    "word": "Necklace",
+                    "word": "Pants",
                     "category": "46. A thing women wear.",
-                    "feature": "jewelry.n.01"
-                },
-                {
-                    "word": "Textbook",
-                    "category": "56. A type of reading material.",
-                    "feature": "book.n.01"
-                },
-                {
-                    "word": "Pamphlet",
-                    "category": "56. A type of reading material.",
-                    "feature": "book.n.01"
+                    "feature": "underpants.n.01"
                 }
             ],
-            "target": "Butterfly"
-        }
-    ],
-    "Level 2": [
-        {
-            "items": [
-                {
-                    "word": "Mosque",
-                    "category": "2. A building for religious services",
-                    "feature": "place of worship.n.01"
-                },
-                {
-                    "word": "Temple",
-                    "category": "2. A building for religious services",
-                    "feature": "place of worship.n.01"
-                },
-                {
-                    "word": "Chapel",
-                    "category": "2. A building for religious services",
-                    "feature": "place of worship.n.01"
-                },
-                {
-                    "word": "Synagogue",
-                    "category": "2. A building for religious services",
-                    "feature": "place of worship.n.01"
-                },
-                {
-                    "word": "Poplar",
-                    "category": "48. A tree.",
-                    "feature": "wood.n.01"
-                },
-                {
-                    "word": "Spruce",
-                    "category": "48. A tree.",
-                    "feature": "wood.n.01"
-                },
-                {
-                    "word": "Redwood",
-                    "category": "48. A tree.",
-                    "feature": "wood.n.01"
-                },
-                {
-                    "word": "Pecan",
-                    "category": "48. A tree.",
-                    "feature": "wood.n.01"
-                }
-            ],
-            "target": "Synagogue"
+            "target": "Beech"
         },
         {
             "items": [
                 {
-                    "word": "Mile",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
+                    "word": "Tomato",
+                    "category": "61. A vegetable",
+                    "feature": "solanaceous vegetable.n.01"
                 },
                 {
-                    "word": "Furlong",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
+                    "word": "Eggplant",
+                    "category": "61. A vegetable",
+                    "feature": "solanaceous vegetable.n.01"
                 },
                 {
-                    "word": "Yard",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
+                    "word": "Machete",
+                    "category": "61. A vegetable",
+                    "feature": "knife.n.02"
                 },
                 {
-                    "word": "Inch",
-                    "category": "59. A unit of distance.",
-                    "feature": "linear unit.n.01"
+                    "word": "Dagger",
+                    "category": "61. A vegetable",
+                    "feature": "knife.n.02"
                 },
                 {
-                    "word": "Ocean",
-                    "category": "29. A natural earth formation.",
-                    "feature": "body of water.n.01"
+                    "word": "Wagon",
+                    "category": "47. A toy.",
+                    "feature": "wheeled vehicle.n.01"
                 },
                 {
-                    "word": "Waterfall",
-                    "category": "29. A natural earth formation.",
-                    "feature": "body of water.n.01"
+                    "word": "Tricycle",
+                    "category": "47. A toy.",
+                    "feature": "wheeled vehicle.n.01"
                 },
                 {
-                    "word": "Lake",
-                    "category": "29. A natural earth formation.",
-                    "feature": "body of water.n.01"
+                    "word": "Car",
+                    "category": "47. A toy.",
+                    "feature": "motor vehicle.n.01"
                 },
                 {
-                    "word": "Stream",
-                    "category": "29. A natural earth formation.",
-                    "feature": "body of water.n.01"
+                    "word": "Truck",
+                    "category": "47. A toy.",
+                    "feature": "motor vehicle.n.01"
                 }
             ],
-            "target": "Furlong"
+            "target": "Machete"
         },
         {
             "items": [
                 {
-                    "word": "Week",
-                    "category": "60. A unit of time.",
-                    "feature": "time period.n.01"
+                    "word": "Skating",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
                 },
                 {
-                    "word": "Decade",
-                    "category": "60. A unit of time.",
-                    "feature": "time period.n.01"
+                    "word": "Skiing",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
                 },
                 {
-                    "word": "Millennium",
-                    "category": "60. A unit of time.",
-                    "feature": "time period.n.01"
+                    "word": "Curling",
+                    "category": "38. A sport.",
+                    "feature": "game.n.01"
                 },
                 {
-                    "word": "Month",
-                    "category": "60. A unit of time.",
-                    "feature": "time period.n.01"
+                    "word": "Bowling",
+                    "category": "38. A sport.",
+                    "feature": "game.n.01"
+                },
+                {
+                    "word": "Pine",
+                    "category": "48. A tree.",
+                    "feature": "conifer.n.01"
+                },
+                {
+                    "word": "Cedar",
+                    "category": "48. A tree.",
+                    "feature": "conifer.n.01"
+                },
+                {
+                    "word": "Pot",
+                    "category": "22. A kitchen utensil",
+                    "feature": "cooking utensil.n.01"
+                },
+                {
+                    "word": "Pan",
+                    "category": "22. A kitchen utensil",
+                    "feature": "cooking utensil.n.01"
+                }
+            ],
+            "target": "Pan"
+        },
+        {
+            "items": [
+                {
+                    "word": "Milk",
+                    "category": "23. A liquid",
+                    "feature": "beverage.n.01"
+                },
+                {
+                    "word": "Coffee",
+                    "category": "23. A liquid",
+                    "feature": "beverage.n.01"
+                },
+                {
+                    "word": "Apricot",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Papaya",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Orange",
+                    "category": "19. A fruit.",
+                    "feature": "citrus.n.01"
+                },
+                {
+                    "word": "Lemon",
+                    "category": "19. A fruit.",
+                    "feature": "citrus.n.01"
+                },
+                {
+                    "word": "Desk",
+                    "category": "41. A thing made of wood.",
+                    "feature": "table.n.02"
+                },
+                {
+                    "word": "Counter",
+                    "category": "41. A thing made of wood.",
+                    "feature": "table.n.02"
+                }
+            ],
+            "target": "Coffee"
+        },
+        {
+            "items": [
+                {
+                    "word": "Radish",
+                    "category": "61. A vegetable",
+                    "feature": "cruciferous vegetable.n.01"
+                },
+                {
+                    "word": "Cabbage",
+                    "category": "61. A vegetable",
+                    "feature": "cruciferous vegetable.n.01"
+                },
+                {
+                    "word": "Rifle",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                },
+                {
+                    "word": "Pistol",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                },
+                {
+                    "word": "Cup",
+                    "category": "22. A kitchen utensil",
+                    "feature": "container.n.01"
+                },
+                {
+                    "word": "Spoon",
+                    "category": "22. A kitchen utensil",
+                    "feature": "container.n.01"
                 },
                 {
                     "word": "Propane",
@@ -573,134 +898,21 @@
                     "word": "Kerosene",
                     "category": "53. A type of fuel.",
                     "feature": "fuel.n.01"
-                },
-                {
-                    "word": "Butane",
-                    "category": "53. A type of fuel.",
-                    "feature": "fuel.n.01"
-                },
-                {
-                    "word": "Gasoline",
-                    "category": "53. A type of fuel.",
-                    "feature": "fuel.n.01"
                 }
             ],
-            "target": "Millennium"
-        },
+            "target": "Spoon"
+        }
+    ],
+    "Level_3": [
         {
             "items": [
-                {
-                    "word": "Chlorine",
-                    "category": "4. A chemical element",
-                    "feature": "chemical element.n.01"
-                },
-                {
-                    "word": "Carbon",
-                    "category": "4. A chemical element",
-                    "feature": "chemical element.n.01"
-                },
-                {
-                    "word": "Helium",
-                    "category": "4. A chemical element",
-                    "feature": "chemical element.n.01"
-                },
-                {
-                    "word": "Neon",
-                    "category": "4. A chemical element",
-                    "feature": "chemical element.n.01"
-                },
-                {
-                    "word": "Aspirin",
-                    "category": "10. A disease",
-                    "feature": "analgesic.n.01"
-                },
-                {
-                    "word": "Fentanyl",
-                    "category": "10. A disease",
-                    "feature": "analgesic.n.01"
-                },
-                {
-                    "word": "Tylenol",
-                    "category": "10. A disease",
-                    "feature": "analgesic.n.01"
-                },
-                {
-                    "word": "Codeine",
-                    "category": "10. A disease",
-                    "feature": "analgesic.n.01"
-                }
-            ],
-            "target": "Tylenol"
-        },
-        {
-            "items": [
-                {
-                    "word": "Alcohol",
-                    "category": "23. A liquid",
-                    "feature": "beverage.n.01"
-                },
-                {
-                    "word": "Milk",
-                    "category": "23. A liquid",
-                    "feature": "beverage.n.01"
-                },
-                {
-                    "word": "Tea",
-                    "category": "23. A liquid",
-                    "feature": "beverage.n.01"
-                },
-                {
-                    "word": "Coffee",
-                    "category": "23. A liquid",
-                    "feature": "beverage.n.01"
-                },
-                {
-                    "word": "Preacher",
-                    "category": "25. A member of the clergy",
-                    "feature": "clergyman.n.01"
-                },
-                {
-                    "word": "Priest",
-                    "category": "25. A member of the clergy",
-                    "feature": "clergyman.n.01"
-                },
-                {
-                    "word": "Pastor",
-                    "category": "25. A member of the clergy",
-                    "feature": "clergyman.n.01"
-                },
-                {
-                    "word": "Minister",
-                    "category": "25. A member of the clergy",
-                    "feature": "clergyman.n.01"
-                }
-            ],
-            "target": "Tea"
-        },
-        {
-            "items": [
-                {
-                    "word": "Cornerback",
-                    "category": "16. A football position",
-                    "feature": "football player.n.01"
-                },
-                {
-                    "word": "Kicker",
-                    "category": "16. A football position",
-                    "feature": "football player.n.01"
-                },
-                {
-                    "word": "Lineman",
-                    "category": "16. A football position",
-                    "feature": "football player.n.01"
-                },
-                {
-                    "word": "Blocker",
-                    "category": "16. A football position",
-                    "feature": "football player.n.01"
-                },
                 {
                     "word": "Lieutenant",
+                    "category": "27.  A military title.",
+                    "feature": "commissioned military officer.n.01"
+                },
+                {
+                    "word": "Colonel",
                     "category": "27.  A military title.",
                     "feature": "commissioned military officer.n.01"
                 },
@@ -715,419 +927,27 @@
                     "feature": "commissioned military officer.n.01"
                 },
                 {
-                    "word": "Colonel",
-                    "category": "27.  A military title.",
-                    "feature": "commissioned military officer.n.01"
-                }
-            ],
-            "target": "Kicker"
-        },
-        {
-            "items": [
-                {
-                    "word": "Hamster",
-                    "category": "18. A four footed animal.",
-                    "feature": "rodent.n.01"
-                },
-                {
-                    "word": "Rat",
-                    "category": "18. A four footed animal.",
-                    "feature": "rodent.n.01"
-                },
-                {
-                    "word": "Mouse",
-                    "category": "18. A four footed animal.",
-                    "feature": "rodent.n.01"
-                },
-                {
-                    "word": "Squirrel",
-                    "category": "18. A four footed animal.",
-                    "feature": "rodent.n.01"
-                },
-                {
-                    "word": "Convertible",
-                    "category": "58. A type of vehicle",
-                    "feature": "car.n.01"
-                },
-                {
-                    "word": "SUV",
-                    "category": "58. A type of vehicle",
-                    "feature": "car.n.01"
-                },
-                {
-                    "word": "Taxi",
-                    "category": "58. A type of vehicle",
-                    "feature": "car.n.01"
-                },
-                {
-                    "word": "Minivan",
-                    "category": "58. A type of vehicle",
-                    "feature": "car.n.01"
-                }
-            ],
-            "target": "Convertible"
-        },
-        {
-            "items": [
-                {
-                    "word": "Gin",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
-                },
-                {
-                    "word": "Rum",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
-                },
-                {
-                    "word": "Vodka",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
-                },
-                {
-                    "word": "Brandy",
-                    "category": "64. An alcoholic beverage.",
-                    "feature": "liquor.n.01"
-                },
-                {
-                    "word": "Minute",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
-                },
-                {
-                    "word": "Nanosecond",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
-                },
-                {
-                    "word": "Day",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
-                },
-                {
-                    "word": "Second",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
-                }
-            ],
-            "target": "Vodka"
-        },
-        {
-            "items": [
-                {
-                    "word": "Eagle",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Owl",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Vulture",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Hawk",
-                    "category": "A bird",
-                    "feature": "bird of prey.n.01"
-                },
-                {
-                    "word": "Rifle",
-                    "category": "61. A vegetable",
-                    "feature": "firearm.n.01"
-                },
-                {
-                    "word": "Shotgun",
-                    "category": "61. A vegetable",
-                    "feature": "firearm.n.01"
-                },
-                {
-                    "word": "Pistol",
-                    "category": "61. A vegetable",
-                    "feature": "firearm.n.01"
-                },
-                {
-                    "word": "Handgun",
-                    "category": "61. A vegetable",
-                    "feature": "firearm.n.01"
-                }
-            ],
-            "target": "Vulture"
-        },
-        {
-            "items": [
-                {
-                    "word": "Snow",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
-                },
-                {
-                    "word": "Sleet",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
-                },
-                {
-                    "word": "Rain",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
-                },
-                {
-                    "word": "Hail",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "precipitation.n.03"
-                },
-                {
-                    "word": "Sandals",
-                    "category": "52. A type of footwear.",
-                    "feature": "shoe.n.01"
-                },
-                {
-                    "word": "Sneakers",
-                    "category": "52. A type of footwear.",
-                    "feature": "shoe.n.01"
-                },
-                {
-                    "word": "Cleats",
-                    "category": "52. A type of footwear.",
-                    "feature": "shoe.n.01"
-                },
-                {
-                    "word": "Moccasins",
-                    "category": "52. A type of footwear.",
-                    "feature": "shoe.n.01"
-                }
-            ],
-            "target": "Hail"
-        }
-    ],
-    "Level 3": [
-        {
-            "items": [
-                {
-                    "word": "Modern",
-                    "category": "50. A type of dance.",
-                    "feature": "person.n.01"
-                },
-                {
-                    "word": "Jazz",
-                    "category": "50. A type of dance.",
-                    "feature": "talk.n.01"
-                },
-                {
-                    "word": "Lungs",
+                    "word": "Buttocks",
                     "category": "33.  A part of the human body",
-                    "feature": "respiratory organ.n.01"
+                    "feature": "body part.n.01"
                 },
                 {
-                    "word": "Teeth",
+                    "word": "Abdomen",
                     "category": "33.  A part of the human body",
-                    "feature": "set.n.01"
+                    "feature": "body part.n.01"
                 },
                 {
-                    "word": "Hotel",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "building.n.01"
+                    "word": "Back",
+                    "category": "33.  A part of the human body",
+                    "feature": "body part.n.01"
                 },
                 {
-                    "word": "Yurt",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "dwelling.n.01"
-                },
-                {
-                    "word": "Turnip",
-                    "category": "61. A vegetable",
-                    "feature": "turnip plant.n.01"
-                },
-                {
-                    "word": "Radish",
-                    "category": "61. A vegetable",
-                    "feature": "cruciferous vegetable.n.01"
+                    "word": "Shoulder",
+                    "category": "33.  A part of the human body",
+                    "feature": "body part.n.01"
                 }
             ],
-            "target": "Lungs"
-        },
-        {
-            "items": [
-                {
-                    "word": "Halibut",
-                    "category": "13. A fish.",
-                    "feature": "flatfish.n.01"
-                },
-                {
-                    "word": "Tilapia",
-                    "category": "13. A fish.",
-                    "feature": "fish genus.n.01"
-                },
-                {
-                    "word": "Dragonfly",
-                    "category": "69. An insect.",
-                    "feature": "odonate.n.01"
-                },
-                {
-                    "word": "Tick",
-                    "category": "69. An insect.",
-                    "feature": "sound.n.04"
-                },
-                {
-                    "word": "Tank",
-                    "category": "58. A type of vehicle",
-                    "feature": "armored vehicle.n.01"
-                },
-                {
-                    "word": "Van",
-                    "category": "58. A type of vehicle",
-                    "feature": "artistic movement.n.01"
-                },
-                {
-                    "word": "Swimming",
-                    "category": "38. A sport.",
-                    "feature": "water sport.n.01"
-                },
-                {
-                    "word": "Hockey",
-                    "category": "38. A sport.",
-                    "feature": "field game.n.01"
-                }
-            ],
-            "target": "Halibut"
-        },
-        {
-            "items": [
-                {
-                    "word": "Fleece",
-                    "category": "51. A type of fabric.",
-                    "feature": "wool.n.02"
-                },
-                {
-                    "word": "Leather",
-                    "category": "51. A type of fabric.",
-                    "feature": "animal skin.n.01"
-                },
-                {
-                    "word": "Honeydew",
-                    "category": "19. A fruit.",
-                    "feature": "winter melon.n.02"
-                },
-                {
-                    "word": "Watermelon",
-                    "category": "19. A fruit.",
-                    "feature": "melon.n.02"
-                },
-                {
-                    "word": "Building",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "structure.n.01"
-                },
-                {
-                    "word": "RV",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "self-propelled vehicle.n.01"
-                },
-                {
-                    "word": "Dirt",
-                    "category": "20. A gardener\u2019s tool.",
-                    "feature": "earth.n.02"
-                },
-                {
-                    "word": "Seeds",
-                    "category": "20. A gardener\u2019s tool.",
-                    "feature": "fruit.n.01"
-                }
-            ],
-            "target": "Seeds"
-        },
-        {
-            "items": [
-                {
-                    "word": "Exclamation",
-                    "category": "32. A part of speech",
-                    "feature": "utterance.n.01"
-                },
-                {
-                    "word": "Ending",
-                    "category": "32. A part of speech",
-                    "feature": "morpheme.n.01"
-                },
-                {
-                    "word": "Fullback",
-                    "category": "16. A football position",
-                    "feature": "running back.n.01"
-                },
-                {
-                    "word": "Coach",
-                    "category": "16. A football position",
-                    "feature": "trainer.n.01"
-                },
-                {
-                    "word": "Scooter",
-                    "category": "58. A type of vehicle",
-                    "feature": "motorboat.n.01"
-                },
-                {
-                    "word": "Snowmobile",
-                    "category": "58. A type of vehicle",
-                    "feature": "tracked vehicle.n.01"
-                },
-                {
-                    "word": "Matches",
-                    "category": "41. A thing made of wood.",
-                    "feature": "lighter.n.02"
-                },
-                {
-                    "word": "Furniture",
-                    "category": "41. A thing made of wood.",
-                    "feature": "furnishing.n.02"
-                }
-            ],
-            "target": "Fullback"
-        },
-        {
-            "items": [
-                {
-                    "word": "Houseboat",
-                    "category": "57. A type of ship or boat.",
-                    "feature": "barge.n.01"
-                },
-                {
-                    "word": "Yacht",
-                    "category": "57. A type of ship or boat.",
-                    "feature": "vessel.n.02"
-                },
-                {
-                    "word": "Sports",
-                    "category": "49. A type of car.",
-                    "feature": "diversion.n.01"
-                },
-                {
-                    "word": "Jack",
-                    "category": "24. A male first name.",
-                    "feature": "small indefinite quantity.n.01"
-                },
-                {
-                    "word": "Sam",
-                    "category": "24. A male first name.",
-                    "feature": "guided missile.n.01"
-                },
-                {
-                    "word": "Ferret",
-                    "category": "18. A four footed animal.",
-                    "feature": "musteline mammal.n.01"
-                },
-                {
-                    "word": "Leopard",
-                    "category": "18. A four footed animal.",
-                    "feature": "fur.n.01"
-                },
-                {
-                    "word": "Grapefruit",
-                    "category": "19. A fruit.",
-                    "feature": "citrus.n.02"
-                }
-            ],
-            "target": "Jack"
+            "target": "Colonel"
         },
         {
             "items": [
@@ -1137,99 +957,374 @@
                     "feature": "liquor.n.01"
                 },
                 {
-                    "word": "Champagne",
+                    "word": "Brandy",
                     "category": "64. An alcoholic beverage.",
-                    "feature": "sparkling wine.n.01"
+                    "feature": "liquor.n.01"
                 },
                 {
-                    "word": "Engineering",
-                    "category": "36. A science.",
-                    "feature": "application.n.01"
+                    "word": "Vodka",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
                 },
                 {
-                    "word": "Astrophysics",
-                    "category": "36. A science.",
-                    "feature": "astronomy.n.01"
+                    "word": "Whiskey",
+                    "category": "64. An alcoholic beverage.",
+                    "feature": "liquor.n.01"
                 },
                 {
-                    "word": "Foot",
+                    "word": "Decimeter",
                     "category": "59. A unit of distance.",
-                    "feature": "vertebrate foot.n.01"
+                    "feature": "metric linear unit.n.01"
                 },
+                {
+                    "word": "Meter",
+                    "category": "59. A unit of distance.",
+                    "feature": "metric linear unit.n.01"
+                },
+                {
+                    "word": "Kilometer",
+                    "category": "59. A unit of distance.",
+                    "feature": "metric linear unit.n.01"
+                },
+                {
+                    "word": "Millimeter",
+                    "category": "59. A unit of distance.",
+                    "feature": "metric linear unit.n.01"
+                }
+            ],
+            "target": "Kilometer"
+        },
+        {
+            "items": [
+                {
+                    "word": "Mockingbird",
+                    "category": "A bird",
+                    "feature": "oscine.n.01"
+                },
+                {
+                    "word": "Finch",
+                    "category": "A bird",
+                    "feature": "oscine.n.01"
+                },
+                {
+                    "word": "Oriole",
+                    "category": "A bird",
+                    "feature": "oscine.n.01"
+                },
+                {
+                    "word": "Starling",
+                    "category": "A bird",
+                    "feature": "oscine.n.01"
+                },
+                {
+                    "word": "Purple",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Red",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Yellow",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                },
+                {
+                    "word": "Green",
+                    "category": "7. A color",
+                    "feature": "chromatic color.n.01"
+                }
+            ],
+            "target": "Oriole"
+        },
+        {
+            "items": [
+                {
+                    "word": "Mumps",
+                    "category": "10. A disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "Hepatitis",
+                    "category": "10. A disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "Herpes",
+                    "category": "10. A disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "Tuberculosis",
+                    "category": "10. A disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "Racing",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
+                },
+                {
+                    "word": "Archery",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
+                },
+                {
+                    "word": "Skating",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
+                },
+                {
+                    "word": "Skiing",
+                    "category": "38. A sport.",
+                    "feature": "sport.n.01"
+                }
+            ],
+            "target": "Skating"
+        },
+        {
+            "items": [
+                {
+                    "word": "Titanium",
+                    "category": "26. A metal.",
+                    "feature": "metallic element.n.01"
+                },
+                {
+                    "word": "Aluminum",
+                    "category": "26. A metal.",
+                    "feature": "metallic element.n.01"
+                },
+                {
+                    "word": "Tin",
+                    "category": "26. A metal.",
+                    "feature": "metallic element.n.01"
+                },
+                {
+                    "word": "Mercury",
+                    "category": "26. A metal.",
+                    "feature": "metallic element.n.01"
+                },
+                {
+                    "word": "Papaya",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Peach",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Apricot",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                },
+                {
+                    "word": "Nectarine",
+                    "category": "19. A fruit.",
+                    "feature": "fruit tree.n.01"
+                }
+            ],
+            "target": "Mercury"
+        },
+        {
+            "items": [
+                {
+                    "word": "Kicker",
+                    "category": "16. A football position",
+                    "feature": "football player.n.01"
+                },
+                {
+                    "word": "Blocker",
+                    "category": "16. A football position",
+                    "feature": "football player.n.01"
+                },
+                {
+                    "word": "Cornerback",
+                    "category": "16. A football position",
+                    "feature": "football player.n.01"
+                },
+                {
+                    "word": "Lineman",
+                    "category": "16. A football position",
+                    "feature": "football player.n.01"
+                },
+                {
+                    "word": "Stream",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                },
+                {
+                    "word": "Ocean",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                },
+                {
+                    "word": "Lake",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                },
+                {
+                    "word": "Waterfall",
+                    "category": "29. A natural earth formation.",
+                    "feature": "body of water.n.01"
+                }
+            ],
+            "target": "Stream"
+        },
+        {
+            "items": [
+                {
+                    "word": "Coupe",
+                    "category": "49. A type of car.",
+                    "feature": "car.n.01"
+                },
+                {
+                    "word": "Convertible",
+                    "category": "49. A type of car.",
+                    "feature": "car.n.01"
+                },
+                {
+                    "word": "Hatchback",
+                    "category": "49. A type of car.",
+                    "feature": "car.n.01"
+                },
+                {
+                    "word": "Electric",
+                    "category": "49. A type of car.",
+                    "feature": "car.n.01"
+                },
+                {
+                    "word": "Handgun",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                },
+                {
+                    "word": "Pistol",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                },
+                {
+                    "word": "Shotgun",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                },
+                {
+                    "word": "Rifle",
+                    "category": "61. A vegetable",
+                    "feature": "firearm.n.01"
+                }
+            ],
+            "target": "Handgun"
+        },
+        {
+            "items": [
+                {
+                    "word": "Butane",
+                    "category": "53. A type of fuel.",
+                    "feature": "fuel.n.01"
+                },
+                {
+                    "word": "Gasoline",
+                    "category": "53. A type of fuel.",
+                    "feature": "fuel.n.01"
+                },
+                {
+                    "word": "Propane",
+                    "category": "53. A type of fuel.",
+                    "feature": "fuel.n.01"
+                },
+                {
+                    "word": "Kerosene",
+                    "category": "53. A type of fuel.",
+                    "feature": "fuel.n.01"
+                },
+                {
+                    "word": "Synagogue",
+                    "category": "2. A building for religious services",
+                    "feature": "place of worship.n.01"
+                },
+                {
+                    "word": "Chapel",
+                    "category": "2. A building for religious services",
+                    "feature": "place of worship.n.01"
+                },
+                {
+                    "word": "Mosque",
+                    "category": "2. A building for religious services",
+                    "feature": "place of worship.n.01"
+                },
+                {
+                    "word": "Temple",
+                    "category": "2. A building for religious services",
+                    "feature": "place of worship.n.01"
+                }
+            ],
+            "target": "Gasoline"
+        },
+        {
+            "items": [
                 {
                     "word": "Mile",
                     "category": "59. A unit of distance.",
                     "feature": "linear unit.n.01"
                 },
                 {
-                    "word": "Oil",
-                    "category": "53. A type of fuel.",
-                    "feature": "lipid.n.01"
+                    "word": "Inch",
+                    "category": "59. A unit of distance.",
+                    "feature": "linear unit.n.01"
                 },
                 {
-                    "word": "Butane",
-                    "category": "53. A type of fuel.",
-                    "feature": "fuel.n.01"
+                    "word": "Yard",
+                    "category": "59. A unit of distance.",
+                    "feature": "linear unit.n.01"
+                },
+                {
+                    "word": "Furlong",
+                    "category": "59. A unit of distance.",
+                    "feature": "linear unit.n.01"
+                },
+                {
+                    "word": "Bathroom",
+                    "category": "31. A part of a building.",
+                    "feature": "room.n.01"
+                },
+                {
+                    "word": "Foyer",
+                    "category": "31. A part of a building.",
+                    "feature": "room.n.01"
+                },
+                {
+                    "word": "Kitchen",
+                    "category": "31. A part of a building.",
+                    "feature": "room.n.01"
+                },
+                {
+                    "word": "Bedroom",
+                    "category": "31. A part of a building.",
+                    "feature": "room.n.01"
                 }
             ],
-            "target": "Astrophysics"
+            "target": "Mile"
         },
         {
             "items": [
                 {
-                    "word": "Forgery",
-                    "category": "9. A crime",
-                    "feature": "imitation.n.02"
+                    "word": "Millennium",
+                    "category": "60. A unit of time.",
+                    "feature": "time period.n.01"
                 },
                 {
-                    "word": "Rape",
-                    "category": "9. A crime",
-                    "feature": "mustard.n.01"
+                    "word": "Decade",
+                    "category": "60. A unit of time.",
+                    "feature": "time period.n.01"
                 },
                 {
-                    "word": "Skirt",
-                    "category": "65. An article of clothing.",
-                    "feature": "cloth covering.n.01"
-                },
-                {
-                    "word": "Mittens",
-                    "category": "65. An article of clothing.",
-                    "feature": "glove.n.02"
-                },
-                {
-                    "word": "Tea",
-                    "category": "30. A non-alcoholic beverage",
-                    "feature": "beverage.n.01"
-                },
-                {
-                    "word": "Sprite",
-                    "category": "30. A non-alcoholic beverage",
-                    "feature": "spiritual being.n.01"
-                },
-                {
-                    "word": "Peacock",
-                    "category": "A bird",
-                    "feature": "nymphalid.n.01"
-                },
-                {
-                    "word": "Cardinal",
-                    "category": "A bird",
-                    "feature": "bishop.n.01"
-                }
-            ],
-            "target": "Tea"
-        },
-        {
-            "items": [
-                {
-                    "word": "Waterspout",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "tornado.n.01"
-                },
-                {
-                    "word": "Storm",
-                    "category": "63. A weather phenomenon.",
-                    "feature": "atmospheric phenomenon.n.01"
+                    "word": "Month",
+                    "category": "60. A unit of time.",
+                    "feature": "time period.n.01"
                 },
                 {
                     "word": "Era",
@@ -1237,122 +1332,27 @@
                     "feature": "time period.n.01"
                 },
                 {
-                    "word": "Minute",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
+                    "word": "Felt",
+                    "category": "51. A type of fabric.",
+                    "feature": "fabric.n.01"
                 },
                 {
-                    "word": "Tent",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "shelter.n.01"
+                    "word": "Spandex",
+                    "category": "51. A type of fabric.",
+                    "feature": "fabric.n.01"
                 },
                 {
-                    "word": "Apartment",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "housing.n.01"
+                    "word": "Corduroy",
+                    "category": "51. A type of fabric.",
+                    "feature": "fabric.n.01"
                 },
                 {
-                    "word": "Rams",
-                    "category": "17. A football team name.",
-                    "feature": "volatile storage.n.01"
-                },
-                {
-                    "word": "Dolphins",
-                    "category": "17. A football team name.",
-                    "feature": "percoid fish.n.01"
+                    "word": "Cashmere",
+                    "category": "51. A type of fabric.",
+                    "feature": "fabric.n.01"
                 }
             ],
-            "target": "Apartment"
-        },
-        {
-            "items": [
-                {
-                    "word": "Bronze",
-                    "category": "26. A metal.",
-                    "feature": "copper-base alloy.n.01"
-                },
-                {
-                    "word": "Lead",
-                    "category": "26. A metal.",
-                    "feature": "advantage.n.01"
-                },
-                {
-                    "word": "Jerry",
-                    "category": "24. A male first name.",
-                    "feature": "german.n.01"
-                },
-                {
-                    "word": "Frank",
-                    "category": "24. A male first name.",
-                    "feature": "european.n.01"
-                },
-                {
-                    "word": "Eon",
-                    "category": "60. A unit of time.",
-                    "feature": "geological time.n.01"
-                },
-                {
-                    "word": "Second",
-                    "category": "60. A unit of time.",
-                    "feature": "time unit.n.01"
-                },
-                {
-                    "word": "File",
-                    "category": "3. A carpenter\u2019s tool",
-                    "feature": "record.n.01"
-                },
-                {
-                    "word": "Chisel",
-                    "category": "3. A carpenter\u2019s tool",
-                    "feature": "edge tool.n.01"
-                }
-            ],
-            "target": "Second"
-        },
-        {
-            "items": [
-                {
-                    "word": "Hat",
-                    "category": "65. An article of clothing.",
-                    "feature": "headdress.n.01"
-                },
-                {
-                    "word": "Belt",
-                    "category": "65. An article of clothing.",
-                    "feature": "loop.n.02"
-                },
-                {
-                    "word": "Books",
-                    "category": "42. A thing taken from a burning home.",
-                    "feature": "publication.n.01"
-                },
-                {
-                    "word": "Computer",
-                    "category": "42. A thing taken from a burning home.",
-                    "feature": "machine.n.01"
-                },
-                {
-                    "word": "Trailer",
-                    "category": "54. A type of human dwelling.",
-                    "feature": "idler.n.01"
-                },
-                {
-                    "word": "Wall",
-                    "category": "41. A thing made of wood.",
-                    "feature": "partition.n.01"
-                },
-                {
-                    "word": "Stairs",
-                    "category": "41. A thing made of wood.",
-                    "feature": "stairway.n.01"
-                },
-                {
-                    "word": "Silver",
-                    "category": "7. A color",
-                    "feature": "conductor.n.02"
-                }
-            ],
-            "target": "Hat"
+            "target": "Decade"
         }
     ]
 }

@@ -50,15 +50,14 @@ GAMEPLAY_METRICS = [
 
 # order of the rows in the main table, to be used as a key in pandas
 ROW_ORDER = ['lm70b--lm70b',
-             "wzlm2--wzlm2","qw2--qw2","gpt3.5--gpt3.5",
+             "wzlm2--wzlm2","qw2--qw2", "mx8--mx8", 
             
              clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
 #'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
              #'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
 # "3.51106---3.51106-","40613---40613-","gpt4--gpt4",
 # order of the columns in the main table
-COLUMN_ORDER = ['all', "taboo",
-                'guesswhat']
+COLUMN_ORDER = ['all', 'taboo', 'guesswhat']
 
 # shorter names for the models
 short_names = {
@@ -74,10 +73,10 @@ short_names = {
     # "vicuna-13b-": "vcn",
     # "40613-": "gpt4",
     "WizardLM-2-8x22B-t0.0": "wzlm2",
-    # "Mixtral-8x22B-t0.0": "mx8",
+    "Mixtral-8x22B-t0.0": "mx8",
     "Llama-3-70b-chat-hf-t0.0":"lm70b",
     "Qwen2-72B-Instruct-t0.0": "qw2",
-    "gpt-3.5-turbo-0125-t0.0":"gpt3.5",
+    #"gpt-3.5-turbo-0125-t0.0":"gpt3.5",
 }
 
 # short names for the scatterplot
@@ -95,10 +94,10 @@ plot_annotations = {
     # 'vcn--vcn': 'vcn',
     'lm70b--lm70b': "lm70b",
    
-    # "mx8--mx8": "mx8",
+    "mx8--mx8": "mx8",
     "wzlm2--wzlm2": "wzlm2",
     "qw2--qw2":"qw2",
-    "gpt3.5--gpt3.5":"gpt3.5",
+    #"gpt3.5--gpt3.5":"gpt3.5",
     # "fsc-openchat-3.5-0106---fsc-openchat-3.5-0106-" : "gpt3.5",
     # "3.51106---3.51106-" : "gpt.3.51",
     # "40613---40613-": "gpt4",

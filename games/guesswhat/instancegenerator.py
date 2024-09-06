@@ -20,10 +20,276 @@ import yaml
 import clemgame
 from clemgame.clemgame import GameInstanceGenerator
 
+num_words = 8
 
 N_INSTANCES = 10 # how many different instances
-N_GUESSES = 8  # how many tries the guesser will have
+N_QUESTIONS = num_words - 1   # number of maximum turns permited according to upper bound -1, the guessing turn. 
 
+
+logger = clemgame.get_logger(__name__)
+GAME_NAME = "guesswhat"
+
+
+# # class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
+# #     def __init__(self):
+# #         super().__init__(GAME_NAME)
+# #         # Load the category JSON file
+# #         category_file_path = os.path.join(os.path.dirname(__file__), "utils", "categories_subcategories.json")
+# #         with open(category_file_path, 'r') as f:
+# #             self.categories = json.load(f)["Categories"]
+
+# #     def load_instances(self):
+# #         return self.load_json("in/instances")
+
+# #     def on_generate(self):
+# #         output_instances = {
+# #             "experiments": []
+# #         }
+# #         output_instance_details = {"Level 1": [], "Level 2": [], "Level 3": []}
+
+# #         for level in range(1, 4):
+# #             experiment_name = f"level_{level}"
+# #             experiment = self.add_experiment(experiment_name)
+# #             experiment["max_turns"] = N_QUESTIONS
+
+# #             answerer_prompt = self.load_template("resources/initial_prompts/answerer_prompt")
+# #             guesser_prompt = self.load_template("resources/initial_prompts/guesser_prompt")
+# #             experiment["answerer_initial_prompt"] = answerer_prompt
+# #             experiment["guesser_initial_prompt"] = guesser_prompt
+
+# #             used_words = set()
+# #             game_instances = []
+# #             for game_id in tqdm(range(N_INSTANCES)):
+# #                 instance, instance_details = self.generate_instance(level, used_words)
+# #                 if instance:
+# #                     game_instance = self.add_game_instance(experiment, game_id)
+# #                     game_instance["target_word"] = instance["target"]
+# #                     game_instance["candidate_list"] = instance["items"]
+# #                     game_instances.append(game_instance)
+# #                     output_instance_details[f"Level {level}"].append(instance_details)
+
+# #             experiment["game_instances"] = game_instances
+# #             output_instances["experiments"].append(experiment)
+
+# #         # Save details of the instances in utils
+# #         output_path = os.path.join(os.path.dirname(__file__), "utils", "output_instance_details.json")
+# #         self.save_json(output_instance_details, output_path)
+
+# #     def generate_instance(self, level, used_words):
+# #         instance = {"items": [], "target": ""}
+# #         instance_details = {"items": [], "target": ""}
+# #         used_categories = set()
+# #         used_features = set()
+
+# #         while len(instance["items"]) < 8:
+# #             category = random.choice([c for c in self.categories if c["Category"] not in used_categories])
+# #             used_categories.add(category["Category"])
+# #             subcategories = [sub for sub in category["Subcategories"] if sub["Subcategory"] not in used_features]
+
+# #             if level == 1 and len(subcategories) >= 2:
+# #                 selected_subcategories = random.sample(subcategories, 2)
+# #                 for sub in selected_subcategories:
+# #                     used_features.add(sub["Subcategory"])
+# #                     available_words = [w for w in sub["Members"] if w not in used_words]
+# #                     if len(available_words) < 2:
+# #                         continue
+# #                     words = random.sample(available_words, 2)
+# #                     for word in words:
+# #                         used_words.add(word)
+# #                         instance["items"].append(word)
+# #                         instance_details["items"].append({
+# #                             "word": word,
+# #                             "category": category["Category"],
+# #                             "feature": sub["Subcategory"]
+# #                         })
+
+# #             elif level == 2:
+# #                 valid_subcategories = [sub for sub in subcategories if len(sub["Members"]) >= 4]
+# #                 if valid_subcategories:
+# #                     sub = random.choice(valid_subcategories)
+# #                     used_features.add(sub["Subcategory"])
+# #                     available_words = [w for w in sub["Members"] if w not in used_words]
+# #                     if len(available_words) < 4:
+# #                         continue
+# #                     words = random.sample(available_words, 4)
+# #                     for word in words:
+# #                         used_words.add(word)
+# #                         instance["items"].append(word)
+# #                         instance_details["items"].append({
+# #                             "word": word,
+# #                             "category": category["Category"],
+# #                             "feature": sub["Subcategory"]
+# #                         })
+
+# #             elif level == 3 and len(subcategories) >= 2:
+# #                 selected_subcategories = random.sample(subcategories, 2)
+# #                 for sub in selected_subcategories:
+# #                     used_features.add(sub["Subcategory"])
+# #                     available_words = [w for w in sub["Members"] if w not in used_words]
+# #                     if len(available_words) < 1:
+# #                         continue
+# #                     word = random.choice(available_words)
+# #                     used_words.add(word)
+# #                     instance["items"].append(word)
+# #                     instance_details["items"].append({
+# #                         "word": word,
+# #                         "category": category["Category"],
+# #                         "feature": sub["Subcategory"]
+# #                     })
+
+# #         if len(instance["items"]) >= 8:
+# #             instance["items"] = instance["items"][:8]
+# #             instance_details["items"] = instance_details["items"][:8]
+# #             instance["target"] = random.choice(instance["items"])
+# #             instance_details["target"] = instance["target"]
+# #             return instance, instance_details
+# #         else:
+# #             return None, None
+
+# #     def save_json(self, data, filepath):
+# #         with open(filepath, 'w') as f:
+# #             json.dump(data, f, indent=4)
+
+
+# if __name__ == '__main__':
+#     GuessWhatGameInstanceGenerator().generate()
+
+
+# class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
+#     def __init__(self):
+#         super().__init__(GAME_NAME)
+#         # Load the category JSON file
+#         category_file_path = os.path.join(os.path.dirname(__file__), "utils", "categories_subcategories.json")
+#         with open(category_file_path, 'r') as f:
+#             self.categories = json.load(f)["Categories"]
+
+#     def load_instances(self):
+#         return self.load_json("in/instances")
+
+#     def on_generate(self):
+#         output_instances = {
+#             "experiments": []
+#         }
+#         output_instance_details = {"8 words": [], "16 words": []}
+
+#         for level in range(1, 3):
+#             experiment_name = "8 words" if level == 1 else "16 words"
+#             experiment = self.add_experiment(experiment_name)
+
+#             # Set max_turns based on the number of words
+#             max_turns = num_words if level == 1 else num_words * 2
+#             experiment["max_turns"] = max_turns
+
+#             answerer_prompt = self.load_template("resources/initial_prompts/answerer_prompt")
+#             guesser_prompt = self.load_template("resources/initial_prompts/guesser_prompt")
+#             experiment["answerer_initial_prompt"] = answerer_prompt
+#             experiment["guesser_initial_prompt"] = guesser_prompt
+
+#             used_words = set()
+#             game_instances = []
+#             for game_id in tqdm(range(N_INSTANCES)):
+#                 instance, instance_details = self.generate_instance(level, used_words)
+#                 if instance:
+#                     game_instance = self.add_game_instance(experiment, game_id)
+#                     game_instance["target_word"] = instance["target"]
+#                     game_instance["candidate_list"] = instance["items"]
+#                     game_instances.append(game_instance)
+
+#                     output_instance_details[experiment_name].append(instance_details)
+
+#             experiment["game_instances"] = game_instances
+#             output_instances["experiments"].append(experiment)
+
+#         # Save details of the instances in utils
+#         output_path = os.path.join(os.path.dirname(__file__), "utils", "output_instance_details.json")
+#         self.save_json(output_instance_details, output_path)
+
+#     def generate_instance(self, level, used_words):
+#         instance = {"items": [], "target": ""}
+#         instance_details = {"items": [], "target": ""}
+#         used_categories = set()
+#         used_features = set()
+
+#         while len(instance["items"]) < (num_words if level == 1 else num_words * 2):
+#             category = random.choice([c for c in self.categories if c["Category"] not in used_categories])
+#             used_categories.add(category["Category"])
+#             subcategories = [sub for sub in category["Subcategories"] if sub["Subcategory"] not in used_features]
+
+#             if level == 1 and len(subcategories) >= 2:
+#                 selected_subcategories = random.sample(subcategories, 2)
+#                 for sub in selected_subcategories:
+#                     used_features.add(sub["Subcategory"])
+#                     available_words = [w for w in sub["Members"] if w not in used_words]
+#                     if len(available_words) < 2:
+#                         continue
+#                     words = random.sample(available_words, 2)
+#                     for word in words:
+#                         used_words.add(word)
+#                         instance["items"].append(word)
+#                         instance_details["items"].append({
+#                             "word": word,
+#                             "category": category["Category"],
+#                             "feature": sub["Subcategory"]
+#                         })
+
+#             elif level == 2 and len(subcategories) >= 4:
+#                 selected_subcategories = random.sample(subcategories, 4)
+#                 for sub in selected_subcategories:
+#                     used_features.add(sub["Subcategory"])
+#                     available_words = [w for w in sub["Members"] if w not in used_words]
+#                     if len(available_words) < 2:
+#                         continue
+#                     words = random.sample(available_words, 2)
+#                     for word in words:
+#                         if word in instance["items"]:
+#                             continue
+#                         used_words.add(word)
+#                         instance["items"].append(word)
+#                         instance_details["items"].append({
+#                             "word": word,
+#                             "category": category["Category"],
+#                             "feature": sub["Subcategory"]
+#                         })
+
+#             if level == 2 and len(instance["items"]) >= num_words * 2:
+#                 break
+
+#         # Ensure the correct number of words in the instance
+#         if len(instance["items"]) >= (num_words if level == 1 else num_words * 2):
+#             instance["items"] = instance["items"][:(num_words if level == 1 else num_words * 2)]
+#             instance_details["items"] = instance_details["items"][:(num_words if level == 1 else num_words * 2)]
+#             instance["target"] = random.choice(instance["items"])
+#             instance_details["target"] = instance["target"]
+#             return instance, instance_details
+#         else:
+#             return None, None
+
+#     def save_json(self, data, filepath):
+#         with open(filepath, 'w') as f:
+#             json.dump(data, f, indent=4)
+
+# if __name__ == '__main__':
+#     GuessWhatGameInstanceGenerator().generate()
+
+
+
+import os
+import json
+import random
+from pathlib import Path
+from tqdm import tqdm
+
+print(f"Python executable: {sys.executable}")
+print(f"Python path: {sys.path}")
+
+# Adjust the path to include the project root directory
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+
+import clemgame
+from clemgame.clemgame import GameInstanceGenerator
+
+num_words = 8
+N_INSTANCES = 10
 
 logger = clemgame.get_logger(__name__)
 GAME_NAME = "guesswhat"
@@ -44,17 +310,25 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
         output_instances = {
             "experiments": []
         }
-        output_instance_details = {"Level 1": [], "Level 2": [], "Level 3": []}
+        output_instance_details = {"Level_1": [], "Level_2": [], "Level_3": []}
 
-        for level in range(1, 4):
-            experiment_name = f"level_{level}"
+        for level in [1, 2, 3]: 
+            experiment_name = f"Level_{level}"
             experiment = self.add_experiment(experiment_name)
-            experiment["max_turns"] = N_GUESSES
+
+            # Set max_turns based on the number of words
+            max_turns = num_words 
+            experiment["max_turns"] = max_turns
 
             answerer_prompt = self.load_template("resources/initial_prompts/answerer_prompt")
             guesser_prompt = self.load_template("resources/initial_prompts/guesser_prompt")
+            a_reprompt = self.load_template("resources/re_prompts/a_reprompt")
+            g_reprompt = self.load_template("resources/re_prompts/g_reprompt")
+            
             experiment["answerer_initial_prompt"] = answerer_prompt
+            experiment["answerer_re_prompt"] = a_reprompt
             experiment["guesser_initial_prompt"] = guesser_prompt
+            experiment["guesser_re_prompt"] = g_reprompt
 
             used_words = set()
             game_instances = []
@@ -65,7 +339,8 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
                     game_instance["target_word"] = instance["target"]
                     game_instance["candidate_list"] = instance["items"]
                     game_instances.append(game_instance)
-                    output_instance_details[f"Level {level}"].append(instance_details)
+
+                    output_instance_details[experiment_name].append(instance_details)
 
             experiment["game_instances"] = game_instances
             output_instances["experiments"].append(experiment)
@@ -78,36 +353,87 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
         instance = {"items": [], "target": ""}
         instance_details = {"items": [], "target": ""}
         used_categories = set()
-        used_features = set()
 
-        while len(instance["items"]) < 8:
-            category = random.choice([c for c in self.categories if c["Category"] not in used_categories])
-            used_categories.add(category["Category"])
-            subcategories = [sub for sub in category["Subcategories"] if sub["Subcategory"] not in used_features]
+        required_words = num_words
 
-            if level == 1 and len(subcategories) >= 2:
-                selected_subcategories = random.sample(subcategories, 2)
-                for sub in selected_subcategories:
-                    used_features.add(sub["Subcategory"])
-                    available_words = [w for w in sub["Members"] if w not in used_words]
-                    if len(available_words) < 2:
+        while len(instance["items"]) < required_words:
+            if level == 1:
+                # Level 1 constraints
+                available_categories = [c for c in self.categories if c["Category"] not in used_categories]
+                if len(available_categories) < 2:
+                    print("Error: Not enough unique categories available for Level 1.")
+                    return None, None
+
+                selected_categories = random.sample(available_categories, 2)
+                used_categories.update(cat["Category"] for cat in selected_categories)
+
+                for category in selected_categories:
+                    subcategories = [sub for sub in category["Subcategories"] if len(sub["Members"]) >= 2]
+                    if len(subcategories) < 2:
                         continue
-                    words = random.sample(available_words, 2)
-                    for word in words:
-                        used_words.add(word)
-                        instance["items"].append(word)
-                        instance_details["items"].append({
-                            "word": word,
-                            "category": category["Category"],
-                            "feature": sub["Subcategory"]
-                        })
+                    
+                    selected_subcategories = random.sample(subcategories, 2)
+                    for sub in selected_subcategories:
+                        available_words = [w for w in sub["Members"] if w not in used_words]
+                        if len(available_words) < 2:
+                            continue
+                        words = random.sample(available_words, 2)
+                        for word in words:
+                            used_words.add(word)
+                            instance["items"].append(word)
+                            instance_details["items"].append({
+                                "word": word,
+                                "category": category["Category"],
+                                "feature": sub["Subcategory"]
+                            })
 
             elif level == 2:
-                valid_subcategories = [sub for sub in subcategories if len(sub["Members"]) >= 4]
-                if valid_subcategories:
-                    sub = random.choice(valid_subcategories)
-                    used_features.add(sub["Subcategory"])
-                    available_words = [w for w in sub["Members"] if w not in used_words]
+                # Level 2 constraints
+                available_categories = [c for c in self.categories if c["Category"] not in used_categories]
+                if len(available_categories) < 4:
+                    print("Error: Not enough unique categories available for Level 2.")
+                    return None, None
+
+                selected_categories = random.sample(available_categories, 4)
+                used_categories.update(cat["Category"] for cat in selected_categories)
+
+                for category in selected_categories:
+                    subcategories = [sub for sub in category["Subcategories"] if len(sub["Members"]) >= 2]
+                    if len(subcategories) < 2:
+                        continue
+                    
+                    selected_subcategories = random.sample(subcategories, 2)
+                    for sub in selected_subcategories:
+                        available_words = [w for w in sub["Members"] if w not in used_words]
+                        if len(available_words) < 2:
+                            continue
+                        words = random.sample(available_words, 2)
+                        for word in words:
+                            used_words.add(word)
+                            instance["items"].append(word)
+                            instance_details["items"].append({
+                                "word": word,
+                                "category": category["Category"],
+                                "feature": sub["Subcategory"]
+                            })
+
+            elif level == 3:
+                # Level 3 constraints
+                available_categories = [c for c in self.categories if c["Category"] not in used_categories]
+                if len(available_categories) < 2:
+                    print("Error: Not enough unique categories available for Level 3.")
+                    return None, None
+
+                selected_categories = random.sample(available_categories, 2)
+                used_categories.update(cat["Category"] for cat in selected_categories)
+
+                for category in selected_categories:
+                    subcategories = [sub for sub in category["Subcategories"] if len(sub["Members"]) >= 4]
+                    if len(subcategories) < 1:
+                        continue
+                    
+                    selected_subcategory = random.choice(subcategories)
+                    available_words = [w for w in selected_subcategory["Members"] if w not in used_words]
                     if len(available_words) < 4:
                         continue
                     words = random.sample(available_words, 4)
@@ -117,28 +443,15 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
                         instance_details["items"].append({
                             "word": word,
                             "category": category["Category"],
-                            "feature": sub["Subcategory"]
+                            "feature": selected_subcategory["Subcategory"]
                         })
 
-            elif level == 3 and len(subcategories) >= 2:
-                selected_subcategories = random.sample(subcategories, 2)
-                for sub in selected_subcategories:
-                    used_features.add(sub["Subcategory"])
-                    available_words = [w for w in sub["Members"] if w not in used_words]
-                    if len(available_words) < 1:
-                        continue
-                    word = random.choice(available_words)
-                    used_words.add(word)
-                    instance["items"].append(word)
-                    instance_details["items"].append({
-                        "word": word,
-                        "category": category["Category"],
-                        "feature": sub["Subcategory"]
-                    })
+            if len(instance["items"]) >= required_words:
+                break
 
-        if len(instance["items"]) >= 8:
-            instance["items"] = instance["items"][:8]
-            instance_details["items"] = instance_details["items"][:8]
+        if len(instance["items"]) >= required_words:
+            instance["items"] = instance["items"][:required_words]
+            instance_details["items"] = instance_details["items"][:required_words]
             instance["target"] = random.choice(instance["items"])
             instance_details["target"] = instance["target"]
             return instance, instance_details
@@ -149,7 +462,5 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
         with open(filepath, 'w') as f:
             json.dump(data, f, indent=4)
 
-
 if __name__ == '__main__':
     GuessWhatGameInstanceGenerator().generate()
-
