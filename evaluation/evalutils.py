@@ -27,9 +27,9 @@ PERC_METRICS = [
     clemmetrics.METRIC_ABORTED,
     clemmetrics.METRIC_LOSE,
     clemmetrics.METRIC_REQUEST_SUCCESS,
-    
-    
-    ]
+
+
+]
 
 # metrics that all games log
 COMMON_METRICS = [
@@ -42,22 +42,23 @@ COMMON_METRICS = [
     clemmetrics.METRIC_REQUEST_COUNT_PARSED,
     clemmetrics.METRIC_REQUEST_COUNT_VIOLATED,
     clemmetrics.METRIC_REQUEST_SUCCESS,
-    ]
+]
 
 GAMEPLAY_METRICS = [
     clemmetrics.METRIC_SUCCESS,
     clemmetrics.METRIC_ABORTED,
     clemmetrics.METRIC_LOSE
-    ]
+]
 
 # order of the rows in the main table, to be used as a key in pandas
 ROW_ORDER = ['lm70b--lm70b',
-             "wzlm2--wzlm2","qw2--qw2","gpt3.5--gpt3.5","mx8--mx8", "h3--h3", clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
-#'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
-             #'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
+             "wzlm2--wzlm2", "qw2--qw2", "gpt3.5--gpt3.5", "mx8--mx8", "h3--h3", clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
+# 'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
+# 'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
 # "3.51106---3.51106-","40613---40613-","gpt4--gpt4",
 # order of the columns in the main table
-COLUMN_ORDER = ['all', 'guesswhat_withoutreprompt'] #'all','taboo'
+COLUMN_ORDER = ['all', 'guesswhat_withoutreprompt',
+                "guesswhat", "taboo"]  # 'all','taboo'
 
 # shorter names for the models
 short_names = {
@@ -74,9 +75,9 @@ short_names = {
     # "40613-": "gpt4",
     "WizardLM-2-8x22B-t0.0": "wzlm2",
     "Mixtral-8x22B-t0.0": "mx8",
-    "Llama-3-70b-chat-hf-t0.0":"lm70b",
+    "Llama-3-70b-chat-hf-t0.0": "lm70b",
     "Qwen2-72B-Instruct-t0.0": "qw2",
-    "gpt-3.5-turbo-0125-t0.0":"gpt3.5",
+    "gpt-3.5-turbo-0125-t0.0": "gpt3.5",
     "Hermes-3-t0.0": "h3",
 }
 
@@ -97,16 +98,16 @@ plot_annotations = {
     "h3--h3": "h3",
     "mx8--mx8": "mx8",
     "wzlm2--wzlm2": "wzlm2",
-    "qw2--qw2":"qw2",
-    "hrm3--hrm3":"hrm3",
-    "MLm3.1--MLm3.1":"MLm3.1",
+    "qw2--qw2": "qw2",
+    "hrm3--hrm3": "hrm3",
+    "MLm3.1--MLm3.1": "MLm3.1",
     # "gm2--gm2":"gm2",
-    #"gpt3.5--gpt3.5":"gpt3.5",
+    # "gpt3.5--gpt3.5":"gpt3.5",
     # "fsc-openchat-3.5-0106---fsc-openchat-3.5-0106-" : "gpt3.5",
     # "3.51106---3.51106-" : "gpt.3.51",
     # "40613---40613-": "gpt4",
-            
-    }
+
+}
 
 metric_lims = {
     clemmetrics.BENCH_SCORE: (-2, 102),
@@ -118,8 +119,8 @@ metric_lims = {
     clemmetrics.METRIC_REQUEST_COUNT_PARSED: (-2, None),
     clemmetrics.METRIC_REQUEST_COUNT_VIOLATED: (-2, None),
     clemmetrics.METRIC_REQUEST_SUCCESS: (-0.05, 1.05),
-    
-    
+
+
 }
 
 
@@ -133,7 +134,7 @@ def savefig(name: str) -> None:
 
 def parse_directory_name(name: str) -> dict:
     """Extract information from the directory name structure."""
- 
+
     splits = os.path.normpath(name).split(os.sep)
 
     # splits = str(name).split('/')
@@ -191,7 +192,8 @@ def load_interactions(game_name: str = None) -> dict:
         naming = name_as_tuple(parse_directory_name(path))
         if naming not in interactions:
             data = load_json(path)
-            instance = load_json(str(path).replace('interactions.json', 'instance.json'))
+            instance = load_json(str(path).replace(
+                'interactions.json', 'instance.json'))
             interactions[naming] = (data, instance)
         else:
             print(f'Repeated file {naming}!')
@@ -230,7 +232,8 @@ def create_eval_tree(levels: list) -> None:
 
 def build_df_turn_scores(scores: dict) -> pd.DataFrame:
     """Create dataframe with all turn scores."""
-    cols = ['game', 'model', 'experiment', 'episode', 'turn', 'metric', 'value']
+    cols = ['game', 'model', 'experiment',
+            'episode', 'turn', 'metric', 'value']
     df_turn_scores = pd.DataFrame(columns=cols)
     for name, data in tqdm(scores.items(), desc="Build turn scores dataframe"):
         (game, model, experiment, episode) = name
@@ -315,7 +318,7 @@ def save_raw_episode_scores(keys: list, df_scores: pd.DataFrame) -> None:
         df_aux = filter_df_by_key(df_scores, filter_dic)
         df_aux = df_aux.pivot(index=['model', 'episode'],
                               columns=['experiment', 'metric'],
-                              values='value') 
+                              values='value')
         prefix = f'{EVAL_DIR}/{game}/{EVAL_DIR}'
         name = f'{prefix}/episode-level/tables/scores_raw.csv'
         df_aux.to_csv(name)
@@ -349,7 +352,7 @@ def save_raw_turn_scores(keys: list, df_scores: pd.DataFrame) -> None:
         df_aux = filter_df_by_key(df_scores, filter_dic)
         df_aux = df_aux.pivot(index=['episode', 'turn'],
                               columns=['experiment', 'metric'],
-                              values='value') 
+                              values='value')
         prefix = f'{EVAL_DIR}/{game}/{model}/{EVAL_DIR}'
         name = f'{prefix}/turn-level/tables/scores_raw.csv'
         df_aux.to_csv()
@@ -359,7 +362,7 @@ def save_raw_turn_scores(keys: list, df_scores: pd.DataFrame) -> None:
         df_aux = filter_df_by_key(df_scores, filter_dic)
         df_aux = df_aux.pivot(index=['model', 'episode', 'turn'],
                               columns=['experiment', 'metric'],
-                              values='value') 
+                              values='value')
         prefix = f'{EVAL_DIR}/{game}/{EVAL_DIR}'
         name = f'{prefix}/turn-level/tables/scores_raw.csv'
         df_aux.to_csv(name)
