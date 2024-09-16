@@ -51,7 +51,6 @@ for input_category, subcategories in categories.items():
     subcategories_readable = [{"Subcategory": sub.replace('_', ' '), "Members": members} for sub, members in subcategories.items()]
     categories_readable.append({"Category": input_category, "Subcategories": subcategories_readable})
 
-
 output = {"Categories": categories_readable}
 
 output_file_path = 'categories_subcategories.json' 

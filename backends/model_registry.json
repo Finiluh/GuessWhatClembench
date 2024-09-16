@@ -1,4 +1,23 @@
-[
+[ {
+  "model_name": "Hermes-3",
+  "model_id":"NousResearch/Hermes-3-Llama-3.1-405B-Turbo",
+  "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Meta-Llama-3.1-70B",
+    "model_id":"meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "Meta-Llama-3.1-405B",
+    "model_id":"meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "google/gemma-2-27b-it",
+    "model_id":"google/gemma-2-27b-it",
+    "backend": "openai_compatible"
+  },
   {
     "model_name": "openchat",
     "model_id": "openchat-3.5-0106",
@@ -7,11 +26,6 @@
   {
     "model_name": "WizardLM-2-8x22B",
     "model_id": "microsoft/WizardLM-2-8x22B",
-    "backend": "openai_compatible"
-  },
-  {
-    "model_name": "Mixtral-8x22B",
-    "model_id": "mistralai/Mixtral-8x22B",
     "backend": "openai_compatible"
   },
   {
@@ -385,13 +399,6 @@
     "huggingface_id": "allenai/tulu-2-dpo-70b",
     "premade_chat_template": false,
     "custom_chat_template": "{% for message in messages %}\n{% if message['role'] == 'user' %}\n{{ '<|user|>\n' + message['content'] }}\n{% elif message['role'] == 'assistant' %}\n{{ '<|assistant|>\n'  + message['content'] + eos_token }}\n{% endif %}\n{% if loop.last %}\n{{ '<|assistant|>' }}\n{% endif %}\n{% endfor %}",
-    "eos_to_cull": "</s>"
-  },
-  {
-    "model_name": "Mixtral-8x7B-Instruct-v0.1",
-    "backend": "huggingface_local",
-    "huggingface_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "premade_chat_template": true,
     "eos_to_cull": "</s>"
   },
   {

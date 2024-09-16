@@ -24,11 +24,11 @@ num_words = 8
 
 N_INSTANCES = 10 # How many different instances
 
-
 logger = clemgame.get_logger(__name__)
-GAME_NAME = "guesswhat"
+GAME_NAME = "guesswhat_withoutreprompt"
 
-class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
+
+class GuessWhatWRGameInstanceGenerator(GameInstanceGenerator):
     def __init__(self):
         super().__init__(GAME_NAME)
         category_file_path = os.path.join(os.path.dirname(__file__), "utils", "categories_subcategories.json")
@@ -48,18 +48,14 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
             experiment_name = f"Level_{level}"
             experiment = self.add_experiment(experiment_name)
 
-            max_turns = num_words # max_turns is defined as the number of words in the candidate list 
+            max_turns = num_words
             experiment["max_turns"] = max_turns
 
             answerer_prompt = self.load_template("resources/initial_prompts/answerer_prompt")
             guesser_prompt = self.load_template("resources/initial_prompts/guesser_prompt")
-            a_reprompt = self.load_template("resources/re_prompts/a_reprompt")
-            g_reprompt = self.load_template("resources/re_prompts/g_reprompt")
             
             experiment["answerer_initial_prompt"] = answerer_prompt
-            experiment["answerer_re_prompt"] = a_reprompt
             experiment["guesser_initial_prompt"] = guesser_prompt
-            experiment["guesser_re_prompt"] = g_reprompt
 
             used_words = set()
             game_instances = []
@@ -216,6 +212,6 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
             json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
-    GuessWhatGameInstanceGenerator().generate()
+    GuessWhatWRGameInstanceGenerator().generate()
 
 
