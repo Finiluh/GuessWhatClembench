@@ -11,14 +11,16 @@
   },
   {
     "model_name": "Mixtral-8x22B",
-    "model_id": "mistralai/Mixtral-8x22B",
+    "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
     "backend": "openai_compatible"
   },
+
   {
-    "model_name": "Mixtral-8x22B",
-    "model_id": "mistralai/Mixtral-8x22B",
+    "model_name": "Hermes-3",
+    "model_id":"NousResearch/Hermes-3-Llama-3.1-405B-Turbo",
     "backend": "openai_compatible"
   },
+
   {
     "model_name": "Qwen2-72B-Instruct",
     "model_id": "Qwen/Qwen2-72B-Instruct",
@@ -34,6 +36,17 @@
     "model_id": " mistralai/Mistral-7B-Instruct-v0.3",
     "backend": "openai_compatible"
   },
+  {
+    "model_name": "Gemma-2b-it",
+    "model_id": "google/gemma-2b-it",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "codeLlama-34b",
+    "model_id": "codellama/CodeLlama-34b-Instruct-hf",
+    "backend": "openai_compatible"
+  },
+ 
   {
     "model_name": "codellama-34b",
     "model_id": "codellama-34b-instruct",

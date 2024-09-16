@@ -27,6 +27,8 @@ PERC_METRICS = [
     clemmetrics.METRIC_ABORTED,
     clemmetrics.METRIC_LOSE,
     clemmetrics.METRIC_REQUEST_SUCCESS,
+    
+    
     ]
 
 # metrics that all games log
@@ -50,15 +52,12 @@ GAMEPLAY_METRICS = [
 
 # order of the rows in the main table, to be used as a key in pandas
 ROW_ORDER = ['lm70b--lm70b',
-             "wzlm2--wzlm2","qw2--qw2","gpt3.5--gpt3.5",
-            
-             clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
+             "wzlm2--wzlm2","qw2--qw2","gpt3.5--gpt3.5","mx8--mx8", "h3--h3", clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
 #'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
              #'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
 # "3.51106---3.51106-","40613---40613-","gpt4--gpt4",
 # order of the columns in the main table
-COLUMN_ORDER = ['all', "taboo",
-                'guesswhat']
+COLUMN_ORDER = ['all', 'guesswhat_withoutreprompt'] #'all','taboo'
 
 # shorter names for the models
 short_names = {
@@ -74,10 +73,11 @@ short_names = {
     # "vicuna-13b-": "vcn",
     # "40613-": "gpt4",
     "WizardLM-2-8x22B-t0.0": "wzlm2",
-    # "Mixtral-8x22B-t0.0": "mx8",
+    "Mixtral-8x22B-t0.0": "mx8",
     "Llama-3-70b-chat-hf-t0.0":"lm70b",
     "Qwen2-72B-Instruct-t0.0": "qw2",
     "gpt-3.5-turbo-0125-t0.0":"gpt3.5",
+    "Hermes-3-t0.0": "h3",
 }
 
 # short names for the scatterplot
@@ -94,8 +94,8 @@ plot_annotations = {
     # 'ost--ost': 'ost',
     # 'vcn--vcn': 'vcn',
     'lm70b--lm70b': "lm70b",
-   
-    # "mx8--mx8": "mx8",
+    "h3--h3": "h3",
+    "mx8--mx8": "mx8",
     "wzlm2--wzlm2": "wzlm2",
     "qw2--qw2":"qw2",
     "gpt3.5--gpt3.5":"gpt3.5",
@@ -115,6 +115,8 @@ metric_lims = {
     clemmetrics.METRIC_REQUEST_COUNT_PARSED: (-2, None),
     clemmetrics.METRIC_REQUEST_COUNT_VIOLATED: (-2, None),
     clemmetrics.METRIC_REQUEST_SUCCESS: (-0.05, 1.05),
+    
+    
 }
 
 
