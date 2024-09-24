@@ -47,6 +47,7 @@ class GuessWhatWR(DialogueGameMaster):
 
     def __init__(self, experiment: Dict, player_models: List[Model]):
         super().__init__(GAME_NAME, experiment, player_models)
+
         self.max_turns: int = experiment["max_turns"]
         self.guesser_initial_prompt = self.experiment["guesser_initial_prompt"]
         self.answerer_initial_prompt = self.experiment["answerer_initial_prompt"]
@@ -227,8 +228,7 @@ class GuessWhatWR(DialogueGameMaster):
             if self.current_turn == 0:
                 # Include first question in the prompt
                 prompt_with_first_question = f"{self.answerer_initial_prompt}\n\n{utterance}"
-                self.add_user_message(
-                    self.answerer, prompt_with_first_question)
+                self.add_user_message(self.answerer, prompt_with_first_question)
             else:
                 self.add_user_message(self.answerer, utterance)
         if player == self.answerer:
@@ -248,6 +248,7 @@ class GuessWhatWRScorer(GameScorer):
         invalid_format_answerer_count = 0
         invalid_content_guesser_count = 0
         invalid_content_answerer_count = 0
+        
         guesser_won = False
         max_turns = self.experiment["max_turns"]
         
@@ -259,17 +260,16 @@ class GuessWhatWRScorer(GameScorer):
         num_categories_1 = 4
         num_features_3 = 4
         
-        if game_level == "Level_1":
+        if game_level == "Level_1" or "Abs_Level_1":
             lower_bound_turns = num_categories_1 + 1  
-        elif game_level == "Level_2":  
+        elif game_level == "Level_2" or "Abs_Level_1":  
             lower_bound_turns = math.log2(max_turns) + 1
-        elif game_level == "Level_3":
+        elif game_level == "Level_3" or "Abs_Level_1":
             lower_bound_turns = num_features_3 + 1
 
 
         for turn_idx, turn in enumerate(episode_interactions["turns"]):
             turn_score = {"request_count": 1}
-            
             # Track invalid responses during this turn 
             invalid_format_in_turn = False
             invalid_content_in_turn = False
@@ -315,17 +315,22 @@ class GuessWhatWRScorer(GameScorer):
 
         # Sum up turn scores
         violated_request_count = sum(turn["violated_request_count"] for turn in turn_scores)
-        parsed_request_count = sum(turn["parsed_request_count"] for turn in turn_scores)
-        request_count = sum(turn["request_count"] for turn in turn_scores)
-
-        # Log the overall scores
         self.log_episode_score(METRIC_REQUEST_COUNT_VIOLATED, violated_request_count)
+        
+        parsed_request_count = sum(turn["parsed_request_count"] for turn in turn_scores)
         self.log_episode_score(METRIC_REQUEST_COUNT_PARSED, parsed_request_count)
+
+        request_count = sum(turn["request_count"] for turn in turn_scores)
         self.log_episode_score(METRIC_REQUEST_COUNT, request_count)
+
+        # # Log the overall scores
+        # self.log_episode_score(METRIC_REQUEST_COUNT_VIOLATED, violated_request_count)
+        # self.log_episode_score(METRIC_REQUEST_COUNT_PARSED, parsed_request_count)
+        # self.log_episode_score(METRIC_REQUEST_COUNT, request_count)
 
         # Compute the request success ratio
         if request_count != 0:
-            self.log_episode_score(METRIC_REQUEST_SUCCESS, round(parsed_request_count / request_count, 2))
+            self.log_episode_score(METRIC_REQUEST_SUCCESS, parsed_request_count / request_count)
         else:
             self.log_episode_score(METRIC_REQUEST_SUCCESS, 0)
 
@@ -357,6 +362,7 @@ class GuessWhatWRScorer(GameScorer):
                 self.log_episode_score(METRIC_SUCCESS, 0)
                 self.log_episode_score(METRIC_LOSE, 1)
                 self.log_episode_score(BENCH_SCORE, 0)
+                
 
         # Log invalid response counts for both players
         self.log_episode_score("Invalid format guesser response", invalid_format_guesser_count)

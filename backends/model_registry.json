@@ -4,6 +4,21 @@
   "backend": "openai_compatible"
   },
   {
+  "model_name": "Mixtral-8x22B",
+  "model_id":"mistralai/Mixtral-8x22B-Instruct-v0.1",
+  "backend": "openai_compatible"
+  },
+  {
+    "model_name": "WizardLM-2-8x22B",
+    "model_id": "microsoft/WizardLM-2-8x22B",
+    "backend": "openai_compatible"
+  },
+  {
+    "model_name": "MythoMax-L2-13b",
+    "model_id": "Gryphe/MythoMax-L2-13b-Lite",
+    "backend": "openai_compatible"
+  },
+  {
     "model_name": "Meta-Llama-3.1-70B",
     "model_id":"meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "backend": "openai_compatible"
@@ -14,7 +29,7 @@
     "backend": "openai_compatible"
   },
   {
-    "model_name": "google/gemma-2-27b-it",
+    "model_name": "gemma-2-27b-it",
     "model_id":"google/gemma-2-27b-it",
     "backend": "openai_compatible"
   },
@@ -23,16 +38,7 @@
     "model_id": "openchat-3.5-0106",
     "backend": "openai_compatible"
   },
-  {
-    "model_name": "WizardLM-2-8x22B",
-    "model_id": "microsoft/WizardLM-2-8x22B",
-    "backend": "openai_compatible"
-  },
-  {
-    "model_name": "Mixtral-8x22B",
-    "model_id": "mistralai/Mixtral-8x22B",
-    "backend": "openai_compatible"
-  },
+ 
   {
     "model_name": "Qwen2-72B-Instruct",
     "model_id": "Qwen/Qwen2-72B-Instruct",

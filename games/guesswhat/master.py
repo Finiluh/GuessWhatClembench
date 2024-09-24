@@ -155,7 +155,7 @@ class GuessWhat(DialogueGameMaster):
             if count >= REPROMPT_LIMIT:
                 # If there has been an invalid response after reaching the limit, stop the game
                 if self.invalid_format or self.invalid_content:
-                    self.log_to_self(f"max reprompts reached for player {player.descriptor}", "abort")
+                    self.log_to_self(f"max reprompts reached for player {player.descriptor}", "abort game")
                     return False
                 
         if self.correct_guess:
@@ -252,7 +252,7 @@ class GuessWhat(DialogueGameMaster):
             self.add_user_message(player, new_prompt)
 
         else:
-            self.log_to_self("max reprompts reached", "abort")
+            self.log_to_self("max reprompts reached", "abort game")
             return False
         
     # Reprompt when REPROMPT_LIMIT is not exceeded and there is an invalid response 
@@ -303,11 +303,11 @@ class GuessWhatScorer(GameScorer):
         num_categories_1 = 4
         num_features_3 = 4
         
-        if game_level == "Level_1":
+        if game_level == "Level_1" or "Abs_Level_1":
             lower_bound_turns = num_categories_1 + 1  
-        elif game_level == "Level_2":  
+        elif game_level == "Level_2" or "Abs_Level_2":  
             lower_bound_turns = math.log2(max_turns) + 1
-        elif game_level == "Level_3":
+        elif game_level == "Level_3" or "Abs_Level_3":
             lower_bound_turns = num_features_3 + 1
 
 

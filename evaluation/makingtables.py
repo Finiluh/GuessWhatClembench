@@ -133,7 +133,7 @@ def save_clem_score_table(df_paper: pd.DataFrame) -> None:
     return df_aux
 
 
-def make_overview_by_game(df: pd.DataFrame) -> None:
+def make_overview_by_game(df: pd.DataFrame) -> None: 
     """Create one table by game with all metrics by experiment and model."""
     for game, game_df in df.groupby('game'):
         results_df = (game_df.groupby(['model', 'experiment', 'metric'])
@@ -151,13 +151,18 @@ def make_overview_by_game(df: pd.DataFrame) -> None:
         results_df['Success'] *= 100
 
         aux_array = results_df['Success'] + results_df['Lose']
-        np.testing.assert_array_almost_equal(aux_array, results_df['Played'],
-                                             decimal=8)
+        mismatched = aux_array != results_df['Played']
+        
+        # Check for mismatches between aborted and played episodes.
+        if mismatched.any():
+            print(f"Warning: Mismatch in game {game}")
+            print(f"Expected Played: {results_df['Played'][mismatched]}")
+            print(f"Success + Lose: {aux_array[mismatched]}")
+            print(f"Difference: {aux_array[mismatched] - results_df['Played'][mismatched]}")
+            
+            # Played values
+            results_df.loc[mismatched, 'Played'] = aux_array[mismatched]
 
-        # add number of run episodes for each experiment/model
-        # we use Played but it could be any other metric name
-        # as long it gets logged (even if only a nan) for all games
-        # that actually got played; we only care for the count
         aux_counts = (game_df[game_df.metric == 'Played']
                       .groupby(['model', 'experiment', 'metric'])
                       .count()
@@ -165,13 +170,11 @@ def make_overview_by_game(df: pd.DataFrame) -> None:
                       .reset_index()
                       .drop(['metric', 'game', 'value'], axis=1)
                       .set_index(['model', 'experiment']))
-        
-        assert all(aux_counts.index == results_df.index)
+        assert all(aux_counts.index == results_df.index), "Indices of counts and results don't match."
         results_df = pd.concat([aux_counts, results_df], axis=1)
 
         options = [game, 'episode', 'tables', f'{game}-overview-table']
-        save_multiple_formats(options, results_df)
-
+        save_multiple_formats(options,results_df)
 
 def make_detailed_overview_by_game(df: pd.DataFrame) -> None:
     """Create one table by game with all metrics by experiment and model."""

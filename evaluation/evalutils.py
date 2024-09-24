@@ -49,14 +49,15 @@ GAMEPLAY_METRICS = [
     ]
 
 # order of the rows in the main table, to be used as a key in pandas
-ROW_ORDER = ["MLm3.1--MLm3.1","qw2--qw2","hrm3--hrm3",  
+ROW_ORDER = ["lm3.1--lm3.1","qw2--qw2","hrm3--hrm3", "gm2--gm2",
             
              clemmetrics.METRIC_PLAYED, clemmetrics.BENCH_SCORE]
 #'lm--lm', 'ko--ko', 'flc--flc', 'ost--ost', 'vcn--vcn',
              #'cl--cl',  '3--3', '3.5--3.5', '3.5--4', '4--3.5', '4--4',
 # "3.51106---3.51106-","40613---40613-","gpt4--gpt4",
 # order of the columns in the main table
-COLUMN_ORDER = ['all','taboo','guesswhat']
+COLUMN_ORDER = ['all', 'guesswhat', 'guesswhat_withoutreprompt']
+
 
 
 # shorter names for the models
@@ -75,10 +76,10 @@ short_names = {
     # "WizardLM-2-8x22B-t0.0": "wzlm2",
     # "Mixtral-8x22B-t0.0": "mx8",
     # "Llama-3-70b-chat-hf-t0.0":"lm70b",
+    "Meta-Llama-3.1-70B-t0.0": "lm3.1",
     "Qwen2-72B-Instruct-t0.0": "qw2",
     "Hermes-3-t0.0": "hrm3",
-    "Meta-Llama-3.1-70B-t0.0": "MLm3.1",
-    # "gemma-2-27b-it-t0.0": "gm2",
+    "gemma-2-27b-it-t0.0": "gm2",
 
     #"gpt-3.5-turbo-0125-t0.0":"gpt3.5",
 }
@@ -100,10 +101,10 @@ plot_annotations = {
    
     # "mx8--mx8": "mx8",
     # "wzlm2--wzlm2": "wzlm2",
+    "lm3.1--lm3.1":"lm3.1",
     "qw2--qw2":"qw2",
     "hrm3--hrm3":"hrm3",
-    "MLm3.1--MLm3.1":"MLm3.1",
-    # "gm2--gm2":"gm2",
+    "gm2--gm2":"gm2",
     #"gpt3.5--gpt3.5":"gpt3.5",
     # "fsc-openchat-3.5-0106---fsc-openchat-3.5-0106-" : "gpt3.5",
     # "3.51106---3.51106-" : "gpt.3.51",

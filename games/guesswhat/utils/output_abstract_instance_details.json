@@ -1,0 +1,1358 @@
+{
+    "Abs_Level_1": [
+        {
+            "items": [
+                {
+                    "word": "pinkeye",
+                    "category": "disease",
+                    "feature": "inflammation.n.01"
+                },
+                {
+                    "word": "eczema",
+                    "category": "disease",
+                    "feature": "skin disease.n.01"
+                },
+                {
+                    "word": "democrat",
+                    "category": "political system",
+                    "feature": "politician.n.02"
+                },
+                {
+                    "word": "meeting",
+                    "category": "political system",
+                    "feature": "gathering.n.01"
+                },
+                {
+                    "word": "crescent",
+                    "category": "two-dimensional shape",
+                    "feature": "curve.n.01"
+                },
+                {
+                    "word": "polygon",
+                    "category": "two-dimensional shape",
+                    "feature": "plane figure.n.01"
+                },
+                {
+                    "word": "dementia",
+                    "category": "psychological illness",
+                    "feature": "insanity.n.01"
+                },
+                {
+                    "word": "paranoid",
+                    "category": "psychological illness",
+                    "feature": "psychotic.n.01"
+                }
+            ],
+            "target": "paranoid"
+        },
+        {
+            "items": [
+                {
+                    "word": "neurology",
+                    "category": "academic subject",
+                    "feature": "medical science.n.01"
+                },
+                {
+                    "word": "mandarin",
+                    "category": "academic subject",
+                    "feature": "citrus.n.02"
+                },
+                {
+                    "word": "fishing",
+                    "category": "water sport",
+                    "feature": "outdoor sport.n.01"
+                },
+                {
+                    "word": "backstroke",
+                    "category": "water sport",
+                    "feature": "swimming stroke.n.01"
+                },
+                {
+                    "word": "work",
+                    "category": "time of day",
+                    "feature": "activity.n.01"
+                },
+                {
+                    "word": "midnight",
+                    "category": "time of day",
+                    "feature": "hour.n.02"
+                },
+                {
+                    "word": "corruption",
+                    "category": "non-violent crime",
+                    "feature": "dishonesty.n.01"
+                },
+                {
+                    "word": "espionage",
+                    "category": "non-violent crime",
+                    "feature": "spying.n.02"
+                }
+            ],
+            "target": "espionage"
+        },
+        {
+            "items": [
+                {
+                    "word": "two",
+                    "category": "prime number",
+                    "feature": "digit.n.01"
+                },
+                {
+                    "word": "fifteen",
+                    "category": "prime number",
+                    "feature": "large integer.n.01"
+                },
+                {
+                    "word": "circle",
+                    "category": "geometric shape",
+                    "feature": "ellipse.n.01"
+                },
+                {
+                    "word": "decahedron",
+                    "category": "geometric shape",
+                    "feature": "polyhedron.n.01"
+                },
+                {
+                    "word": "significance",
+                    "category": "statistical term",
+                    "feature": "importance.n.01"
+                },
+                {
+                    "word": "axe",
+                    "category": "statistical term",
+                    "feature": "edge tool.n.01"
+                },
+                {
+                    "word": "lady",
+                    "category": "royal title",
+                    "feature": "woman.n.01"
+                },
+                {
+                    "word": "kaiser",
+                    "category": "royal title",
+                    "feature": "emperor.n.01"
+                }
+            ],
+            "target": "axe"
+        },
+        {
+            "items": [
+                {
+                    "word": "slalom",
+                    "category": "winter sport",
+                    "feature": "ski race.n.01"
+                },
+                {
+                    "word": "luge",
+                    "category": "winter sport",
+                    "feature": "sled.n.01"
+                },
+                {
+                    "word": "parent",
+                    "category": "family relationship",
+                    "feature": "genitor.n.01"
+                },
+                {
+                    "word": "stepparent",
+                    "category": "family relationship",
+                    "feature": "parent.n.01"
+                },
+                {
+                    "word": "fatigue",
+                    "category": "symptom of illness",
+                    "feature": "temporary state.n.01"
+                },
+                {
+                    "word": "headache",
+                    "category": "symptom of illness",
+                    "feature": "negative stimulus.n.01"
+                },
+                {
+                    "word": "realism",
+                    "category": "artistic movement",
+                    "feature": "practicality.n.01"
+                },
+                {
+                    "word": "meditation",
+                    "category": "artistic movement",
+                    "feature": "contemplation.n.02"
+                }
+            ],
+            "target": "slalom"
+        },
+        {
+            "items": [
+                {
+                    "word": "damage",
+                    "category": "injury",
+                    "feature": "change.n.01"
+                },
+                {
+                    "word": "scrape",
+                    "category": "injury",
+                    "feature": "noise.n.01"
+                },
+                {
+                    "word": "private",
+                    "category": "military title",
+                    "feature": "enlisted man.n.01"
+                },
+                {
+                    "word": "commander",
+                    "category": "military title",
+                    "feature": "military officer.n.01"
+                },
+                {
+                    "word": "noun",
+                    "category": "type of word",
+                    "feature": "content word.n.01"
+                },
+                {
+                    "word": "adjective",
+                    "category": "type of word",
+                    "feature": "modifier.n.01"
+                },
+                {
+                    "word": "paddle",
+                    "category": "racket sport",
+                    "feature": "bat.n.05"
+                },
+                {
+                    "word": "squash",
+                    "category": "racket sport",
+                    "feature": "vine.n.01"
+                }
+            ],
+            "target": "noun"
+        },
+        {
+            "items": [
+                {
+                    "word": "reserved",
+                    "category": "personal quality",
+                    "feature": "withhold.v.01"
+                },
+                {
+                    "word": "academic",
+                    "category": "personal quality",
+                    "feature": "educator.n.01"
+                },
+                {
+                    "word": "magician",
+                    "category": "supernatural being",
+                    "feature": "performer.n.01"
+                },
+                {
+                    "word": "orb",
+                    "category": "supernatural being",
+                    "feature": "capsule.n.05"
+                },
+                {
+                    "word": "yoga",
+                    "category": "artistic movement",
+                    "feature": "hinduism.n.02"
+                },
+                {
+                    "word": "jump",
+                    "category": "artistic movement",
+                    "feature": "increase.n.02"
+                },
+                {
+                    "word": "relay",
+                    "category": "team sport",
+                    "feature": "passage.n.10"
+                },
+                {
+                    "word": "soccer",
+                    "category": "team sport",
+                    "feature": "football.n.01"
+                }
+            ],
+            "target": "soccer"
+        },
+        {
+            "items": [
+                {
+                    "word": "pepper",
+                    "category": "season",
+                    "feature": "true pepper.n.01"
+                },
+                {
+                    "word": "flood",
+                    "category": "season",
+                    "feature": "geological phenomenon.n.01"
+                },
+                {
+                    "word": "atheist",
+                    "category": "religion",
+                    "feature": "disbeliever.n.01"
+                },
+                {
+                    "word": "atheism",
+                    "category": "religion",
+                    "feature": "religious orientation.n.01"
+                },
+                {
+                    "word": "management",
+                    "category": "academic subject",
+                    "feature": "social control.n.01"
+                },
+                {
+                    "word": "music",
+                    "category": "academic subject",
+                    "feature": "auditory communication.n.01"
+                },
+                {
+                    "word": "entertaining",
+                    "category": "personal quality",
+                    "feature": "socialize.v.01"
+                },
+                {
+                    "word": "smart",
+                    "category": "personal quality",
+                    "feature": "pain.n.01"
+                }
+            ],
+            "target": "music"
+        },
+        {
+            "items": [
+                {
+                    "word": "light",
+                    "category": "supernatural being",
+                    "feature": "actinic radiation.n.01"
+                },
+                {
+                    "word": "unicorn",
+                    "category": "supernatural being",
+                    "feature": "imaginary being.n.01"
+                },
+                {
+                    "word": "boredom",
+                    "category": "emotion",
+                    "feature": "dissatisfaction.n.01"
+                },
+                {
+                    "word": "negative",
+                    "category": "emotion",
+                    "feature": "denial.n.01"
+                },
+                {
+                    "word": "radiography",
+                    "category": "medical specialty",
+                    "feature": "photography.n.02"
+                },
+                {
+                    "word": "research",
+                    "category": "medical specialty",
+                    "feature": "investigation.n.02"
+                },
+                {
+                    "word": "brother",
+                    "category": "family relationship",
+                    "feature": "male sibling.n.01"
+                },
+                {
+                    "word": "granddaughter",
+                    "category": "family relationship",
+                    "feature": "grandchild.n.01"
+                }
+            ],
+            "target": "granddaughter"
+        },
+        {
+            "items": [
+                {
+                    "word": "running",
+                    "category": "sport",
+                    "feature": "football play.n.01"
+                },
+                {
+                    "word": "boxing",
+                    "category": "sport",
+                    "feature": "contact sport.n.01"
+                },
+                {
+                    "word": "isolation",
+                    "category": "negative emotion",
+                    "feature": "separation.n.01"
+                },
+                {
+                    "word": "gluttony",
+                    "category": "negative emotion",
+                    "feature": "intemperance.n.01"
+                },
+                {
+                    "word": "heavy",
+                    "category": "unit of weight",
+                    "feature": "actor.n.01"
+                },
+                {
+                    "word": "pint",
+                    "category": "unit of weight",
+                    "feature": "british capacity unit.n.01"
+                },
+                {
+                    "word": "commitment",
+                    "category": "positive personal quality",
+                    "feature": "seriousness.n.03"
+                },
+                {
+                    "word": "beauty",
+                    "category": "positive personal quality",
+                    "feature": "appearance.n.01"
+                }
+            ],
+            "target": "beauty"
+        },
+        {
+            "items": [
+                {
+                    "word": "waving",
+                    "category": "positive emotion",
+                    "feature": "gesture.n.02"
+                },
+                {
+                    "word": "relaxed",
+                    "category": "positive emotion",
+                    "feature": "change state.v.01"
+                },
+                {
+                    "word": "tobogganing",
+                    "category": "winter sport",
+                    "feature": "sledding.n.01"
+                },
+                {
+                    "word": "sledging",
+                    "category": "winter sport",
+                    "feature": "transport.v.01"
+                },
+                {
+                    "word": "drama",
+                    "category": "academic subject",
+                    "feature": "dramatic composition.n.01"
+                },
+                {
+                    "word": "french",
+                    "category": "academic subject",
+                    "feature": "romance.n.03"
+                },
+                {
+                    "word": "bos",
+                    "category": "social relationship",
+                    "feature": "mammal genus.n.01"
+                },
+                {
+                    "word": "coauthor",
+                    "category": "social relationship",
+                    "feature": "writer.n.01"
+                }
+            ],
+            "target": "tobogganing"
+        }
+    ],
+    "Abs_Level_2": [
+        {
+            "items": [
+                {
+                    "word": "theatre",
+                    "category": "art form",
+                    "feature": "building.n.01"
+                },
+                {
+                    "word": "architecture",
+                    "category": "art form",
+                    "feature": "building.n.01"
+                },
+                {
+                    "word": "monument",
+                    "category": "art form",
+                    "feature": "structure.n.01"
+                },
+                {
+                    "word": "building",
+                    "category": "art form",
+                    "feature": "structure.n.01"
+                },
+                {
+                    "word": "measles",
+                    "category": "disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "flu",
+                    "category": "disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "chickenpox",
+                    "category": "disease",
+                    "feature": "pox.n.02"
+                },
+                {
+                    "word": "smallpox",
+                    "category": "disease",
+                    "feature": "pox.n.02"
+                }
+            ],
+            "target": "architecture"
+        },
+        {
+            "items": [
+                {
+                    "word": "society",
+                    "category": "social gathering",
+                    "feature": "social group.n.01"
+                },
+                {
+                    "word": "gathering",
+                    "category": "social gathering",
+                    "feature": "social group.n.01"
+                },
+                {
+                    "word": "funeral",
+                    "category": "social gathering",
+                    "feature": "ceremony.n.01"
+                },
+                {
+                    "word": "wedding",
+                    "category": "social gathering",
+                    "feature": "ceremony.n.01"
+                },
+                {
+                    "word": "author",
+                    "category": "profession",
+                    "feature": "communicator.n.01"
+                },
+                {
+                    "word": "presenter",
+                    "category": "profession",
+                    "feature": "communicator.n.01"
+                },
+                {
+                    "word": "dancer",
+                    "category": "profession",
+                    "feature": "performer.n.01"
+                },
+                {
+                    "word": "musician",
+                    "category": "profession",
+                    "feature": "performer.n.01"
+                }
+            ],
+            "target": "society"
+        },
+        {
+            "items": [
+                {
+                    "word": "radiology",
+                    "category": "medical specialty",
+                    "feature": "medical science.n.01"
+                },
+                {
+                    "word": "pathology",
+                    "category": "medical specialty",
+                    "feature": "medical science.n.01"
+                },
+                {
+                    "word": "oncology",
+                    "category": "medical specialty",
+                    "feature": "medicine.n.01"
+                },
+                {
+                    "word": "dermatology",
+                    "category": "medical specialty",
+                    "feature": "medicine.n.01"
+                },
+                {
+                    "word": "gp",
+                    "category": "healthcare profession",
+                    "feature": "doctor.n.01"
+                },
+                {
+                    "word": "surgeon",
+                    "category": "healthcare profession",
+                    "feature": "doctor.n.01"
+                },
+                {
+                    "word": "doctor",
+                    "category": "healthcare profession",
+                    "feature": "medical practitioner.n.01"
+                },
+                {
+                    "word": "physician",
+                    "category": "healthcare profession",
+                    "feature": "medical practitioner.n.01"
+                }
+            ],
+            "target": "doctor"
+        },
+        {
+            "items": [
+                {
+                    "word": "dinner",
+                    "category": "social gathering",
+                    "feature": "meal.n.01"
+                },
+                {
+                    "word": "lunch",
+                    "category": "social gathering",
+                    "feature": "meal.n.01"
+                },
+                {
+                    "word": "soiree",
+                    "category": "social gathering",
+                    "feature": "party.n.02"
+                },
+                {
+                    "word": "reunion",
+                    "category": "social gathering",
+                    "feature": "party.n.02"
+                },
+                {
+                    "word": "duke",
+                    "category": "royal title",
+                    "feature": "peer.n.02"
+                },
+                {
+                    "word": "earl",
+                    "category": "royal title",
+                    "feature": "peer.n.02"
+                },
+                {
+                    "word": "king",
+                    "category": "royal title",
+                    "feature": "sovereign.n.01"
+                },
+                {
+                    "word": "tsar",
+                    "category": "royal title",
+                    "feature": "sovereign.n.01"
+                }
+            ],
+            "target": "soiree"
+        },
+        {
+            "items": [
+                {
+                    "word": "optometrist",
+                    "category": "healthcare profession",
+                    "feature": "specialist.n.01"
+                },
+                {
+                    "word": "dietician",
+                    "category": "healthcare profession",
+                    "feature": "specialist.n.01"
+                },
+                {
+                    "word": "geriatrician",
+                    "category": "healthcare profession",
+                    "feature": "specialist.n.02"
+                },
+                {
+                    "word": "radiographer",
+                    "category": "healthcare profession",
+                    "feature": "specialist.n.02"
+                },
+                {
+                    "word": "psychopath",
+                    "category": "psychological illness",
+                    "feature": "neurotic.n.01"
+                },
+                {
+                    "word": "sociopath",
+                    "category": "psychological illness",
+                    "feature": "neurotic.n.01"
+                },
+                {
+                    "word": "bulimia",
+                    "category": "psychological illness",
+                    "feature": "eating disorder.n.01"
+                },
+                {
+                    "word": "anorexia",
+                    "category": "psychological illness",
+                    "feature": "eating disorder.n.01"
+                }
+            ],
+            "target": "dietician"
+        },
+        {
+            "items": [
+                {
+                    "word": "word",
+                    "category": "type of word",
+                    "feature": "language unit.n.01"
+                },
+                {
+                    "word": "name",
+                    "category": "type of word",
+                    "feature": "language unit.n.01"
+                },
+                {
+                    "word": "adverb",
+                    "category": "type of word",
+                    "feature": "major form class.n.01"
+                },
+                {
+                    "word": "verb",
+                    "category": "type of word",
+                    "feature": "major form class.n.01"
+                },
+                {
+                    "word": "friend",
+                    "category": "social relationship",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "lover",
+                    "category": "social relationship",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "flatmate",
+                    "category": "social relationship",
+                    "feature": "friend.n.01"
+                },
+                {
+                    "word": "companion",
+                    "category": "social relationship",
+                    "feature": "friend.n.01"
+                }
+            ],
+            "target": "friend"
+        },
+        {
+            "items": [
+                {
+                    "word": "half",
+                    "category": "fraction",
+                    "feature": "common fraction.n.01"
+                },
+                {
+                    "word": "third",
+                    "category": "fraction",
+                    "feature": "common fraction.n.01"
+                },
+                {
+                    "word": "eleventh",
+                    "category": "fraction",
+                    "feature": "rank.n.02"
+                },
+                {
+                    "word": "hundredth",
+                    "category": "fraction",
+                    "feature": "rank.n.02"
+                },
+                {
+                    "word": "psychotherapist",
+                    "category": "healthcare profession",
+                    "feature": "therapist.n.01"
+                },
+                {
+                    "word": "chiropractor",
+                    "category": "healthcare profession",
+                    "feature": "therapist.n.01"
+                },
+                {
+                    "word": "technician",
+                    "category": "healthcare profession",
+                    "feature": "skilled worker.n.01"
+                },
+                {
+                    "word": "optician",
+                    "category": "healthcare profession",
+                    "feature": "skilled worker.n.01"
+                }
+            ],
+            "target": "technician"
+        },
+        {
+            "items": [
+                {
+                    "word": "lunchtime",
+                    "category": "time of day",
+                    "feature": "mealtime.n.01"
+                },
+                {
+                    "word": "suppertime",
+                    "category": "time of day",
+                    "feature": "mealtime.n.01"
+                },
+                {
+                    "word": "brunch",
+                    "category": "time of day",
+                    "feature": "meal.n.01"
+                },
+                {
+                    "word": "breakfast",
+                    "category": "time of day",
+                    "feature": "meal.n.01"
+                },
+                {
+                    "word": "extrovert",
+                    "category": "personal quality",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "leader",
+                    "category": "personal quality",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "friendly",
+                    "category": "personal quality",
+                    "feature": "military personnel.n.01"
+                },
+                {
+                    "word": "hostile",
+                    "category": "personal quality",
+                    "feature": "military personnel.n.01"
+                }
+            ],
+            "target": "hostile"
+        },
+        {
+            "items": [
+                {
+                    "word": "thirteenth",
+                    "category": "fraction",
+                    "feature": "rank.n.02"
+                },
+                {
+                    "word": "seventh",
+                    "category": "fraction",
+                    "feature": "rank.n.02"
+                },
+                {
+                    "word": "tenth",
+                    "category": "fraction",
+                    "feature": "common fraction.n.01"
+                },
+                {
+                    "word": "quarter",
+                    "category": "fraction",
+                    "feature": "common fraction.n.01"
+                },
+                {
+                    "word": "monster",
+                    "category": "supernatural being",
+                    "feature": "imaginary being.n.01"
+                },
+                {
+                    "word": "unicorn",
+                    "category": "supernatural being",
+                    "feature": "imaginary being.n.01"
+                },
+                {
+                    "word": "griffin",
+                    "category": "supernatural being",
+                    "feature": "mythical monster.n.01"
+                },
+                {
+                    "word": "troll",
+                    "category": "supernatural being",
+                    "feature": "mythical monster.n.01"
+                }
+            ],
+            "target": "thirteenth"
+        },
+        {
+            "items": [
+                {
+                    "word": "therapist",
+                    "category": "healthcare profession",
+                    "feature": "expert.n.01"
+                },
+                {
+                    "word": "healer",
+                    "category": "healthcare profession",
+                    "feature": "expert.n.01"
+                },
+                {
+                    "word": "pharmacist",
+                    "category": "healthcare profession",
+                    "feature": "health professional.n.01"
+                },
+                {
+                    "word": "nurse",
+                    "category": "healthcare profession",
+                    "feature": "health professional.n.01"
+                },
+                {
+                    "word": "millisecond",
+                    "category": "unit of length",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "second",
+                    "category": "unit of length",
+                    "feature": "time unit.n.01"
+                },
+                {
+                    "word": "yard",
+                    "category": "unit of length",
+                    "feature": "linear unit.n.01"
+                },
+                {
+                    "word": "inch",
+                    "category": "unit of length",
+                    "feature": "linear unit.n.01"
+                }
+            ],
+            "target": "therapist"
+        }
+    ],
+    "Abs_Level_3": [
+        {
+            "items": [
+                {
+                    "word": "canoeing",
+                    "category": "sport",
+                    "feature": "boat.v.01"
+                },
+                {
+                    "word": "kayaking",
+                    "category": "sport",
+                    "feature": "boat.v.01"
+                },
+                {
+                    "word": "croquet",
+                    "category": "sport",
+                    "feature": "outdoor game.n.01"
+                },
+                {
+                    "word": "golf",
+                    "category": "sport",
+                    "feature": "outdoor game.n.01"
+                },
+                {
+                    "word": "fencing",
+                    "category": "sport",
+                    "feature": "barrier.n.01"
+                },
+                {
+                    "word": "hurdle",
+                    "category": "sport",
+                    "feature": "barrier.n.01"
+                },
+                {
+                    "word": "boxing",
+                    "category": "sport",
+                    "feature": "contact sport.n.01"
+                },
+                {
+                    "word": "football",
+                    "category": "sport",
+                    "feature": "contact sport.n.01"
+                }
+            ],
+            "target": "boxing"
+        },
+        {
+            "items": [
+                {
+                    "word": "auntie",
+                    "category": "family relationship",
+                    "feature": "kinswoman.n.01"
+                },
+                {
+                    "word": "niece",
+                    "category": "family relationship",
+                    "feature": "kinswoman.n.01"
+                },
+                {
+                    "word": "mother",
+                    "category": "family relationship",
+                    "feature": "parent.n.01"
+                },
+                {
+                    "word": "stepparent",
+                    "category": "family relationship",
+                    "feature": "parent.n.01"
+                },
+                {
+                    "word": "stepdaughter",
+                    "category": "family relationship",
+                    "feature": "stepchild.n.01"
+                },
+                {
+                    "word": "stepson",
+                    "category": "family relationship",
+                    "feature": "stepchild.n.01"
+                },
+                {
+                    "word": "sister-in-law",
+                    "category": "family relationship",
+                    "feature": "in-law.n.01"
+                },
+                {
+                    "word": "brother-in-law",
+                    "category": "family relationship",
+                    "feature": "in-law.n.01"
+                }
+            ],
+            "target": "stepdaughter"
+        },
+        {
+            "items": [
+                {
+                    "word": "anthropology",
+                    "category": "academic subject",
+                    "feature": "social science.n.01"
+                },
+                {
+                    "word": "sociology",
+                    "category": "academic subject",
+                    "feature": "social science.n.01"
+                },
+                {
+                    "word": "math",
+                    "category": "academic subject",
+                    "feature": "science.n.01"
+                },
+                {
+                    "word": "psychology",
+                    "category": "academic subject",
+                    "feature": "science.n.01"
+                },
+                {
+                    "word": "italian",
+                    "category": "academic subject",
+                    "feature": "european.n.01"
+                },
+                {
+                    "word": "german",
+                    "category": "academic subject",
+                    "feature": "european.n.01"
+                },
+                {
+                    "word": "medicine",
+                    "category": "academic subject",
+                    "feature": "medical science.n.01"
+                },
+                {
+                    "word": "neurology",
+                    "category": "academic subject",
+                    "feature": "medical science.n.01"
+                }
+            ],
+            "target": "math"
+        },
+        {
+            "items": [
+                {
+                    "word": "tablespoon",
+                    "category": "unit of weight",
+                    "feature": "containerful.n.01"
+                },
+                {
+                    "word": "teaspoon",
+                    "category": "unit of weight",
+                    "feature": "containerful.n.01"
+                },
+                {
+                    "word": "microgram",
+                    "category": "unit of weight",
+                    "feature": "metric weight unit.n.01"
+                },
+                {
+                    "word": "gram",
+                    "category": "unit of weight",
+                    "feature": "metric weight unit.n.01"
+                },
+                {
+                    "word": "pound",
+                    "category": "unit of weight",
+                    "feature": "avoirdupois unit.n.01"
+                },
+                {
+                    "word": "ton",
+                    "category": "unit of weight",
+                    "feature": "avoirdupois unit.n.01"
+                },
+                {
+                    "word": "litre",
+                    "category": "unit of weight",
+                    "feature": "metric capacity unit.n.01"
+                },
+                {
+                    "word": "millilitre",
+                    "category": "unit of weight",
+                    "feature": "metric capacity unit.n.01"
+                }
+            ],
+            "target": "teaspoon"
+        },
+        {
+            "items": [
+                {
+                    "word": "vampire",
+                    "category": "supernatural being",
+                    "feature": "evil spirit.n.01"
+                },
+                {
+                    "word": "demon",
+                    "category": "supernatural being",
+                    "feature": "evil spirit.n.01"
+                },
+                {
+                    "word": "dragon",
+                    "category": "supernatural being",
+                    "feature": "mythical monster.n.01"
+                },
+                {
+                    "word": "troll",
+                    "category": "supernatural being",
+                    "feature": "mythical monster.n.01"
+                },
+                {
+                    "word": "psychic",
+                    "category": "supernatural being",
+                    "feature": "occultist.n.01"
+                },
+                {
+                    "word": "witch",
+                    "category": "supernatural being",
+                    "feature": "occultist.n.01"
+                },
+                {
+                    "word": "angel",
+                    "category": "supernatural being",
+                    "feature": "spiritual being.n.01"
+                },
+                {
+                    "word": "fairy",
+                    "category": "supernatural being",
+                    "feature": "spiritual being.n.01"
+                }
+            ],
+            "target": "dragon"
+        },
+        {
+            "items": [
+                {
+                    "word": "scientist",
+                    "category": "profession",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "engineer",
+                    "category": "profession",
+                    "feature": "person.n.01"
+                },
+                {
+                    "word": "presenter",
+                    "category": "profession",
+                    "feature": "communicator.n.01"
+                },
+                {
+                    "word": "author",
+                    "category": "profession",
+                    "feature": "communicator.n.01"
+                },
+                {
+                    "word": "plumber",
+                    "category": "profession",
+                    "feature": "craftsman.n.03"
+                },
+                {
+                    "word": "hairdresser",
+                    "category": "profession",
+                    "feature": "craftsman.n.03"
+                },
+                {
+                    "word": "architect",
+                    "category": "profession",
+                    "feature": "creator.n.02"
+                },
+                {
+                    "word": "farmer",
+                    "category": "profession",
+                    "feature": "creator.n.02"
+                }
+            ],
+            "target": "scientist"
+        },
+        {
+            "items": [
+                {
+                    "word": "rage",
+                    "category": "emotion",
+                    "feature": "anger.n.01"
+                },
+                {
+                    "word": "infuriation",
+                    "category": "emotion",
+                    "feature": "anger.n.01"
+                },
+                {
+                    "word": "disappointment",
+                    "category": "emotion",
+                    "feature": "dissatisfaction.n.01"
+                },
+                {
+                    "word": "boredom",
+                    "category": "emotion",
+                    "feature": "dissatisfaction.n.01"
+                },
+                {
+                    "word": "joy",
+                    "category": "emotion",
+                    "feature": "emotion.n.01"
+                },
+                {
+                    "word": "hatred",
+                    "category": "emotion",
+                    "feature": "emotion.n.01"
+                },
+                {
+                    "word": "disgusted",
+                    "category": "emotion",
+                    "feature": "stimulate.v.06"
+                },
+                {
+                    "word": "thrilled",
+                    "category": "emotion",
+                    "feature": "stimulate.v.06"
+                }
+            ],
+            "target": "rage"
+        },
+        {
+            "items": [
+                {
+                    "word": "colonel",
+                    "category": "military title",
+                    "feature": "commissioned military officer.n.01"
+                },
+                {
+                    "word": "captain",
+                    "category": "military title",
+                    "feature": "commissioned military officer.n.01"
+                },
+                {
+                    "word": "sergeant",
+                    "category": "military title",
+                    "feature": "noncommissioned officer.n.01"
+                },
+                {
+                    "word": "corporal",
+                    "category": "military title",
+                    "feature": "noncommissioned officer.n.01"
+                },
+                {
+                    "word": "gunner",
+                    "category": "military title",
+                    "feature": "serviceman.n.01"
+                },
+                {
+                    "word": "officer",
+                    "category": "military title",
+                    "feature": "serviceman.n.01"
+                },
+                {
+                    "word": "general",
+                    "category": "military title",
+                    "feature": "general officer.n.01"
+                },
+                {
+                    "word": "brigadier",
+                    "category": "military title",
+                    "feature": "general officer.n.01"
+                }
+            ],
+            "target": "captain"
+        },
+        {
+            "items": [
+                {
+                    "word": "chickenpox",
+                    "category": "disease",
+                    "feature": "pox.n.02"
+                },
+                {
+                    "word": "smallpox",
+                    "category": "disease",
+                    "feature": "pox.n.02"
+                },
+                {
+                    "word": "typhoid",
+                    "category": "disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "herpes",
+                    "category": "disease",
+                    "feature": "infectious disease.n.01"
+                },
+                {
+                    "word": "std",
+                    "category": "disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "flu",
+                    "category": "disease",
+                    "feature": "contagious disease.n.01"
+                },
+                {
+                    "word": "gonorrhoea",
+                    "category": "disease",
+                    "feature": "venereal disease.n.01"
+                },
+                {
+                    "word": "chlamydia",
+                    "category": "disease",
+                    "feature": "venereal disease.n.01"
+                }
+            ],
+            "target": "chickenpox"
+        },
+        {
+            "items": [
+                {
+                    "word": "nap",
+                    "category": "time of day",
+                    "feature": "time period.n.01"
+                },
+                {
+                    "word": "daytime",
+                    "category": "time of day",
+                    "feature": "time period.n.01"
+                },
+                {
+                    "word": "sunset",
+                    "category": "time of day",
+                    "feature": "hour.n.02"
+                },
+                {
+                    "word": "noon",
+                    "category": "time of day",
+                    "feature": "hour.n.02"
+                },
+                {
+                    "word": "evening",
+                    "category": "time of day",
+                    "feature": "day.n.04"
+                },
+                {
+                    "word": "afternoon",
+                    "category": "time of day",
+                    "feature": "day.n.04"
+                },
+                {
+                    "word": "suppertime",
+                    "category": "time of day",
+                    "feature": "mealtime.n.01"
+                },
+                {
+                    "word": "lunchtime",
+                    "category": "time of day",
+                    "feature": "mealtime.n.01"
+                }
+            ],
+            "target": "evening"
+        }
+    ]
+}
