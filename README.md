@@ -2,86 +2,82 @@
 # Guess What? Game to Evaluate Chat-Optimized Language Models as Conversational Agents in clembench Framework
 
 
-This repository contains the implementation of a dialogue game called **GuessWhat?**. It is a two-player question-and-answer game where one player, the Guesser, attempts to guess a target word from a list of candidate words by asking questions. The other player, the Answerer, responds with simple "yes" or "no" answers. The goal is for the Guesser to correctly guess the target word within a certain number of turns while following specific game rules.
+This repository contains the Clembench Framework and a contribution to the framework with the implementation of a dialogue game called **Guess What?**. It is an information seeking game with two players, where one player, the Guesser, attempts to guess a target word from a list of candidate words by asking questions. The other player, the Answerer, responds with simple "yes" or "no" answers. The goal is for the Guesser to correctly guess the target in as few turns as possible while following specific game rules that can be found in the initial prompts templates under utils.
 
-The game is designed to simulate a structured dialogue between two agents and includes built-in validation for question formats, content, and game rules.
-
-This game is built in clembench framework https://github.com/clembench/clembench :
-
-The cLLM (chat-optimized Large Language Model, "clem") framework tests such models' ability to engage in games – rule-constituted activities played using language.
-The framework is a systematic way of probing for the situated language understanding of language using agents.
-
-This repository contains the code for setting up the framework and implements a number of games that are further discussed in 
+Details of the framework and updated versions can be found [here](https://github.com/clembench/clembench).
+This repository contains the code for setting up the framework and the implemented games are further discussed in
 
 > Chalamalasetti, K., Götze, J., Hakimov, S., Madureira, B., Sadler, P., & Schlangen, D. (2023). clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents (arXiv:2305.13455). arXiv. https://doi.org/10.48550/arXiv.2305.13455
 
-### Game details
 
-There is 2 versions of the game in this repository: Guess What? with reprompting system and Guess What? without reprompting system. Also, we used abstract and concrete and abstract mixed datasets for instances of both versions of the game. 
+### Guess What? Game details
 
-- **Two Players**: Guesser and Answerer.
-- **Turn-based Gameplay**: Players take turns asking and answering questions.
-- **Question Validation**: Checks for valid question formats and content.
-- **Reprompt System**: If a player provides an invalid response, they are reprompted (up to a limit).
-- **Scoring System**: Tracks game outcomes, speed, and penalties for invalid questions and reprompts.
-- **Multiple Difficulty Levels**: Game difficulty can be adjusted by changing the number of categories and features in the candidate word list.
-- **Abstract Version of Instances**: The instances can be generated with both of the datasets we provided in the repository. 
-  
-## How It Works
+There are 2 versions of the **Guess What?** game in this repository: a zero-shot version, called guesswhat_withoutreprompt, and one-shot version, called guesswhat. Additionally, we used two different datasets to create the instances of the games, one that mixed abstract and concrete words and another one from which we only used abstract words. 
 
-1. **Guesser**: Asks questions about the target word (e.g., "Is it a mammal?").
-2. **Answerer**: Responds with either "yes" or "no".
-3. **Game Ends**: When the Guesser either guesses the correct word or runs out of turns.
+The full datasets and all the information related to them can be found bellow: 
 
-### Game Rules
-- The Guesser can ask questions using the format `QUESTION: <question>?` or make a guess using `GUESS: <word>`.
-- The Answerer can only respond with "ANSWER: yes" or "ANSWER: no".
-- The game enforces limits on question types and allows reprompting if an invalid format or content is detected.
-- The game ends after a correct guess, incorrect guess, or when the maximum number of turns is reached.
+>Castro, N., Curley, T., & Hertzog, C. (2021). Category norms with a cross-sectional sample of adults in the United States: Consideration of cohort, age, and historical effects on semantic categories. Behavior Research Methods, 53(2), 898–917. https://doi.org/10.3758/s13428-020-01454-9
 
-## Reprompt System
-If a player violates the format or content rules for a question or answer, they will be reprompted, up to a specified limit (default: 1). Exceeding the reprompt limit aborts the game.
+>Banks, B., & Connell, L. (2022). Category Production Norms for 117 Concrete and Abstract Categories. OSF. https://osf.io/jgcu6
 
-## Scoring System
-The scoring system evaluates:
-- **Success**: Whether the Guesser correctly guessed the word.
-- **Lose**: When the Guesser incorrectly guessed the word. 
-- **Speed**: How quickly the correct guess was made relative to the expected number of turns.
-- **Penalties**: Points are deducted for invalid responses and reprompts.
+This game aims to assess whether cLLMs can develop efficient information-seeking strategies to narrow down possible options quickly, while considering how semantic relationships between words impact this process. With this purpose, we created candidate lists of 8 words with varying degrees of semantic similarity, grouped into distinct categories and subcategories.
+The goal is to see if the model can identify the shared property among these words and ask strategic questions based on that understanding. This ability is evaluated using a Quality Score, where fewer turns to guess the correct word indicate a more effective search strategy.
+## Experiments
+According to the semantic relationship of the words there are 3 experiments in the game that goes from less related to more, and they are structured as follows: 
+
+- **Level 1**: 4 categories, each containing 2 subcategories, with 1 word per subcategory.
+- **Level 2**: 2 categories, each containing 2 subcategories, with 2 words per subcategory.
+- **Level 3**: 1 category, containing 4 subcategories, with 2 words per subcategory.
+
+
+## Scores
+Apart from the common metrics of the framework the game also measures the following:
+
+- **Speed**: How quickly the correct guess was made relative to the ideal number of turns for each level (lower bound).
+- **Quality Score**: Speed minus a penalty of 10 when a reprompt is made.
+- **Invalid Content response**: Counts the number of content invalid responses from each player.
+- **Invalid Format response**: Counts the number of invalid form responses from each player.
+- **Reprompts to player**: Counts the reprompts made to each of the players.
+
 
 ## Running the game
 
-To generate the instances with the abstract dataset use this command for the version without reprompting system
-```bash
-python -m games.guesswhat_withoutreprompt.abstract_instancegenerator
-```
-To run the game without the repromting system use this command:
-```bash
-python -m scripts.cli run -g guesswhat_withoutreprompt -m (MODEL_NAME)
-```
-To run the game with the reprompting system use this command:
-```bash
-python -m scripts.cli run -g guesswhat -m (MODEL_NAME)
-```
-Add flags of -e Level_1 or Level_2 or Level_3 to run the games with mixed dataset. Add flags of -e Abs_Level_1, Abs_Level_2, Abs_Level_3 
-to run the game with the abstract version of the game.
+To generate new instances with the mixed dataset run the instancegenerator.py
 
-To generate the instances with the mixed dataset use this command for the version with reprompting system
 ```bash
 python -m games.guesswhat_withoutreprompting.instancegenerator
-```
+python -m games.guesswhat.instancegenerator
 
+```
+To generate new instances with the abstract dataset use the abstract_instancegenerator.py
+```bash
+python -m games.guesswhat_withoutreprompt.abstract_instancegenerator
+python -m games.guesswhat.instancegenerator
+
+```
+To run the games you can use  these command:
+```bash
+python -m scripts.cli run -g guesswhat_withoutreprompting -m (MODEL_NAME) 
+python -m scripts.cli run -g guesswhat -m (MODEL_NAME) 
+
+```
+If you do not indicate any experiment name when running the game all the experiments will be run. If you want to run a single experiment from any of the **Guess What?** versions add the flag -e and the name of the experiments, Level_1, Level_2 or Level_3 for the mixed dataset and Abs_Level_1, Abs_Level_2 or Abs_Level_3 for abstract words.
+
+
+## Results
+
+The results of running the guesswhat_withoutreprompt and guesswhat with both datasets can be found under results_eval_mixed_dataset.zip and results_eval_abstract_dataset.zip.
 
 
 ## Using the benchmark
 
 This repository is tested on `Python 3.8+`
 
-We welcome you to contribute to or extend the benchmark with your own games and models. 
-Please simply open a pull request. You can find more information on how to use the benchmark in the links below.
+You can find more information on how to use the benchmark in the links below. For more details go to the framework main repository. 
 
 - [How to run the benchmark and evaluation locally](docs/howto_run_benchmark.md)
 - [How to run the benchmark, update leaderboard workflow](docs/howto_benchmark_workflow.md)
 - [How to add a new model](docs/howto_add_models.md)
 - [How to add and run your own game](docs/howto_add_games.md)
 - [How to integrate with Slurk](docs/howto_slurk.md)
+
