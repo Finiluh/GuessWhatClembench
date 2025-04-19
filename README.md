@@ -1,6 +1,7 @@
 
 # Guess What? Game to Evaluate Chat-Optimized Language Models as Conversational Agents in clembench Framework
 
+Implemented by: Josefa de la Luz Costa Rojo & Melisa Özdemir
 
 This repository contains the Clembench Framework and a contribution to the framework with the implementation of a dialogue game called **Guess What?**. It is an information seeking game with two players, where one player, the Guesser, attempts to guess a target word from a list of candidate words by asking questions. The other player, the Answerer, responds with simple "yes" or "no" answers. The goal is for the Guesser to correctly guess the target in as few turns as possible while following specific game rules that can be found in the initial prompts templates under utils.
 
